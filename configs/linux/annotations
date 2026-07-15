@@ -2826,7 +2826,7 @@ CONFIG_EDAC_MEM_REPAIR                          policy<{'riscv64': 'n', 'x86_64'
 CONFIG_EDAC_PND2                                policy<{'x86_64': 'm'}>
 CONFIG_EDAC_SBRIDGE                             policy<{'x86_64': 'm'}>
 CONFIG_EDAC_SCRUB                               policy<{'riscv64': 'n', 'x86_64': 'y'}>
-CONFIG_EDAC_SIFIVE                              policy<{'riscv64': 'n'}>
+CONFIG_EDAC_SIFIVE                              policy<{'riscv64': 'y'}>
 CONFIG_EDAC_SKX                                 policy<{'x86_64': 'm'}>
 CONFIG_EDAC_SUPPORT                             policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_EDAC_X38                                 policy<{'x86_64': 'm'}>
