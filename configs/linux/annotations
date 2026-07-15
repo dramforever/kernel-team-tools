@@ -3348,7 +3348,7 @@ CONFIG_GENERIC_NET_UTILS                        policy<{'riscv64': 'y', 'x86_64'
 CONFIG_GENERIC_PCI_IOMAP                        policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_GENERIC_PENDING_IRQ                      policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_GENERIC_PHY                              policy<{'riscv64': 'y', 'x86_64': 'y'}>
-CONFIG_GENERIC_PHY_MIPI_DPHY                    policy<{'x86_64': 'y'}>
+CONFIG_GENERIC_PHY_MIPI_DPHY                    policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_GENERIC_PINCONF                          policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_GENERIC_PINCTRL_GROUPS                   policy<{'riscv64': 'y'}>
 CONFIG_GENERIC_PINMUX_FUNCTIONS                 policy<{'riscv64': 'y'}>
@@ -5762,7 +5762,7 @@ CONFIG_MMC_DW_HI3798MV200                       policy<{'riscv64': 'n'}>
 CONFIG_MMC_DW_K3                                policy<{'riscv64': 'n'}>
 CONFIG_MMC_DW_PCI                               policy<{'riscv64': 'm'}>
 CONFIG_MMC_DW_PLTFM                             policy<{'riscv64': 'm'}>
-CONFIG_MMC_DW_STARFIVE                          policy<{'riscv64': 'n'}>
+CONFIG_MMC_DW_STARFIVE                          policy<{'riscv64': 'm'}>
 CONFIG_MMC_HSQ                                  policy<{'riscv64': 'm', 'x86_64': 'm'}>
 CONFIG_MMC_MTK                                  policy<{'riscv64': 'm', 'x86_64': 'm'}>
 CONFIG_MMC_REALTEK_PCI                          policy<{'riscv64': 'm', 'x86_64': 'm'}>
@@ -7196,10 +7196,10 @@ CONFIG_PHY_SPACEMIT_K1_PCIE                     policy<{'riscv64': 'y'}>
 CONFIG_PHY_SPACEMIT_K1_USB2                     policy<{'riscv64': 'm'}>
 CONFIG_PHY_SPACEMIT_K3_COMBO_PHY                policy<{'riscv64': 'm'}>
 CONFIG_PHY_SPACEMIT_K3_COMMON_OPS               policy<{'riscv64': 'm'}>
-CONFIG_PHY_STARFIVE_JH7110_DPHY_RX              policy<{'riscv64': 'n'}>
-CONFIG_PHY_STARFIVE_JH7110_DPHY_TX              policy<{'riscv64': 'n'}>
-CONFIG_PHY_STARFIVE_JH7110_PCIE                 policy<{'riscv64': 'n'}>
-CONFIG_PHY_STARFIVE_JH7110_USB                  policy<{'riscv64': 'n'}>
+CONFIG_PHY_STARFIVE_JH7110_DPHY_RX              policy<{'riscv64': 'm'}>
+CONFIG_PHY_STARFIVE_JH7110_DPHY_TX              policy<{'riscv64': 'm'}>
+CONFIG_PHY_STARFIVE_JH7110_PCIE                 policy<{'riscv64': 'm'}>
+CONFIG_PHY_STARFIVE_JH7110_USB                  policy<{'riscv64': 'm'}>
 CONFIG_PHY_SUN4I_USB                            policy<{'riscv64': 'n'}>
 CONFIG_PHY_SUN50I_USB3                          policy<{'riscv64': 'n'}>
 CONFIG_PHY_SUN6I_MIPI_DPHY                      policy<{'riscv64': 'n'}>
