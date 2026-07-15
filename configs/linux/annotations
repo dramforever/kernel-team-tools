@@ -1,7 +1,7 @@
 # Menu: HEADER
 # FORMAT: 4
 # ARCH: x86_64 riscv64
-# FLAVOUR: x86_64-generic riscv64-generic
+# FLAVOUR: x86_64-generic riscv64-generic riscv64-rva20
 
 
 # ---- Annotations without notes ----
