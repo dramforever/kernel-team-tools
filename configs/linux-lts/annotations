@@ -7788,7 +7788,7 @@ CONFIG_RENESAS_USB_DMAC                         policy<{'riscv64': 'n'}>
 CONFIG_RENESAS_WDT                              policy<{'riscv64': 'n'}>
 CONFIG_RESET_ATTACK_MITIGATION                  policy<{'riscv64': 'n', 'x86_64': 'y'}>
 CONFIG_RESET_CONTROLLER                         policy<{'riscv64': 'y', 'x86_64': 'y'}>
-CONFIG_RESET_GPIO                               policy<{'riscv64': 'n', 'x86_64': 'n'}>
+CONFIG_RESET_GPIO                               policy<{'riscv64': 'y', 'x86_64': 'n'}>
 CONFIG_RESET_K230                               policy<{'riscv64': 'y'}>
 CONFIG_RESET_POLARFIRE_SOC                      policy<{'riscv64': 'y'}>
 CONFIG_RESET_RZV2H_USB2PHY                      policy<{'riscv64': 'n'}>
@@ -7800,7 +7800,7 @@ CONFIG_RESET_STARFIVE_JH7100                    policy<{'riscv64': 'y'}>
 CONFIG_RESET_STARFIVE_JH7110                    policy<{'riscv64': 'y'}>
 CONFIG_RESET_STARFIVE_JH71X0                    policy<{'riscv64': 'y'}>
 CONFIG_RESET_SUNXI                              policy<{'riscv64': 'y'}>
-CONFIG_RESET_TH1520                             policy<{'riscv64': 'm'}>
+CONFIG_RESET_TH1520                             policy<{'riscv64': 'y'}>
 CONFIG_RESET_TI_SYSCON                          policy<{'riscv64': 'n', 'x86_64': 'm'}>
 CONFIG_RESET_TI_TPS380X                         policy<{'riscv64': 'n', 'x86_64': 'm'}>
 CONFIG_RETHOOK                                  policy<{'riscv64': 'y', 'x86_64': 'y'}>
