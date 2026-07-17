@@ -1974,8 +1974,8 @@ CONFIG_DEBUG_FS_ALLOW_NONE                      policy<{'riscv64': 'n', 'x86_64'
 CONFIG_DEBUG_FS_DISALLOW_MOUNT                  policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DEBUG_GPIO                               policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DEBUG_INFO                               policy<{'riscv64': 'y', 'x86_64': 'y'}>
-CONFIG_DEBUG_INFO_BTF                           policy<{'riscv64': 'n', 'x86_64': 'y'}>
-CONFIG_DEBUG_INFO_BTF_MODULES                   policy<{'x86_64': 'y'}>
+CONFIG_DEBUG_INFO_BTF                           policy<{'riscv64': 'y', 'x86_64': 'y'}>
+CONFIG_DEBUG_INFO_BTF_MODULES                   policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_DEBUG_INFO_COMPRESSED_NONE               policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_DEBUG_INFO_COMPRESSED_ZLIB               policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DEBUG_INFO_COMPRESSED_ZSTD               policy<{'riscv64': 'n', 'x86_64': 'n'}>
@@ -3229,7 +3229,7 @@ CONFIG_FUNCTION_PADDING_BYTES                   policy<{'x86_64': '16'}>
 CONFIG_FUNCTION_PADDING_CFI                     policy<{'x86_64': '11'}>
 CONFIG_FUNCTION_PROFILER                        policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_FUNCTION_TRACER                          policy<{'riscv64': 'y', 'x86_64': 'y'}>
-CONFIG_FUNCTION_TRACE_ARGS                      policy<{'x86_64': 'y'}>
+CONFIG_FUNCTION_TRACE_ARGS                      policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_FUN_CORE                                 policy<{'x86_64': 'm'}>
 CONFIG_FUN_ETH                                  policy<{'riscv64': 'n', 'x86_64': 'm'}>
 CONFIG_FUSE_DAX                                 policy<{'x86_64': 'y'}>
@@ -5792,7 +5792,7 @@ CONFIG_MODPROBE_PATH                            policy<{'riscv64': '"/sbin/modpr
 CONFIG_MODULES                                  policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_MODULES_TREE_LOOKUP                      policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_MODULES_USE_ELF_RELA                     policy<{'riscv64': 'y', 'x86_64': 'y'}>
-CONFIG_MODULE_ALLOW_BTF_MISMATCH                policy<{'x86_64': 'n'}>
+CONFIG_MODULE_ALLOW_BTF_MISMATCH                policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_MODULE_ALLOW_MISSING_NAMESPACE_IMPORTS   policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_MODULE_COMPRESS                          policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_MODULE_COMPRESS_ALL                      policy<{'riscv64': 'y', 'x86_64': 'y'}>
@@ -6346,7 +6346,7 @@ CONFIG_NET_PTP_CLASSIFY                         policy<{'riscv64': 'y', 'x86_64'
 CONFIG_NET_REDIRECT                             policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_NET_RX_BUSY_POLL                         policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_NET_SCHED                                policy<{'riscv64': 'y', 'x86_64': 'y'}>
-CONFIG_NET_SCH_BPF                              policy<{'x86_64': 'n'}>
+CONFIG_NET_SCH_BPF                              policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_NET_SCH_CAKE                             policy<{'riscv64': 'n', 'x86_64': 'm'}>
 CONFIG_NET_SCH_CBS                              policy<{'riscv64': 'n', 'x86_64': 'm'}>
 CONFIG_NET_SCH_CHOKE                            policy<{'riscv64': 'm', 'x86_64': 'm'}>
@@ -7389,7 +7389,7 @@ CONFIG_PRINTK_CALLER                            policy<{'riscv64': 'y', 'x86_64'
 CONFIG_PRINTK_INDEX                             policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_PRINTK_TIME                              policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_PROBE_EVENTS                             policy<{'riscv64': 'y', 'x86_64': 'y'}>
-CONFIG_PROBE_EVENTS_BTF_ARGS                    policy<{'x86_64': 'y'}>
+CONFIG_PROBE_EVENTS_BTF_ARGS                    policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_PROCESSOR_SELECT                         policy<{'x86_64': 'y'}>
 CONFIG_PROC_CHILDREN                            policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_PROC_EVENTS                              policy<{'riscv64': 'y', 'x86_64': 'y'}>
@@ -8274,7 +8274,7 @@ CONFIG_SCD4X                                    policy<{'x86_64': 'm'}>
 CONFIG_SCF_TORTURE_TEST                         policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_SCHEDSTATS                               policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_SCHED_AUTOGROUP                          policy<{'riscv64': 'y', 'x86_64': 'y'}>
-CONFIG_SCHED_CLASS_EXT                          policy<{'x86_64': 'n'}>
+CONFIG_SCHED_CLASS_EXT                          policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_SCHED_CLUSTER                            policy<{'x86_64': 'y'}>
 CONFIG_SCHED_CORE                               policy<{'x86_64': 'y'}>
 CONFIG_SCHED_HRTICK                             policy<{'riscv64': 'y', 'x86_64': 'y'}>
