@@ -3,6 +3,12 @@
 # ARCH: x86_64 riscv64
 # FLAVOUR: x86_64-generic riscv64-generic riscv64-rva20
 
+CONFIG_ERRATA_THEAD_GHOSTWRITE                  policy<{'riscv64': 'n', 'riscv64-rva20': 'y'}>
+CONFIG_ERRATA_THEAD_GHOSTWRITE                  note<'c906fdv/c910v1/c920v1 - only rva20 support is required'>
+
+CONFIG_ERRATA_THEAD_WRITE_ONCE                  policy<{'riscv64': 'n', 'riscv64-rva20': 'y'}>
+CONFIG_ERRATA_THEAD_WRITE_ONCE                  note<'SG2042/TH1520 requires it'>
+
 
 # ---- Annotations without notes ----
 
@@ -2900,10 +2906,8 @@ CONFIG_ERRATA_SIFIVE_CIP_1200                   policy<{'riscv64': 'y'}>
 CONFIG_ERRATA_SIFIVE_CIP_453                    policy<{'riscv64': 'y'}>
 CONFIG_ERRATA_THEAD                             policy<{'riscv64': 'y'}>
 CONFIG_ERRATA_THEAD_CMO                         policy<{'riscv64': 'y'}>
-CONFIG_ERRATA_THEAD_GHOSTWRITE                  policy<{'riscv64': 'y'}>
 CONFIG_ERRATA_THEAD_MAE                         policy<{'riscv64': 'y'}>
 CONFIG_ERRATA_THEAD_PMU                         policy<{'riscv64': 'y'}>
-CONFIG_ERRATA_THEAD_WRITE_ONCE                  policy<{'riscv64': 'y'}>
 CONFIG_ET131X                                   policy<{'x86_64': 'm'}>
 CONFIG_ETHERNET                                 policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_ETHOC                                    policy<{'riscv64': 'm', 'x86_64': 'm'}>
