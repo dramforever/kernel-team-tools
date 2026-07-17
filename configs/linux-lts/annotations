@@ -578,8 +578,10 @@ CONFIG_ARCNET_COM90xxIO                         policy<{'x86_64': 'm'}>
 CONFIG_ARCNET_RAW                               policy<{'x86_64': 'm'}>
 CONFIG_ARCNET_RIM_I                             policy<{'x86_64': 'm'}>
 CONFIG_ARM_AMBA                                 policy<{'riscv64': 'y'}>
+CONFIG_ARM_HISI_UNCORE_DEVFREQ                  policy<{'riscv64': 'n'}>
 CONFIG_ARM_MHU                                  policy<{'riscv64': 'n'}>
 CONFIG_ARM_MHU_V2                               policy<{'riscv64': 'n'}>
+CONFIG_ARM_SUN8I_A33_MBUS_DEVFREQ               policy<{'riscv64': 'n'}>
 CONFIG_AS21XXX_PHY                              policy<{'riscv64': 'n', 'x86_64': 'm'}>
 CONFIG_AS3935                                   policy<{'x86_64': 'm'}>
 CONFIG_AS73211                                  policy<{'x86_64': 'm'}>
@@ -2073,12 +2075,12 @@ CONFIG_DELL_WMI_PRIVACY                         policy<{'x86_64': 'y'}>
 CONFIG_DELL_WMI_SYSMAN                          policy<{'x86_64': 'm'}>
 CONFIG_DETECT_HUNG_TASK                         policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_DETECT_HUNG_TASK_BLOCKER                 policy<{'riscv64': 'y', 'x86_64': 'n'}>
-CONFIG_DEVFREQ_GOV_PASSIVE                      policy<{'x86_64': 'm'}>
-CONFIG_DEVFREQ_GOV_PERFORMANCE                  policy<{'x86_64': 'y'}>
-CONFIG_DEVFREQ_GOV_POWERSAVE                    policy<{'x86_64': 'y'}>
-CONFIG_DEVFREQ_GOV_SIMPLE_ONDEMAND              policy<{'x86_64': 'y'}>
-CONFIG_DEVFREQ_GOV_USERSPACE                    policy<{'x86_64': 'y'}>
-CONFIG_DEVFREQ_THERMAL                          policy<{'x86_64': 'y'}>
+CONFIG_DEVFREQ_GOV_PASSIVE                      policy<{'riscv64': 'n', 'x86_64': 'm'}>
+CONFIG_DEVFREQ_GOV_PERFORMANCE                  policy<{'riscv64': 'n', 'x86_64': 'y'}>
+CONFIG_DEVFREQ_GOV_POWERSAVE                    policy<{'riscv64': 'n', 'x86_64': 'y'}>
+CONFIG_DEVFREQ_GOV_SIMPLE_ONDEMAND              policy<{'riscv64': 'm', 'x86_64': 'y'}>
+CONFIG_DEVFREQ_GOV_USERSPACE                    policy<{'riscv64': 'n', 'x86_64': 'y'}>
+CONFIG_DEVFREQ_THERMAL                          policy<{'riscv64': 'n', 'x86_64': 'y'}>
 CONFIG_DEVICE_MIGRATION                         policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_DEVICE_PRIVATE                           policy<{'riscv64': 'y', 'x86_64': 'n'}>
 CONFIG_DEVMEM                                   policy<{'riscv64': 'y', 'x86_64': 'y'}>
@@ -7285,8 +7287,8 @@ CONFIG_PM_ADVANCED_DEBUG                        policy<{'riscv64': 'n', 'x86_64'
 CONFIG_PM_AUTOSLEEP                             policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_PM_CLK                                   policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_PM_DEBUG                                 policy<{'riscv64': 'y', 'x86_64': 'y'}>
-CONFIG_PM_DEVFREQ                               policy<{'riscv64': 'n', 'x86_64': 'y'}>
-CONFIG_PM_DEVFREQ_EVENT                         policy<{'x86_64': 'y'}>
+CONFIG_PM_DEVFREQ                               policy<{'riscv64': 'y', 'x86_64': 'y'}>
+CONFIG_PM_DEVFREQ_EVENT                         policy<{'riscv64': 'n', 'x86_64': 'y'}>
 CONFIG_PM_GENERIC_DOMAINS                       policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_PM_GENERIC_DOMAINS_OF                    policy<{'riscv64': 'y'}>
 CONFIG_PM_GENERIC_DOMAINS_SLEEP                 policy<{'riscv64': 'y', 'x86_64': 'y'}>
@@ -8377,14 +8379,17 @@ CONFIG_SCSI_SYM53C8XX_DEFAULT_TAGS              policy<{'x86_64': '16'}>
 CONFIG_SCSI_SYM53C8XX_DMA_ADDRESSING_MODE       policy<{'x86_64': '1'}>
 CONFIG_SCSI_SYM53C8XX_MAX_TAGS                  policy<{'x86_64': '64'}>
 CONFIG_SCSI_SYM53C8XX_MMIO                      policy<{'x86_64': 'y'}>
-CONFIG_SCSI_UFSHCD                              policy<{'riscv64': 'n', 'x86_64': 'm'}>
-CONFIG_SCSI_UFSHCD_PCI                          policy<{'x86_64': 'm'}>
-CONFIG_SCSI_UFSHCD_PLATFORM                     policy<{'x86_64': 'm'}>
-CONFIG_SCSI_UFS_BSG                             policy<{'x86_64': 'n'}>
-CONFIG_SCSI_UFS_CDNS_PLATFORM                   policy<{'x86_64': 'm'}>
-CONFIG_SCSI_UFS_CRYPTO                          policy<{'x86_64': 'y'}>
+CONFIG_SCSI_UFSHCD                              policy<{'riscv64': 'm', 'x86_64': 'm'}>
+CONFIG_SCSI_UFSHCD_PCI                          policy<{'riscv64': 'n', 'x86_64': 'm'}>
+CONFIG_SCSI_UFSHCD_PLATFORM                     policy<{'riscv64': 'm', 'x86_64': 'm'}>
+CONFIG_SCSI_UFS_BSG                             policy<{'riscv64': 'y', 'x86_64': 'n'}>
+CONFIG_SCSI_UFS_CDNS_PLATFORM                   policy<{'riscv64': 'n', 'x86_64': 'm'}>
+CONFIG_SCSI_UFS_CRYPTO                          policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_SCSI_UFS_DWC_TC_PCI                      policy<{'x86_64': 'n'}>
-CONFIG_SCSI_UFS_HWMON                           policy<{'x86_64': 'y'}>
+CONFIG_SCSI_UFS_DWC_TC_PLATFORM                 policy<{'riscv64': 'n'}>
+CONFIG_SCSI_UFS_HWMON                           policy<{'riscv64': 'y', 'x86_64': 'y'}>
+CONFIG_SCSI_UFS_RENESAS                         policy<{'riscv64': 'n'}>
+CONFIG_SCSI_UFS_SPACEMIT                        policy<{'riscv64': 'm'}>
 CONFIG_SCSI_VIRTIO                              policy<{'riscv64': 'y', 'x86_64': 'm'}>
 CONFIG_SCSI_WD719X                              policy<{'riscv64': 'n', 'x86_64': 'm'}>
 CONFIG_SCTP_DBG_OBJCNT                          policy<{'riscv64': 'n', 'x86_64': 'n'}>
