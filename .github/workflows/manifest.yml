@@ -1,0 +1,58 @@
+name: Auto Tag openRuyi linux repo
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'manifest'
+      - '.github/workflows/manifest.yml'
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout openRuyi's kernel-team-tools
+      uses: actions/checkout@v7
+      with:
+        path: kernel-team-tools
+
+    - name: Checkout openRuyi's linux
+      uses: actions/checkout@v7
+      with:
+        repository: 'openRuyi-Project/linux'
+        path: linux
+        filter: 'blob:none'
+        fetch-depth: 0
+        fetch-tags: true
+        token: ${{ secrets.CI_TOKEN }}
+
+    - name: Test Tag & Auto Tag
+      run: |
+        pushd linux
+        while IFS=$'\t' read -r tag commit; do
+          [[ -z "$tag" || "$tag" == \#* ]] && continue
+
+          if git show-ref --tags --quiet --verify "refs/tags/${tag}"; then
+            echo "⚠️ 标签 '${tag}' 本地已存在 (代表远端已发布)，跳过处理。"
+            continue
+          fi
+
+          if ! git rev-parse --verify "${commit}^{commit}" >/dev/null 2>&1; then
+            echo "❌ 致命错误: Commit '${commit}' 不存在！"
+            exit 1
+          fi
+
+          git tag ${tag} ${commit}
+
+        done < ../kernel-team-tools/manifest
+
+        git tag --list
+        git push --tags origin
+
+        popd
