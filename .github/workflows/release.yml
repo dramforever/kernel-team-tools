@@ -1,0 +1,246 @@
+name: Auto Release openRuyi linux patchset & kernelconfig
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.repository }}
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  BASELINE_TAG: v6.18
+  KERNEL_TREM_TOOLS_DIR: kernel-team-tools
+  KERNEL_DIR: linux
+  ARTIFACTS_DIR: artifacts
+  UPSTREAM_GIT: https://github.com/torvalds/linux.git
+  STABLE_GIT: https://github.com/gregkh/linux.git
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check release trigger tag
+      id: release_trigger
+      env:
+        REF_NAME: ${{ github.ref_name }}
+        REF_TYPE: ${{ github.ref_type }}
+      run: |
+        should_release=false
+
+        if [[ "$REF_TYPE" == "tag" && \
+              "$REF_NAME" =~ ^[0-9]{4}\.(0[1-9]|1[0-2])\.(0[1-9]|[12][0-9]|3[01])\.([01][0-9]|2[0-3])\.[0-5][0-9]$ ]]; then
+          IFS='.' read -r year month day hour minute <<< "$REF_NAME"
+          normalized_tag=$(date --date="${year}-${month}-${day} ${hour}:${minute}:00" \
+            '+%Y.%m.%d.%H.%M' 2>/dev/null || true)
+
+          if [[ "$normalized_tag" == "$REF_NAME" ]]; then
+            should_release=true
+          fi
+        fi
+
+        echo "should_release=$should_release" >> "$GITHUB_OUTPUT"
+        echo "Release enabled: $should_release"
+
+    - name: Checkout openRuyi's kernel-team-tools
+      uses: actions/checkout@v7
+      with:
+        path: ${{ env.KERNEL_TREM_TOOLS_DIR }}
+
+    - name: Checkout openRuyi's linux
+      uses: actions/checkout@v7
+      with:
+        repository: 'openRuyi-Project/linux'
+        path: ${{ env.KERNEL_DIR }}
+        fetch-tags: true
+
+    - name: Fetch linux repo partial history
+      run: |
+        pushd ${{ env.KERNEL_DIR }}
+          # Restore part of the history; otherwise, the clone speed is unacceptable.
+          LINUX_SHA=$(git rev-parse HEAD)
+          git fetch origin "$LINUX_SHA" --shallow-exclude=${{ env.BASELINE_TAG }}
+        popd
+
+    - name: Generate patchset & config
+      run: |
+        pushd ${{ env.KERNEL_DIR }}
+          find ${{ github.workspace }}/${{ env.KERNEL_TREM_TOOLS_DIR }}/configs -mindepth 1 -maxdepth 1 -type d | while read -r dir; do
+            kernel_package_name=$(basename "$dir")
+            mkdir -p ${{ github.workspace }}/${{ env.ARTIFACTS_DIR }}/${kernel_package_name}
+
+            while IFS='=' read -r key value; do
+              key=$(echo "$key" | xargs)
+              value=$(echo "$value" | xargs)
+
+              [[ -z "$key" || "$key" == \#* ]] && continue
+              export "$key"="$value"
+            done < ${{ github.workspace }}/${{ env.KERNEL_TREM_TOOLS_DIR }}/configs/${kernel_package_name}/config.env
+
+            RUYI_TAG=ruyi/${TAG_NAME}
+            BASE_VERSION_TAG="${TAG_NAME%-*}"
+
+            COMMIT_ID=$(git ls-remote --tags ${STABLE_GIT} ${BASE_VERSION_TAG} | tail -n 1 | awk '{print $1}')
+            if [ -z "$COMMIT_ID" ]; then
+              COMMIT_ID=$(git ls-remote --tags ${UPSTREAM_GIT} ${BASE_VERSION_TAG} | tail -n 1 | awk '{print $1}')
+            fi
+
+            if [ -z "$COMMIT_ID" ]; then
+              echo "$COMMIT_ID is not found."
+              exit 1
+            fi
+
+            git fetch origin ${RUYI_TAG} --shallow-exclude=${{ env.BASELINE_TAG }}
+            git clean -xfd
+            git checkout --progress --force ${RUYI_TAG}
+
+            git fetch origin ${COMMIT_ID} --shallow-exclude=${{ env.BASELINE_TAG }}
+            git format-patch ${COMMIT_ID} --subject-prefix="RUYI PATCH" \
+              --no-numbered -o ${{ github.workspace }}/${{ env.ARTIFACTS_DIR }}/${kernel_package_name}
+            pushd ${{ github.workspace }}/${{ env.ARTIFACTS_DIR }}/${kernel_package_name}
+              ls *.patch > series
+            popd
+
+            annotations_file=${{ github.workspace }}/${{ env.KERNEL_TREM_TOOLS_DIR }}/configs/${kernel_package_name}/annotations
+            FLAVOURS=$(sed -ne 's/^# FLAVOUR: //p' "${annotations_file}")
+            for arch_flavour in ${FLAVOURS} ; do
+              arch=${arch_flavour%%-*}
+              flavour=${arch_flavour#*-}
+              python3 ${{ github.workspace }}/${{ env.KERNEL_TREM_TOOLS_DIR }}/annotations/annotations \
+                -f "${annotations_file}" \
+                --arch "${arch}" --flavour "${flavour}" \
+                -e > ${{ github.workspace }}/${{ env.ARTIFACTS_DIR }}/${kernel_package_name}/config.${arch_flavour}
+            done
+
+            # summary
+            ls -al ${{ github.workspace }}/${{ env.ARTIFACTS_DIR }}/${kernel_package_name}/
+            tar -czvf ${{ github.workspace }}/${{ env.ARTIFACTS_DIR }}/${kernel_package_name}-${TAG_NAME}.tar.gz \
+              -C ${{ github.workspace }}/${{ env.ARTIFACTS_DIR }}/"${kernel_package_name}" .
+          done
+
+          # summary
+          ls -al ${{ github.workspace }}/${{ env.ARTIFACTS_DIR }}
+        popd
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v7
+      with:
+        name: all_patchset_series_kernelconfig
+        path: ${{ github.workspace }}/${{ env.ARTIFACTS_DIR }}/*.tar.gz
+        retention-days: 15
+
+    - name: Create GitHub releases
+      if: steps.release_trigger.outputs.should_release == 'true'
+      env:
+        GH_TOKEN: ${{ github.token }}
+        GH_REPO: ${{ github.repository }}
+      run: |
+        declare -A tag_names=()
+
+        while IFS= read -r config_file; do
+          TAG_NAME=
+          while IFS='=' read -r key value; do
+            key=$(echo "$key" | xargs)
+            value=$(echo "$value" | xargs)
+
+            if [[ "$key" == "TAG_NAME" ]]; then
+              TAG_NAME="$value"
+              break
+            fi
+          done < "$config_file"
+
+          if [[ -z "$TAG_NAME" ]]; then
+            echo "TAG_NAME is not set in $config_file"
+            exit 1
+          fi
+
+          tag_names["$TAG_NAME"]=1
+        done < <(find "${{ github.workspace }}/${{ env.KERNEL_TREM_TOOLS_DIR }}/configs" \
+          -mindepth 2 -maxdepth 2 -name config.env -print)
+
+        existing_releases=$(gh api --paginate "repos/${GH_REPO}/releases?per_page=100" \
+          --jq '.[].tag_name')
+        mapfile -t release_tags <<< "$existing_releases"
+        declare -A initial_release_exists=()
+        declare -A max_existing_revision=()
+
+        for TAG_NAME in "${!tag_names[@]}"; do
+          has_initial_release=false
+          existing_numbered_releases=()
+
+          for release_tag in "${release_tags[@]}"; do
+            revision=${release_tag#"${TAG_NAME}."}
+            if [[ "$release_tag" == "${TAG_NAME}."* && "$revision" =~ ^[0-9]+$ ]]; then
+              existing_numbered_releases+=("$release_tag")
+            fi
+
+            if [[ "$release_tag" == "${TAG_NAME}.0" ]]; then
+              has_initial_release=true
+            fi
+          done
+
+          if [[ "$has_initial_release" == "false" && \
+                ${#existing_numbered_releases[@]} -gt 0 ]]; then
+            echo "Invalid release state for ${TAG_NAME}: ${TAG_NAME}.0 is missing, but numbered releases already exist:"
+            printf '  %s\n' "${existing_numbered_releases[@]}"
+            exit 1
+          fi
+
+          if [[ "$has_initial_release" == "true" ]]; then
+            declare -A revision_exists=()
+            max_revision=0
+
+            for release_tag in "${existing_numbered_releases[@]}"; do
+              revision=${release_tag#"${TAG_NAME}."}
+              revision=$((10#$revision))
+              revision_exists["$revision"]=1
+
+              if (( revision > max_revision )); then
+                max_revision=$revision
+              fi
+            done
+
+            missing_releases=()
+            for ((revision = 0; revision <= max_revision; revision++)); do
+              if [[ -z "${revision_exists[$revision]+exists}" ]]; then
+                missing_releases+=("${TAG_NAME}.${revision}")
+              fi
+            done
+
+            if (( ${#missing_releases[@]} > 0 )); then
+              echo "Invalid release state for ${TAG_NAME}: the numbered releases are not continuous. Missing releases:"
+              printf '  %s\n' "${missing_releases[@]}"
+              exit 1
+            fi
+
+            max_existing_revision["$TAG_NAME"]=$max_revision
+          fi
+
+          initial_release_exists["$TAG_NAME"]=$has_initial_release
+        done
+
+        for TAG_NAME in "${!tag_names[@]}"; do
+          RELEASE_TAG="${TAG_NAME}.0"
+
+          if [[ "${initial_release_exists[$TAG_NAME]}" == "true" ]]; then
+            RELEASE_TAG="${TAG_NAME}.$((max_existing_revision[$TAG_NAME] + 1))"
+          fi
+
+          assets=("${{ github.workspace }}/${{ env.ARTIFACTS_DIR }}"/*-"${TAG_NAME}".tar.gz)
+          if [[ ! -e "${assets[0]}" ]]; then
+            echo "No release assets found for ${TAG_NAME}"
+            exit 1
+          fi
+
+          gh release create "$RELEASE_TAG" "${assets[@]}" \
+            --target "$GITHUB_SHA" \
+            --title "$RELEASE_TAG" \
+            --generate-notes
+        done
