@@ -1966,7 +1966,7 @@ CONFIG_DCB                                      policy<{'riscv64': 'y', 'x86_64'
 CONFIG_DCDBAS                                   policy<{'x86_64': 'm'}>
 CONFIG_DE2104X                                  policy<{'x86_64': 'm'}>
 CONFIG_DE2104X_DSL                              policy<{'x86_64': '0'}>
-CONFIG_DEBUG_ATOMIC_SLEEP                       policy<{'riscv64': 'y', 'x86_64': 'n'}>
+CONFIG_DEBUG_ATOMIC_SLEEP                       policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DEBUG_BOOT_PARAMS                        policy<{'x86_64': 'n'}>
 CONFIG_DEBUG_BUGVERBOSE                         policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_DEBUG_CGROUP_REF                         policy<{'riscv64': 'n', 'x86_64': 'n'}>
@@ -2003,7 +2003,7 @@ CONFIG_DEBUG_LIST                               policy<{'riscv64': 'n', 'x86_64'
 CONFIG_DEBUG_LOCKING_API_SELFTESTS              policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DEBUG_LOCK_ALLOC                         policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DEBUG_MAPLE_TREE                         policy<{'riscv64': 'n', 'x86_64': 'n'}>
-CONFIG_DEBUG_MEMORY_INIT                        policy<{'riscv64': 'y', 'x86_64': 'n'}>
+CONFIG_DEBUG_MEMORY_INIT                        policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DEBUG_MISC                               policy<{'riscv64': 'y', 'x86_64': 'y'}>
 CONFIG_DEBUG_MUTEXES                            policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DEBUG_NET                                policy<{'riscv64': 'n', 'x86_64': 'n'}>
@@ -2013,7 +2013,7 @@ CONFIG_DEBUG_NOTIFIERS                          policy<{'riscv64': 'n', 'x86_64'
 CONFIG_DEBUG_OBJECTS                            policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DEBUG_PAGEALLOC                          policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DEBUG_PAGE_REF                           policy<{'riscv64': 'n', 'x86_64': 'n'}>
-CONFIG_DEBUG_PERF_USE_VMALLOC                   policy<{'riscv64': 'y', 'x86_64': 'n'}>
+CONFIG_DEBUG_PERF_USE_VMALLOC                   policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DEBUG_PER_CPU_MAPS                       policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DEBUG_PINCTRL                            policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DEBUG_PLIST                              policy<{'riscv64': 'n', 'x86_64': 'n'}>
@@ -2156,7 +2156,7 @@ CONFIG_DM_CACHE                                 policy<{'riscv64': 'm', 'x86_64'
 CONFIG_DM_CACHE_SMQ                             policy<{'riscv64': 'm', 'x86_64': 'm'}>
 CONFIG_DM_CLONE                                 policy<{'riscv64': 'n', 'x86_64': 'm'}>
 CONFIG_DM_CRYPT                                 policy<{'riscv64': 'm', 'x86_64': 'm'}>
-CONFIG_DM_DEBUG                                 policy<{'riscv64': 'y', 'x86_64': 'n'}>
+CONFIG_DM_DEBUG                                 policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DM_DEBUG_BLOCK_MANAGER_LOCKING           policy<{'riscv64': 'n', 'x86_64': 'n'}>
 CONFIG_DM_DELAY                                 policy<{'riscv64': 'm', 'x86_64': 'm'}>
 CONFIG_DM_DUST                                  policy<{'riscv64': 'n', 'x86_64': 'm'}>
