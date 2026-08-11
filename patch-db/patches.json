@@ -1,0 +1,1746 @@
+{
+    "commit:4f9ffd2c80a2fa09dcc8dfa0482cb7e0fb6fcf6c": {
+        "subject": "drm/ttm: add pgprot handling for RISC-V"
+    },
+    "commit:4e27aca4881ace1e9a812fc2c88b33dd84e29993": {
+        "subject": "riscv: sophgo: dts: add PCIe controllers for SG2042"
+    },
+    "commit:b85ad0d06a19de95d41f91162389a1bbb461a405": {
+        "subject": "riscv: sophgo: dts: enable PCIe for PioneerBox"
+    },
+    "commit:c6c215099e89b1eb71ed6592163ae5b530f4538e": {
+        "subject": "riscv: sophgo: dts: enable PCIe for SG2042_EVB_V1.X"
+    },
+    "commit:579d6526aa43a155c8685a88ef8350a8c29afa47": {
+        "subject": "riscv: sophgo: dts: enable PCIe for SG2042_EVB_V2.0"
+    },
+    "commit:59dc89fdfe0bbcce186116651bd017cfb9f70fc0": {
+        "subject": "riscv: dts: sophgo: Add SPI NOR node for SG2042"
+    },
+    "commit:f49314cbbc98f9ab2bf4eb82ccacbf79f179db6c": {
+        "subject": "riscv: dts: sophgo: Enable SPI NOR node for PioneerBox"
+    },
+    "commit:11f4d84c9f724ec4c6810567d6b9713b054bb28b": {
+        "subject": "riscv: dts: sophgo: Enable SPI NOR node for SG2042_EVB_V1"
+    },
+    "commit:af5eb17ff893bf6e52680a31059e1816749c2d20": {
+        "subject": "riscv: dts: sophgo: Enable SPI NOR node for SG2042_EVB_V2"
+    },
+    "commit:6b1aa3c87fcbf06b29b1a7123c386ad5cf2c8e9b": {
+        "subject": "dt-bindings: net: sophgo,sg2044-dwmac: add phy mode restriction"
+    },
+    "commit:c9573287729bc5ed3d2adbc028fe33d265917ae5": {
+        "subject": "perf vendor events riscv: add T-HEAD C920V2 JSON support"
+    },
+    "commit:739ad9be61e5f53dbd8d7d7e80723d0799ff077c": {
+        "subject": "rust: macros: Add support for 'imports_ns' to module!"
+    },
+    "commit:ce284f882022ebcb953984c7eccf4fc4eb531978": {
+        "subject": "pwm: Export `pwmchip_release` for external use"
+    },
+    "commit:7b3dce814a15bc5d9fb6124cd945291012c4ebb9": {
+        "subject": "rust: pwm: Add Kconfig and basic data structures"
+    },
+    "commit:d8046cd50879db371bbf6220477ec521692ab2f6": {
+        "subject": "rust: pwm: Add complete abstraction layer"
+    },
+    "commit:264b501bb40dd22e8c4ab2c8a3378e32c2e04ec6": {
+        "subject": "rust: pwm: Add module_pwm_platform_driver! macro"
+    },
+    "commit:a69a54f8dffb105b2df2e606b4c9f61127d006ac": {
+        "subject": "rust: pwm: Drop wrapping of PWM polarity and state"
+    },
+    "commit:51b4c0f9749d96d56887896383141e97916ac91b": {
+        "subject": "rust: pwm: Fix broken intra-doc link"
+    },
+    "commit:e03724aac758f71c6cda208ea3d1afd0bbb6d9aa": {
+        "subject": "pwm: Add Rust driver for T-HEAD TH1520 SoC"
+    },
+    "commit:a367b64ba498a7eac34af3a67ce59317066b2779": {
+        "subject": "dt-bindings: pwm: thead: Add T-HEAD TH1520 PWM controller"
+    },
+    "commit:6fe9e919c144f1296d38e2abb10c7ac4320aa7fa": {
+        "subject": "pwm: Fix Rust formatting"
+    },
+    "commit:26dcb42086d401373b9e09b7f83357e8b9af6b55": {
+        "subject": "pwm: th1520: Fix clippy warning for redundant struct field init"
+    },
+    "commit:9075ceeadac3e4e4fd906cd84f1ec537442c59be": {
+        "subject": "pwm: th1520: Use module_pwm_platform_driver! macro"
+    },
+    "commit:3c180003dffbc252a72dec4f0c697e12922e0417": {
+        "subject": "pwm: th1520: Fix missing Kconfig dependencies"
+    },
+    "commit:aef6dc006696c20ccc58c4c0235a14e7b4b317a0": {
+        "subject": "riscv: dts: thead: add xtheadvector to the th1520 devicetree"
+    },
+    "commit:bcc3b9c5de5e2a03ede1a8133c05255927d744d6": {
+        "subject": "riscv: dts: thead: add ziccrse for th1520"
+    },
+    "commit:fac4be7b3d49ae7e32d8ae523343d7fe790772f9": {
+        "subject": "riscv: dts: thead: add zfh for th1520"
+    },
+    "commit:b6b00b220d2a052b2bec8ee7ccaf2679faef8558": {
+        "subject": "riscv: dts: thead: Add PWM controller node"
+    },
+    "commit:a9fb9c7e3bcd3107605e300680b95ad9615b3500": {
+        "subject": "riscv: dts: thead: Add PWM fan and thermal control"
+    },
+    "commit:e95f66dd0e74d654e5ff344c72cfd6bd9f6c60a3": {
+        "subject": "dt-bindings: vendor-prefixes: Add UltraRISC"
+    },
+    "commit:9dfb295a93eb109be989aac48f675db5b1c68bd8": {
+        "subject": "dt-bindings: interrupt-controller: Add UltraRISC DP1000 PLIC"
+    },
+    "commit:14ff9e54dd14339776afff78e2d29e0edb3a4402": {
+        "subject": "irqchip/sifive-plic: Cache the interrupt enable state"
+    },
+    "commit:539d147ef69c3e2f9817de0fcf1dc8ba12938909": {
+        "subject": "irqchip/sifive-plic: Add support for UltraRISC DP1000 PLIC"
+    },
+    "commit:2ca5bb54bde739b32ed42758fff8dc1025c1225f": {
+        "subject": "riscv: cpu_ops_sbi: smp_processor_id() returns int, not unsigned int"
+    },
+    "commit:bd352547df647be8a1e6c9d4ca2b54b459f3abc1": {
+        "subject": "spi: dt-bindings: fsl-qspi: support SpacemiT K1"
+    },
+    "commit:873a46141460d209bb62eaa0dc9e7b67bff924a6": {
+        "subject": "spi: dt-bindings: fsl-qspi: add optional resets"
+    },
+    "commit:106d7641e55a472e7523c1f525c77fb6d420064d": {
+        "subject": "spi: fsl-qspi: add optional reset support"
+    },
+    "commit:6b398c1d3da7a673b13b1857f9fff4c15ee20cef": {
+        "subject": "spi: fsl-qspi: switch predicates to bool"
+    },
+    "commit:1797d254f5c4b46b295527a635af7321a3fe1318": {
+        "subject": "spi: fsl-qspi: add a clock disable quirk"
+    },
+    "commit:56931105074fe7e5fc9d54e3163df3b95075643c": {
+        "subject": "spi: fsl-qspi: introduce sfa_size devtype data"
+    },
+    "commit:abc9a349b87ac0fd3ba8787ca00971b59c2e1257": {
+        "subject": "spi: fsl-qspi: support the SpacemiT K1 SoC"
+    },
+    "commit:a812b09a6b599ea80ec1065a9a635724a235843d": {
+        "subject": "dt-bindings: pci: spacemit: Introduce PCIe host controller"
+    },
+    "commit:ff64e078e45faee50cc6ca7900a3520e8ff1c79e": {
+        "subject": "PCI: spacemit: Add SpacemiT PCIe host driver"
+    },
+    "commit:73978d274eba0d9081bc9b5aedebb0bc6abb832c": {
+        "subject": "ASoC: dt-bindings: Add bindings for SpacemiT K1"
+    },
+    "commit:fce217449075d59b29052b8cdac567f0f3e22641": {
+        "subject": "ASoC: spacemit: add i2s support for K1 SoC"
+    },
+    "commit:1187f9b3f6ebde806289877fa710ffd58f950104": {
+        "subject": "riscv: dts: spacemit: add UART pinctrl combinations"
+    },
+    "commit:3e8d7309e6260b1d066e733bf3e2e1b6a0d3f82b": {
+        "subject": "riscv: dts: spacemit: enable the i2c8 adapter"
+    },
+    "commit:1df07a40453fd652132051419140950d47941fe9": {
+        "subject": "riscv: dts: spacemit: define fixed regulators"
+    },
+    "commit:09a412d397484e76588707d85ccc37f71e491091": {
+        "subject": "riscv: dts: spacemit: define regulator constraints"
+    },
+    "commit:dcca2287773b69201b756723e8d45b6b8ad81b34": {
+        "subject": "riscv: dts: spacemit: enable the i2c2 adapter on BPI-F3"
+    },
+    "commit:bfce75e2345fa1ecbf046e696994132f56d6db1c": {
+        "subject": "riscv: dts: spacemit: add 24c02 eeprom on BPI-F3"
+    },
+    "commit:859ce3828f0b462e991c24224390def4c8fea673": {
+        "subject": "riscv: dts: spacemit: add i2c aliases on BPI-F3"
+    },
+    "commit:9813395078352fed03c88742bd39b9c4a0e40c15": {
+        "subject": "riscv: dts: spacemit: add Ethernet and PDMA to OrangePi RV2"
+    },
+    "commit:0ee59934662dfb89b43a8392e64ac4880c2fca88": {
+        "subject": "riscv: dts: spacemit: add MusePi Pro board device tree"
+    },
+    "commit:41d34e0b5497f919229d32580fbe34386087458f": {
+        "subject": "riscv: dts: spacemit: enable K1 SoC QSPI on BPI-F3"
+    },
+    "commit:63e572b11464a233f45ad469ba64b8b9e68a9cd1": {
+        "subject": "riscv: dts: spacemit: Add OrangePi R2S board device tree"
+    },
+    "commit:3b70f972b6fb769bdee780b5b4639585845d6af4": {
+        "subject": "riscv: dts: spacemit: reorder i2c2 node"
+    },
+    "commit:5a97a38c22799a802f33001dcb022d2942fe4a41": {
+        "subject": "riscv: dts: spacemit: define all missing I2C controller nodes"
+    },
+    "commit:16bd954c93360145bc77cc601e350913fc28182d": {
+        "subject": "rtc: spacemit: MFD_SPACEMIT_P1 as dependencies"
+    },
+    "commit:ecf6bc474ae97c404e2125b413eb0ef3627b03c5": {
+        "subject": "mfd: simple-mfd-i2c: Remove select I2C_K1 from MFD_SPACEMIT_P1"
+    },
+    "commit:28124cc0fb8c7dc01a6834d227351e25d9a92c58": {
+        "subject": "driver: reset: spacemit-p1: add driver for poweroff/reboot"
+    },
+    "commit:957afeb99b111b672b3529a737fe19b95daaf1a2": {
+        "subject": "riscv: remove irqflags.h inclusion in asm/bitops.h"
+    },
+    "commit:f02dd254727665cc292669194b9171bb70413346": {
+        "subject": "riscv/atomic.h: use RISCV_FULL_BARRIER in _arch_atomic* function."
+    },
+    "commit:5ae38389636d5e081c905019aa37082535173da4": {
+        "subject": "drm/dumb-buffers: Sanitize output on errors"
+    },
+    "commit:fb24aaf5415cc686fb0473eb782a7c8a7bab0469": {
+        "subject": "drm/dumb-buffers: Provide helper to set pitch and size"
+    },
+    "commit:52e6b198833411564e0b9ce6e96bbd3d72f961e7": {
+        "subject": "drm/hypervdrm: Use vblank timer"
+    },
+    "commit:386ced19e9a348e8131d20f009e692fa8fcc4568": {
+        "subject": "PCI/MSI: Convert the boolean no_64bit_msi flag to a DMA address mask"
+    },
+    "commit:52f0d862f595a2fa18ef44532619a080c24fe4cb": {
+        "subject": "PCI/MSI: Check the device specific address mask in msi_verify_entries()"
+    },
+    "commit:617562bbe12df796fc21df5fbf262eadf083a90f": {
+        "subject": "drm/radeon: Make MSI address limit based on the device DMA limit"
+    },
+    "commit:cb9b6f9d2be6bda1b0117b147df40f982ce06888": {
+        "subject": "ALSA: hda/intel: Make MSI address limit based on the device DMA limit"
+    },
+    "commit:9e81c522680db5998c872fb91ff7877cf3d8ff42": {
+        "subject": "riscv: dts: sophgo: enable hardware clock (RTC) on the Milk-V Pioneer"
+    },
+    "commit:5e6836e735f9c9c5e8e1d1dce02dfed5fe566e8f": {
+        "subject": "riscv: dts: sophgo: Move PLIC and CLINT node into CPU dtsi"
+    },
+    "commit:ebb87dd74c34a76e1e93041e9329cf9269be35ed": {
+        "subject": "riscv: dts: sophgo: fix the node order of SG2042 peripheral"
+    },
+    "commit:f33ccc2316304f3a71e40e53f1568e75042b0a4b": {
+        "subject": "riscv: dts: spacemit: Enable i2c8 adapter for Milk-V Jupiter"
+    },
+    "commit:ae9d03f8aec76c1bff21083b67c211238d7c57b1": {
+        "subject": "riscv: dts: spacemit: Define fixed regulators for Milk-V Jupiter"
+    },
+    "commit:7d307daa12b15a97269f577d5dcf50518758b568": {
+        "subject": "riscv: dts: spacemit: Define the P1 PMIC regulators for Milk-V Jupiter"
+    },
+    "commit:f6194de7df023ecfd5156caf8e2762487be07ef7": {
+        "subject": "dt-bindings: phy: spacemit: Add SpacemiT PCIe/combo PHY"
+    },
+    "commit:326a278a3682d390269699f68e597b5ef5a57d26": {
+        "subject": "dt-bindings: phy: spacemit: Introduce PCIe PHY"
+    },
+    "commit:57e920b92724dd568526990c04e79ed54241c5fc": {
+        "subject": "phy: spacemit: Introduce PCIe/combo PHY"
+    },
+    "commit:73a6c811fa0d07078c9e1eaecea76ce26fb5f10e": {
+        "subject": "riscv: dts: spacemit: Add a PCIe regulator"
+    },
+    "commit:0be016a4b5d1b927de04e2e7a0a2bce51aacbfff": {
+        "subject": "riscv: dts: spacemit: PCIe and PHY-related updates"
+    },
+    "commit:ad0876a84631fee7b0ad4cd8118b9696aa566671": {
+        "subject": "dt-bindings: i2c: spacemit: add optional resets"
+    },
+    "commit:b96259551b337225bb0e7afb3452b98435dd8b81": {
+        "subject": "i2c: k1: add reset support"
+    },
+    "commit:7d6fe7e381d2912300df06e1a7e7a6f6a9269af0": {
+        "subject": "riscv: dts: spacemit: add reset property"
+    },
+    "commit:61b84d5b20af2a4c9944972202c1386026598928": {
+        "subject": "dt-bindings: phy: spacemit: add K1 USB2 PHY"
+    },
+    "commit:fe4bc1a08638309b6be1af37210930b856908eb7": {
+        "subject": "phy: spacemit: support K1 USB2.0 PHY controller"
+    },
+    "commit:9d591fef025d5008f23ab339a10006b151150578": {
+        "subject": "riscv: dts: spacemit: Add USB2 PHY node for K1"
+    },
+    "commit:6e8dcd141833a23d7117fe16896f6d5dfdb2e112": {
+        "subject": "riscv: dts: spacemit: Add DWC3 USB 3.0 controller node for K1"
+    },
+    "commit:c7e62c4eea026d42d192a0b86ce7313086ef2093": {
+        "subject": "riscv: dts: spacemit: Enable USB3.0 on BananaPi-F3"
+    },
+    "commit:c3efac0592f88ab48c8eef028268e6514908be51": {
+        "subject": "dt-bindings: pinctrl: spacemit: convert drive strength to schema format"
+    },
+    "commit:5adaa1a8c08839617e5a6385fe05a8baa63e355f": {
+        "subject": "dt-bindings: pinctrl: spacemit: add K3 SoC support"
+    },
+    "commit:7412311c4655497b6ab6dd7b802f9390f0f57dc7": {
+        "subject": "pinctrl: spacemit: k3: add initial pin support"
+    },
+    "commit:3f20bdf7151834547a85231c28538f49601481ee": {
+        "subject": "pinctrl: spacemit: k3: adjust drive strength and schmitter trigger"
+    },
+    "commit:e817f0223d78818cd6c0e3480355c9a9cfbc0096": {
+        "subject": "dt-bindings: pinctrl: spacemit: add syscon property"
+    },
+    "commit:450e2487d5a28260f70ad7fbf3060e7f8304203d": {
+        "subject": "pinctrl: spacemit: support I/O power domain configuration"
+    },
+    "commit:4083d8d6c0aa445fc440d70a5258351c47547ee2": {
+        "subject": "riscv: dts: spacemit: pinctrl: update register and IO power"
+    },
+    "commit:fff010c776f715904ba0823bb347eac00dccffa2": {
+        "subject": "dt-bindings: riscv: update ratified version of h, svinval, svnapot, svpbmt"
+    },
+    "commit:0cdb7fc1879b1b858463125630f4dd5af6b111ad": {
+        "subject": "dt-bindings: riscv: Add B ISA extension description"
+    },
+    "commit:b321256a4f36227e0c1ae54e8c6c48524dcba83d": {
+        "subject": "dt-bindings: riscv: Add descriptions for Za64rs, Ziccamoa, Ziccif, and Zicclsm"
+    },
+    "commit:c712413333f8e19cc3de4e9cd1a3ed8a53169cc9": {
+        "subject": "dt-bindings: riscv: Add Ssccptr, Sscounterenw, Sstvala, Sstvecd, Ssu64xl"
+    },
+    "commit:89febd6a02768200fcfc86ee57f1ece632805bff": {
+        "subject": "dt-bindings: riscv: Add Sha and its comprised extensions"
+    },
+    "commit:f16ae81b80ca4e721f4c4ed1f28390115f7721eb": {
+        "subject": "riscv: dts: sophgo: sg2044: Add \"b\" ISA extension"
+    },
+    "commit:4168630825f95bf57729dad46d2a097096e73e4d": {
+        "subject": "riscv: dts: spacemit: k1: Add \"b\" ISA extension"
+    },
+    "commit:81a52103b90f5cddc41c34f633c014a956236abc": {
+        "subject": "dt-bindings: riscv: add SpacemiT X100 CPU compatible"
+    },
+    "commit:6cdeb30db4d8faf9f1fa7ab863d91d36a584716d": {
+        "subject": "dt-bindings: timer: add SpacemiT K3 CLINT"
+    },
+    "commit:60490ca6d54b6f0a00223a4fe59bb180bb1538bf": {
+        "subject": "dt-bindings: interrupt-controller: add SpacemiT K3 APLIC"
+    },
+    "commit:a716729a3ce1055efab477030235777d2be0852b": {
+        "subject": "dt-bindings: interrupt-controller: add SpacemiT K3 IMSIC"
+    },
+    "commit:7cb5fafc180f6e188af7943d6b162051f22490fc": {
+        "subject": "dt-bindings: riscv: spacemit: add K3 and Pico-ITX board bindings"
+    },
+    "commit:56f37e391a626f964615ee5939710eff212b621f": {
+        "subject": "riscv: dts: spacemit: add initial support for K3 SoC"
+    },
+    "commit:7a61318049861b777f098d7148d892d7dc79b010": {
+        "subject": "riscv: dts: spacemit: add K3 Pico-ITX board support"
+    },
+    "commit:99735a742f7e9a3e7f4cb6c58edf1b38101e7657": {
+        "subject": "clk: spacemit: Hide common clock driver from user controller"
+    },
+    "commit:2b7a02c322922a37cc5fc15d055b794cc2193062": {
+        "subject": "clk: spacemit: prepare common ccu header"
+    },
+    "commit:99669468d24ce21be12f3751e7381c47ab2c9ecd": {
+        "subject": "clk: spacemit: extract common ccu functions"
+    },
+    "commit:0664a46f93e2fb2f75fa05b5f08949600cce88f9": {
+        "subject": "clk: spacemit: add platform SoC prefix to reset name"
+    },
+    "commit:ecff77f7c04141cc18ee2482936c96117060c0f2": {
+        "subject": "reset: spacemit: fix auxiliary device id"
+    },
+    "commit:efe897b557e211a09f51d749eae5eca933e8bf56": {
+        "subject": "dt-bindings: soc: spacemit: k3: add clock support"
+    },
+    "commit:ace73b7e27633ec770cfb24cd4ff42c24815a9aa": {
+        "subject": "clk: spacemit: ccu_mix: add inverted enable gate clock"
+    },
+    "commit:3a086236c600739d6653c0405d86aff7d6f03c06": {
+        "subject": "clk: spacemit: ccu_pll: add plla type clock"
+    },
+    "commit:091d19cc24018f2bd783e932fb2403cb7a2bdb3c": {
+        "subject": "clk: spacemit: k3: extract common header"
+    },
+    "commit:e371a77255b837f5d64c9d2520f87e41ea5350b9": {
+        "subject": "clk: spacemit: k3: add the clock tree"
+    },
+    "commit:216e0a5e98e5f0f02a818884e8acf340892cecae": {
+        "subject": "dt-bindings: soc: spacemit: Add K3 reset support and IDs"
+    },
+    "commit:2875b4b5d2657ff2fd979103d88e9afcae51481c": {
+        "subject": "reset: Create subdirectory for SpacemiT drivers"
+    },
+    "commit:aba86f7bff0bfd6956aff9bbbfb0c6ea6d56809e": {
+        "subject": "reset: spacemit: Extract common K1 reset code"
+    },
+    "commit:938ce3b16582657e67f3bd8a7efa59089c467c90": {
+        "subject": "reset: spacemit: Add SpacemiT K3 reset driver"
+    },
+    "commit:48033e4c677be4e3f131df454d44a5d1fb1b334f": {
+        "subject": "dt-bindings: gpio: spacemit: add compatible name for K3 SoC"
+    },
+    "commit:da64eb51595bc6073b2fb69c2a3859bba93ed75a": {
+        "subject": "gpio: spacemit: Add GPIO support for K3 SoC"
+    },
+    "commit:5164e95565d3fd508ca8a95351323f5716dfb695": {
+        "subject": "riscv: dts: spacemit: Disable ETH PHY sleep mode for OrangePi"
+    },
+    "commit:5f352125f8a0bc906dff8419a2377903012d7f35": {
+        "subject": "dt-bindings: clock: thead,th1520-clk-ap: Add ID for C910 bus clock"
+    },
+    "commit:b436f8a82aaa3bd54cb79b1219d94a99f7351d33": {
+        "subject": "clk: thead: th1520-ap: Add C910 bus clock"
+    },
+    "commit:238cc6316a885765fd52a6dc65b9ca4e47647b1e": {
+        "subject": "clk: thead: th1520-ap: Support setting PLL rates"
+    },
+    "commit:5dbee3503771a36464e0b39a420475a727911c83": {
+        "subject": "clk: thead: th1520-ap: Add macro to define multiplexers with flags"
+    },
+    "commit:baf4fc7c03bd0f68c768cfe27829674bd060c6b4": {
+        "subject": "clk: thead: th1520-ap: Support CPU frequency scaling"
+    },
+    "commit:fd102acfd362de60a941d24f0836278d839b9391": {
+        "subject": "net: spacemit: display phy driver information"
+    },
+    "commit:aa7e37fd770bafaaf856ab77735296955b93e377": {
+        "subject": "gpio: spacemit-k1: Use PDR for pin direction, not SDR/CDR"
+    },
+    "commit:8df20813eb01fe29b4507fd470d73675bda3e1dd": {
+        "subject": "phy: Kconfig: spacemit: add COMMON_CLK dependency"
+    },
+    "commit:9d1e2d5f2b24a24b32aca451d6a7feb081ad5a62": {
+        "subject": "mfd: Kconfig: Default MFD_SPACEMIT_P1 to 'm' if ARCH_SPACEMIT"
+    },
+    "commit:7689c2d1bb1f53b170af79007d0611b43f232f05": {
+        "subject": "riscv: dts: spacemit: sdhci: add reset support"
+    },
+    "commit:a045359e72455c4fd178fbedbf398f8df7da97e7": {
+        "subject": "irqchip/sifive-plic: Fix call to __plic_toggle() in M-Mode code path"
+    },
+    "commit:889588d750506d86ba16ae3b968b5ffc5937d5f8": {
+        "subject": "dt-bindings: interrupt-controller: sifive,plic: Clarify the riscv,ndev meaning in PLIC"
+    },
+    "commit:42e025b719c128bdf8ff88584589a1e4a2448c81": {
+        "subject": "irqchip/sifive-plic: Handle number of hardware interrupts correctly"
+    },
+    "commit:e9a5415adb209f86a05e55b850127ada82e070f1": {
+        "subject": "PCI: dwc: Use multiple iATU windows for mapping large bridge windows and DMA ranges"
+    },
+    "commit:304c3ebcaff36560d76e3030ba0839e629635f47": {
+        "subject": "pinctrl: th1520: Fix typo"
+    },
+    "commit:611627a4e5e4af7b96aab4f10d130f6a8a615020": {
+        "subject": "PCI: cadence: Add module support for platform controller driver"
+    },
+    "commit:3977be25f5fd973cad6bed810ac1045ba8cfbfa6": {
+        "subject": "PCI: cadence: Split PCIe controller header file"
+    },
+    "commit:b80a7b4713c967479752ea4801eb1d1933093f58": {
+        "subject": "PCI: cadence: Move PCIe RP common functions to a separate file"
+    },
+    "commit:8babd8afe58a65c8d3cb9b5a6a8d24d4f93033ab": {
+        "subject": "PCI: cadence: Add support for High Perf Architecture (HPA) controller"
+    },
+    "commit:dec568a36f9b16f0334aed8e95ec4225606830cc": {
+        "subject": "net: stmmac: imx: use phylink's interface mode for set_clk_tx_rate()"
+    },
+    "commit:553f23d1953527eb277efa902cd498131b2527e1": {
+        "subject": "net: stmmac: s32: move PHY_INTF_SEL_x definitions out of the way"
+    },
+    "commit:4a4692e9091867dd413764c7d81f09e8109a233a": {
+        "subject": "net: stmmac: add phy_intf_sel and ACTPHYIF definitions"
+    },
+    "commit:b459790d3fd6d7ead31182ae0cd8632fe79deed6": {
+        "subject": "net: stmmac: add stmmac_get_phy_intf_sel()"
+    },
+    "commit:1b6aa81c85621d6b55099906585ff09a477203b8": {
+        "subject": "net: stmmac: add support for configuring the phy_intf_sel inputs"
+    },
+    "commit:8233cc439779eac1d2682d334c1aa6bb6d95120c": {
+        "subject": "net: stmmac: imx: convert to PHY_INTF_SEL_xxx"
+    },
+    "commit:d73c1dccfb9909f0e2d517af887fe414ab421cea": {
+        "subject": "net: stmmac: imx: use FIELD_PREP()/FIELD_GET() for PHY_INTF_SEL_x"
+    },
+    "commit:c012710c14a70dfa21691e2542d18dd4b621c518": {
+        "subject": "net: stmmac: imx: use stmmac_get_phy_intf_sel()"
+    },
+    "commit:35103babce3036058cd9ed8674c98e9ab397d715": {
+        "subject": "net: stmmac: imx: simplify set_intf_mode() implementations"
+    },
+    "commit:38cd4e84b369c11680966fdea129e11dbb28a6ec": {
+        "subject": "net: stmmac: imx: cleanup arguments for set_intf_mode() method"
+    },
+    "commit:eaca1a4dc51e5e4979e45a4ad72a1c2a88a80a72": {
+        "subject": "net: stmmac: imx: use ->set_phy_intf_sel()"
+    },
+    "commit:2185904ff8b5da76a4353e5d1236caa78e0d98e3": {
+        "subject": "powerpc/pci: Initialize msi_addr_mask for OF-created PCI devices"
+    },
+    "commit:147dae12985947cdb9e1918142f06482c5077a81": {
+        "subject": "sparc/PCI: Initialize msi_addr_mask for OF-created PCI devices"
+    },
+    "commit:a97fbc3ee3e2a536fafaff04f21f45472db71769": {
+        "subject": "syscore: Pass context data to callbacks"
+    },
+    "commit:95a8ddde36601d0a645475fb080ed118db59c8c3": {
+        "subject": "irqchip/riscv-aplic: Preserve APLIC states across suspend/resume"
+    },
+    "commit:620b6ded72a7f0f77be6ec44d0462bb85729ab7a": {
+        "subject": "irqchip/riscv-aplic: Do not clear ACPI dependencies on probe failure"
+    },
+    "commit:b330fbfd34d7624bec62b99ad88dba2614326a19": {
+        "subject": "irqchip/riscv-aplic: Register syscore operations only once"
+    },
+    "commit:b9f1c762a4de17d93017fbd12b9941caff6d3078": {
+        "subject": "dt-bindings: usb: add missed compatible string for arm64 layerscape"
+    },
+    "commit:7298c06d58e23c1c6e60180ab1ce069087ae38e2": {
+        "subject": "usb: dwc3: Add software-managed properties for flattened model"
+    },
+    "commit:1c97fc901fb6318aca0160da96736d0bc136ddcd": {
+        "subject": "usb: dwc3: dwc3-generic-plat: Add layerscape dwc3 support"
+    },
+    "commit:c640a4239db53e077dd5fd20db52fbc8b64f290b": {
+        "subject": "dt-bindings: usb: Add ESWIN EIC7700 USB controller"
+    },
+    "commit:e05d28b759c28660c28a36bf0add178edcc3466e": {
+        "subject": "usb: dwc3: eic7700: Add EIC7700 USB driver"
+    },
+    "commit:f0cf0a882a02dcf28547f32264f6fd37e9a7b147": {
+        "subject": "phy: k1-usb: add disconnect function support"
+    },
+    "commit:eeb95c07d5fcaafb1829d5307ce4290cf1dc3190": {
+        "subject": "PCI: Add ASPEED vendor ID to pci_ids.h"
+    },
+    "commit:550a190494a0d3e933dd6f3b2e9c430f94a30a8c": {
+        "subject": "PCI: Add PCI_BRIDGE_NO_ALIAS quirk for ASPEED AST1150"
+    },
+    "commit:6b60a128c2f43180664a614830f3c529497e0394": {
+        "subject": "riscv: patch: Avoid early phys_to_page()"
+    },
+    "commit:86cbb7a81068434fdc1d5afb96d91ab971fb279e": {
+        "subject": "PCI: dwc: Fail dw_pcie_host_init() if dw_pcie_wait_for_link() returns -ETIMEDOUT"
+    },
+    "commit:a0e0c2f8c5f32b675f58e25a9338283cedb5ad2b": {
+        "subject": "reset: spacemit: k3: Decouple composite reset lines"
+    },
+    "commit:0c0695a9d8c97f63d71dc890faa6999eef728f57": {
+        "subject": "rust: clk: implement Send and Sync"
+    },
+    "commit:ef90b103e8f767ffc31b1ddfef012358ea873d85": {
+        "subject": "tyr: remove impl Send/Sync for TyrData"
+    },
+    "commit:aa8f35172ab66c57d4355a8c4e28d05b44c938e3": {
+        "subject": "pwm: th1520: fix `CLIPPY=1` warning"
+    },
+    "commit:96f4e74cab632ea5c7e7fa996a28337283ecca11": {
+        "subject": "pwm: th1520: remove impl Send/Sync for Th1520PwmDriverData"
+    },
+    "commit:70eba59f92076d84264762d63d30532685943017": {
+        "subject": "net: spacemit: Remove unused buff_addr fields"
+    },
+    "commit:bb30400a566c7a6a9355873344ec63e2c6310e2c": {
+        "subject": "dt-bindings: net: Add support for Spacemit K3 dwmac"
+    },
+    "commit:d35aa97ea908a17809358a981bef6cd752f2e8a0": {
+        "subject": "net: stmmac: platform: Add snps,dwmac-5.40a IP compatible string"
+    },
+    "commit:30f0ba420ed3fb9a16d55523ae3c1b43a6f00e22": {
+        "subject": "net: stmmac: Add glue layer for Spacemit K3 SoC"
+    },
+    "commit:c7384288d9266e52cd35aadb1749872caf3c0257": {
+        "subject": "drm/imagination: Improve handling of unknown FWCCB commands"
+    },
+    "commit:4af267ce3441e10198daa52a8cc4b5cb4575d06f": {
+        "subject": "drm/imagination: Mark FWCCB_CMD_UPDATE_STATS as known"
+    },
+    "commit:51e39ceeca7e85a3b9ca533502a404eb5f3b0f02": {
+        "subject": "drm/imagination: Improve firmware power off for layout_mars config"
+    },
+    "commit:62a6f98cda4ec75107e96571346349a649fc63d1": {
+        "subject": "drm/imagination: Skip 2nd thread DM association for non META Firmware"
+    },
+    "commit:da173557a2b090d7d8c155283ba489a287983ced": {
+        "subject": "drm/imagination: Add missing rogue context reset reasons"
+    },
+    "commit:d994acc526c70d40ec9029cfe03d08ee411083c5": {
+        "subject": "drm/imagination: Implement handling of context reset notification"
+    },
+    "commit:c131d78840d7487e41c3afdc52bb74fd3f8861ef": {
+        "subject": "dt-bindings: vendor-prefixes: add verisilicon"
+    },
+    "commit:5f6965fa1e2ec8ac69e1d448d343a528dc60cdfb": {
+        "subject": "dt-bindings: display: add verisilicon,dc"
+    },
+    "commit:dbf21777caa8b8c88c12f7f036b01208fec0d55a": {
+        "subject": "drm: verisilicon: add a driver for Verisilicon display controllers"
+    },
+    "commit:3d60ff99a78ccd3b72765542dd083b134d6ae4bb": {
+        "subject": "dt-bindings: display/bridge: add binding for TH1520 HDMI controller"
+    },
+    "commit:96f30ee0fb9db1663eb8fd55c12e4c67da8c4a90": {
+        "subject": "drm/bridge: add a driver for T-Head TH1520 HDMI controller"
+    },
+    "commit:82ffa9610ba39d3628a9bec968ddc68fe2fe6612": {
+        "subject": "dt-bindings: mfd: spacemit,p1: Add individual regulator supply properties"
+    },
+    "commit:fbb4c52ccdcb4a612d2b7f800aa57090eeee16d7": {
+        "subject": "regulator: spacemit-p1: Update supply names"
+    },
+    "commit:658b716c048684ad13d78280d69b883f181251da": {
+        "subject": "mmc: sdhci-of-k1: add reset support"
+    },
+    "commit:b4206966e2d48883f04d5a2b2ae6c46b528245d3": {
+        "subject": "dt-bindings: mmc: spacemit,sdhci: add support for K3 SoC"
+    },
+    "commit:1e9f43a1dbefd3de45b97545e5773d2b52dc7f02": {
+        "subject": "mmc: sdhci-of-k1: spacemit: Add support for K3 SoC"
+    },
+    "commit:5ccc76a87f1ec2422811e61be44165bfc9e7cf54": {
+        "subject": "PCI: cadence: Add flags for disabling ASPM capability for broken Root Ports"
+    },
+    "commit:988ef706cdd8a72e61dd90c0d0554eec4df7594a": {
+        "subject": "PCI: sg2042: Avoid L0s and L1 on Sophgo 2042 PCIe Root Ports"
+    },
+    "commit:967ee29c103a44c6e584a5e37401968a69e54a0c": {
+        "subject": "dt-bindings: hwmon: moortec,mr75203: adapt multipleOf for T-Head TH1520"
+    },
+    "commit:74ef7844dd8c27d6b94ebc102bb4677edd3e7696": {
+        "subject": "drm/imagination: Disable interrupts before suspending the GPU"
+    },
+    "commit:5634f777a6a94db316f9b26c00525320c3b582c2": {
+        "subject": "riscv: dts: thead: add DPU and HDMI device tree nodes"
+    },
+    "commit:9c99a784d9117a192ebf779d4f72ebec435ada97": {
+        "subject": "riscv: dts: thead: lichee-pi-4a: enable HDMI"
+    },
+    "commit:a7aa874b69460896349985833059a764e688f1d0": {
+        "subject": "riscv: dts: thead: th1520: add coefficients to the PVT node"
+    },
+    "commit:74ec3d52c0035b662ec295bef2bbffad68446391": {
+        "subject": "riscv: dts: thead: beaglev-ahead: enable HDMI output"
+    },
+    "commit:5b74da8e6cf7e2b5aed0836c733238c0fd7235af": {
+        "subject": "i2c: spacemit: move i2c_xfer_msg()"
+    },
+    "commit:5dd75dac1b35e5b24f5051d01fc85105adcc2e15": {
+        "subject": "i2c: spacemit: introduce pio for k1"
+    },
+    "commit:c3b0c06b73974d75c640a4ebc8678f8538654e5a": {
+        "subject": "pinctrl: spacemit: return -ENOTSUPP for unsupported pin configurations"
+    },
+    "commit:47a9050e678c7929ada33c3f1f28ac4403423181": {
+        "subject": "gpio: spacemit-k1: Add set_config callback support"
+    },
+    "commit:8a9071299dec817a544c0fb48f7302396fafdc4b": {
+        "subject": "riscv: dts: spacemit: pcie: fix missing power regulator"
+    },
+    "commit:108c77b34b929e6bdb7ac9613ed65c90da8bcb9f": {
+        "subject": "riscv: dts: spacemit: Update PMIC supply properties for BPI-F3 and Jupiter"
+    },
+    "commit:ec1fb4e55df47ed043ab2ccc6787e39b9d67e49b": {
+        "subject": "riscv: dts: spacemit: adapt regulator node name to preferred form"
+    },
+    "commit:86314111f654310a69c9775e35e263c036031675": {
+        "subject": "riscv: dts: spacemit: Add 'linux,pci-domain' to PCIe nodes for K1"
+    },
+    "commit:606a6b8bca570aa4f838ddd410345a2937bd98eb": {
+        "subject": "dt-bindings: serial: 8250: spacemit: fix clock property for K3 SoC"
+    },
+    "commit:67072c8cd48c1fbb95cea39239eba5526395fcf5": {
+        "subject": "riscv: dts: spacemit: k3: add clock tree"
+    },
+    "commit:d8944577496b5b99061d3b2020704fc86ab1f9e6": {
+        "subject": "riscv: dts: spacemit: k3: add pinctrl support"
+    },
+    "commit:20b77926864203e10b85af5276b17c2812d92ec1": {
+        "subject": "riscv: dts: spacemit: k3: add GPIO support"
+    },
+    "commit:28a7f755d7c9a4b9c41c12620fb4885f39b554ad": {
+        "subject": "riscv: dts: spacemit: k3: add full resource to UART"
+    },
+    "commit:e7e86965a69d0f6797116e54dda01b56deca71c0": {
+        "subject": "dt-bindings: usb: dwc3: spacemit: add support for K3 SoC"
+    },
+    "commit:c05cf9d274daf72dc7e433480cf2e0e888f6bd89": {
+        "subject": "usb: dwc3: dwc3-generic-plat: spacemit: add support for K3 SoC"
+    },
+    "commit:764c2e6e60bf17910d84e7179fee14129e053b96": {
+        "subject": "usb: dwc3: Add optional VBUS regulator support to SpacemiT K1"
+    },
+    "commit:eac600d5cc42b04e799fb65169b8f4060773381b": {
+        "subject": "riscv: dts: spacemit: reorder phy nodes for K1"
+    },
+    "commit:c68360c0d636dae71f766b7b296ddfcf2827ccc7": {
+        "subject": "riscv: dts: spacemit: drop incorrect pinctrl for combo PHY"
+    },
+    "commit:74657a376960252e248089e518cfaaf813906989": {
+        "subject": "riscv: dts: spacemit: Add ethernet device for K3"
+    },
+    "commit:334e64abacd3df4005de80b082d0dbf02b453c76": {
+        "subject": "riscv: dts: spacemit: add LEDs for Milk-V Jupiter board"
+    },
+    "commit:77156216f1d0f57e1cfce3452410db20468edca4": {
+        "subject": "riscv: dts: spacemit: add 24c04 eeprom on Milk-V Jupiter"
+    },
+    "commit:7af5edec73d5d69618541f91600adeb6f35b7d17": {
+        "subject": "riscv: dts: spacemit: add i2c aliases on Milk-V Jupiter"
+    },
+    "commit:2829823956f0f590f5c6b4eafed2dab7a96f69b3": {
+        "subject": "riscv: dts: spacemit: enable QSPI and add SPI NOR on Milk-V Jupiter"
+    },
+    "commit:dce01d8585a22f708b5f1eb621cacd9878258ac8": {
+        "subject": "riscv: dts: spacemit: enable USB 3 ports on Milk-V Jupiter"
+    },
+    "commit:2b8bd26bbfcdeb1a06127dcd8f9101080133f2a1": {
+        "subject": "riscv: dts: spacemit: enable PCIe ports on Milk-V Jupiter"
+    },
+    "commit:4f1e5c967231fefcd04290396724d519961ecffb": {
+        "subject": "dt-bindings: i2c: spacemit: k3: Add compatible"
+    },
+    "commit:cb322cbffb1e70b4ca1be7955ed19fe486de8295": {
+        "subject": "dts: riscv: spacemit: k3: Add i2c nodes"
+    },
+    "commit:af62a095eb0c3359d477b55ef72d2afd94c83c8f": {
+        "subject": "dts: riscv: spacemit: k3: add P1 PMIC regulator tree"
+    },
+    "commit:616cd6047cbf736d93808f652086dd10a836005f": {
+        "subject": "perf symbol: Add RISCV case in get_plt_sizes"
+    },
+    "commit:c8d0c36d852ccd7caf9d5a44f3090f80a060c28d": {
+        "subject": "riscv: Simplify assignment for UTS_MACHINE"
+    },
+    "commit:580e626dd0304b4cafb2a5d21c6f0401b44f0ffb": {
+        "subject": "riscv: increase COMMAND_LINE_SIZE value to 2048"
+    },
+    "commit:dd598449338212f9262424fa67e40b5643ab6c06": {
+        "subject": "riscv: acpi: update FADT revision check to 6.6"
+    },
+    "commit:b0217d97eeeaca199eff23102b3fa72ea8c4ddea": {
+        "subject": "riscv: mm: WARN_ON() for bad addresses in vmemmap_populate()"
+    },
+    "commit:d1f014012571323f3857873d94c2abf9343ef62d": {
+        "subject": "riscv: enable HAVE_IOREMAP_PROT"
+    },
+    "commit:197b3f3c70d61ff1c7ca24f66d567e06fe8ed3d9": {
+        "subject": "string: provide strends()"
+    },
+    "commit:ae45f896a40a07449d9b45d0395fb7245fdd75fc": {
+        "subject": "lib/string_kunit: add correctness test for strlen()"
+    },
+    "commit:263dca234e5cc12aa8b434592ceb655538bf4ea4": {
+        "subject": "lib/string_kunit: add correctness test for strnlen()"
+    },
+    "commit:27b2810a4a3dcd1545ec8bafc82f967eda591c47": {
+        "subject": "lib/string_kunit: add correctness test for strrchr()"
+    },
+    "commit:0020240a431187628e2636284023e63b9b7a2aa1": {
+        "subject": "lib/string_kunit: add performance benchmark for strlen()"
+    },
+    "commit:e73bcb3708a69369d506e5bc6a63d4fc13d8e28a": {
+        "subject": "lib/string_kunit: extend benchmarks to strnlen() and chr searches"
+    },
+    "commit:5ba15d419fab848a3813eb56bbcad00e291fbc49": {
+        "subject": "riscv: lib: add strnlen() implementation"
+    },
+    "commit:adf542133960d402f63c976b00e46be4d986d4c3": {
+        "subject": "riscv: lib: add strchr() implementation"
+    },
+    "commit:bef64bcb940269a503d12eb1bc180d1aa9adf74d": {
+        "subject": "riscv: lib: add strrchr() implementation"
+    },
+    "commit:045ad2c623d607f2c7720e2b8fcda675d96f7381": {
+        "subject": "PCI: dwc: Add register and bitfield definitions"
+    },
+    "commit:6b4afbaaa342eaa52172e0be5ef8d1fcbf9ff460": {
+        "subject": "ASoC: spacemit: move hw constraints from hw_params to startup"
+    },
+    "commit:03dcb5b68a96b51157ec2d17042fa2f0106828ae": {
+        "subject": "ASoC: spacemit: adjust FIFO trigger threshold to half FIFO size"
+    },
+    "commit:5334eb9de76c74e24821aae89e111e27398b5add": {
+        "subject": "dt-bindings: reset: thead,th1520-reset: Remove non-VO-subsystem resets"
+    },
+    "commit:a35ac6f3bdb135debc8e1ff599d0009bc64dc329": {
+        "subject": "dt-bindings: reset: thead,th1520-reset: Add controllers for more subsys"
+    },
+    "commit:0040d9eac391bacefcb0c748cf32c8fe5900b13b": {
+        "subject": "reset: th1520: Prepare for supporting multiple controllers"
+    },
+    "commit:da91533c2b7a569b272b8271f0b2c407f86407ed": {
+        "subject": "reset: th1520: Support reset controllers in more subsystems"
+    },
+    "commit:d8a174babf649346b6dad6784ae1e9bc8417af71": {
+        "subject": "riscv: dts: thead: Add reset controllers of more subsystems for TH1520"
+    },
+    "commit:3e75021f615ceee8562e6455c335936b39929ffb": {
+        "subject": "clk: spacemit: k3: mark top_dclk as CLK_IS_CRITICAL"
+    },
+    "commit:ec0611868f2fcf29e4c2bebdc6702d3e1f272fec": {
+        "subject": "ASoC: spacemit: fix RX DMA params not set when TX is running"
+    },
+    "commit:7b5073f9897f67af58b5bf17232bf60fc42e7ecd": {
+        "subject": "i2c: spacemit: drop useless spaces"
+    },
+    "commit:dbfe51513aae6bace00cc390e11cb486a64a63d2": {
+        "subject": "clk: at91: pmc: #undef field_{get,prep}() before definition"
+    },
+    "commit:7996cbdb3f8472bc4286c776d3fa39cf0c20237a": {
+        "subject": "crypto: qat - #undef field_get() before local definition"
+    },
+    "commit:d51b09a0feb63029be64226502cbcf53adc434b0": {
+        "subject": "EDAC/ie31200: #undef field_get() before local definition"
+    },
+    "commit:d1e1a7271e97bf679d355777a10fa8c0dc259b86": {
+        "subject": "gpio: aspeed: #undef field_{get,prep}() before local definition"
+    },
+    "commit:27856d2b2b0f259ba261a3e3e028cc75a70ae817": {
+        "subject": "iio: dac: ad3530r: #undef field_prep() before local definition"
+    },
+    "commit:8a838dabf145818e67b304997c21a055dd5943dc": {
+        "subject": "iio: mlx90614: #undef field_{get,prep}() before local definition"
+    },
+    "commit:2fc00c008e9043ca66b711cc0df78a4d94da2e34": {
+        "subject": "pinctrl: ma35: #undef field_{get,prep}() before local definition"
+    },
+    "commit:138ab44108fad96c22b381ebfb6936ab9787aedc": {
+        "subject": "soc: renesas: rz-sysc: #undef field_get() before local definition"
+    },
+    "commit:85a8ff11853110e59396f97b3239db40cc89e08c": {
+        "subject": "ALSA: usb-audio: #undef field_{get,prep}() before local definition"
+    },
+    "commit:2a6c045640c38a407a39cd40c3c4d8dd2fd89aa8": {
+        "subject": "bitfield: Add less-checking __FIELD_{GET,PREP}()"
+    },
+    "commit:c1c6ab80b25c8db1e2ef5ae3ac8075d2c242ae13": {
+        "subject": "bitfield: Add non-constant field_{prep,get}() helpers"
+    },
+    "commit:0f8407a1f1c795c417e4c7750654a6024a3ec68b": {
+        "subject": "clk: at91: Convert to common field_{get,prep}() helpers"
+    },
+    "commit:350f06c9e2c97aca009fa10e8636ecf297ccd330": {
+        "subject": "crypto: qat - convert to common field_get() helper"
+    },
+    "commit:331a1457d8d5d233435633fcea116abeb775c4b4": {
+        "subject": "EDAC/ie31200: Convert to common field_get() helper"
+    },
+    "commit:2ef26ba8192c6ef49dd9ed1a95f990c438085517": {
+        "subject": "gpio: aspeed: Convert to common field_{get,prep}() helpers"
+    },
+    "commit:54bfd90ca3b41567cbfdac2f633ae329eb3a665a": {
+        "subject": "iio: dac: Convert to common field_prep() helper"
+    },
+    "commit:1fe1c28a108e4953f083c0106575ee0eccc296ae": {
+        "subject": "iio: mlx90614: Convert to common field_{get,prep}() helpers"
+    },
+    "commit:bb0e7fda87753a973cb4a86c22905b1177f00d4e": {
+        "subject": "pinctrl: ma35: Convert to common field_{get,prep}() helpers"
+    },
+    "commit:610c4408a2f7a09a00f656459e762ee1e21bbd7b": {
+        "subject": "soc: renesas: rz-sysc: Convert to common field_get() helper"
+    },
+    "commit:b1cff2f4b2391a13bd3e9263502072df1ee5d035": {
+        "subject": "ALSA: usb-audio: Convert to common field_{get,prep}() helpers"
+    },
+    "commit:3937b05bb78f3ad1e8887b91b9a97ea05ac0a4a8": {
+        "subject": "clk: renesas: Use bitfield helpers"
+    },
+    "commit:c604cb5fdf0f569a9ce344a37a79958c3841396e": {
+        "subject": "soc: renesas: Use bitfield helpers"
+    },
+    "commit:e972256f256c5ae908e15e2c6880f9144fbcae93": {
+        "subject": "dt-bindings: usb: Add support for Terminus FE1.1s USB2.0 Hub controller"
+    },
+    "commit:00b4fe5be06aecd6426930de86b7cffc2330f4b8": {
+        "subject": "usb: misc: onboard_usb_dev: Add Terminus FE1.1s USB2.0 Hub (1a40:0101)"
+    },
+    "commit:f2abc305aa93f5b12d5c929d7a9c1cf7d7fee8af": {
+        "subject": "riscv: Define __riscv_copy_{,vec_}{words,bytes}_unaligned() using SYM_TYPED_FUNC_START"
+    },
+    "commit:27cd2dde35b2c3b8659fa18f6a935c61fedee5c1": {
+        "subject": "spi: dt-bindings: fsl-qspi: support SpacemiT K3"
+    },
+    "commit:fdb69d401967fd88d27982a7e4984b2a3a4f0314": {
+        "subject": "RISC-V: KVM: Fix NULL pointer dereference in SBI v0.1 SEND_IPI handler"
+    },
+    "commit:30009a21f257a02feea7a7708ef3d0118e7f824a": {
+        "subject": "dt-bindings: mmc: sdhci-of-dwcmshc: Add Eswin EIC7700"
+    },
+    "commit:32b2633219d3509d8174737bb0a8afa060e55655": {
+        "subject": "mmc: sdhci-of-dwcmshc: Add support for Eswin EIC7700"
+    },
+    "commit:fd9809ec6704db0c162b4510b11f877ec7b72065": {
+        "subject": "mmc: sdhci-of-dwcmshc: Fix init for AXI clock for Eswin EIC7700"
+    },
+    "commit:5cfc828502cbd0c827113bdb5694c2658af2c37c": {
+        "subject": "mmc: sdhci-of-dwcmshc: Fix DMA 128MB boundary for Eswin EIC7700"
+    },
+    "commit:aad60bdd0b5a6dfa40454ab03ce658408eaf4615": {
+        "subject": "riscv: Fix fast_unaligned_access_speed_key not getting initialized"
+    },
+    "commit:070580b0b1740a4b930f367d21fdb5b253a8b3fb": {
+        "subject": "checkpatch: Suggest kmalloc_obj family for sizeof allocations"
+    },
+    "commit:81cee9166a9073b4da28e970e75d7f89c98ed966": {
+        "subject": "compiler_types: Introduce __flex_counter() and family"
+    },
+    "commit:e4c8b46b924eb8de66c6f0accc9cdd0c2e8fa23b": {
+        "subject": "slab: Introduce kmalloc_flex() and family",
+        "merged": [
+            "v6.18.39"
+        ]
+    },
+    "commit:fa5c82f4d2bbde10e9fd3a32aecacfe3813919ba": {
+        "subject": "slab.h: disable completely broken overflow handling in flex allocations"
+    },
+    "commit:e19e1b480ac73c3e62ffebbca1174f0f511f43e7": {
+        "subject": "add default_gfp() helper macro and use it in the new *alloc_obj() helpers",
+        "merged": [
+            "v6.18.39"
+        ]
+    },
+    "commit:4a93adcbd201aad5ba607810cfe1b19d44e5d171": {
+        "subject": "of: Add wrappers to match root node with OF device ID tables"
+    },
+    "commit:58f5d39d5ed8f2e43f230389ea0d59791afdcd55": {
+        "subject": "cpufreq: qcom-nvmem: add compatible fallback for ipq806x for no SMEM"
+    },
+    "commit:82b6c1b542ea0530318c6f2a880d884eb4dce49f": {
+        "subject": "of: Add of_machine_get_match() helper"
+    },
+    "commit:57814f2e0cd7960fc8bbe097c05fdf2c3f8c67e4": {
+        "subject": "of: Convert to of_machine_get_match()"
+    },
+    "commit:1838e0924e508eb30e140ad8f037863ee53be3c6": {
+        "subject": "cpufreq: airoha: Convert to of_machine_get_match()"
+    },
+    "commit:8cd94ead5184c5bdde74dc0afc316c6f3c41fdd7": {
+        "subject": "cpufreq: qcom-nvmem: Convert to of_machine_get_match()"
+    },
+    "commit:951318c4651a646f4835ae33abe7c4cb232e7c6e": {
+        "subject": "cpufreq: ti-cpufreq: Convert to of_machine_get_match()"
+    },
+    "commit:3ee3d8a44976ac7e39584637ee4c840d70ab2ad1": {
+        "subject": "soc: qcom: pd-mapper: Convert to of_machine_get_match()"
+    },
+    "commit:80623f2c83d7de5c289d4240b8f4cef4103c51fc": {
+        "subject": "init: deduplicate cc-can-link.sh invocations"
+    },
+    "commit:deab487e0f9b39ae4603e22d7d00908ebfc9753c": {
+        "subject": "kbuild: allow architectures to override CC_CAN_LINK"
+    },
+    "commit:4231325cfb87f712fcbe1fcbeea4186d18c78513": {
+        "subject": "dt-bindings: mmc: spacemit,sdhci: add reset support"
+    },
+    "commit:9cd74f935306cd857f46686975c43383e1d95f94": {
+        "subject": "drm/imagination: Count paired job fence as dependency in prepare_job()"
+    },
+    "commit:4baf9e70cb756d78dd56419f8baee2978a72d0c3": {
+        "subject": "drm/imagination: Fit paired fragment job in the correct CCCB"
+    },
+    "commit:18998b3cb7595850b8b2da55adb3fdc7aef8bc22": {
+        "subject": "drm/imagination: Skip check on paired job fence during job submission"
+    },
+    "commit:c162e655092de8de2e0f7776d72919dd5e3b84f2": {
+        "subject": "drm/imagination: Rename pvr_queue_fence_is_ufo_backed() to reflect usage"
+    },
+    "commit:5dae1a21f1e7128a19c68212422383f700699d01": {
+        "subject": "drm/imagination: Rename fence returned by pvr_queue_job_arm()"
+    },
+    "commit:402562e60c6c1b15ee359ba7ffed907baa886a99": {
+        "subject": "drm/imagination: Move repeated job fence check to its own function"
+    },
+    "commit:5c81eb2970133ad073214eb1e5b0c34a1ae793eb": {
+        "subject": "drm/imagination: Update check to skip prepare_job() for fragment jobs"
+    },
+    "commit:62a36c2da774800bef893bc4bf8922fb9c07c1d0": {
+        "subject": "drm/imagination: Minor improvements to job submission code documentation"
+    },
+    "commit:7378b6656aa46fda56f2743d5a7c1f619c2f6f9b": {
+        "subject": "perf riscv: Fix discarded const qualifier in _get_field()"
+    },
+    "commit:25c80f08e54ef5298eb68866f755f35b59a26d2b": {
+        "subject": "mfd: simple-mfd-i2c: Add a reboot cell for the SpacemiT P1 chip"
+    },
+    "commit:b610d5333c4b93389240b62d1b6299e7e2ee2e65": {
+        "subject": "spi: dt-bindings: add SpacemiT K1 SPI support"
+    },
+    "commit:efcd8b9d111177d48c841d09beca43b15d5b9e5f": {
+        "subject": "spi: spacemit: introduce SpacemiT K1 SPI controller driver"
+    },
+    "commit:00cef7eb08c8b9af0978f667c77c6a30b71b7e22": {
+        "subject": "spi: spacemit: add u64 cast to NSEC_PER_SEC to avoid 32-bit overflow"
+    },
+    "commit:c580774185426ea316396b1dc3f1737a3ad3800a": {
+        "subject": "riscv: dts: spacemit: define a SPI controller node"
+    },
+    "commit:0309075e080306ad2e3b3148a3495b10dd252ef2": {
+        "subject": "dt-bindings: thermal: Add SpacemiT K1 thermal sensor"
+    },
+    "commit:296a977f2bac45759a427dc57a21edb628f5c86c": {
+        "subject": "thermal/drivers/spacemit/k1: Add thermal sensor support"
+    },
+    "commit:247c77ff5806bcd6a5ff802718de1f0aa2bcba6c": {
+        "subject": "riscv: dts: spacemit: Add thermal sensor for K1 SoC"
+    },
+    "commit:a50940adfb8f390337d6ef9afe15b66ec498aceb": {
+        "subject": "riscv: mm: Rename new_vmalloc into new_valid_map_cpus"
+    },
+    "commit:26c171fc48539ac88d3697792b1fde9334af836c": {
+        "subject": "riscv: mm: Use the bitmap API for new_valid_map_cpus"
+    },
+    "commit:1b2c6b56a9fa0dcbef461039937de22b1cbecc7d": {
+        "subject": "riscv: mm: Unconditionally sfence.vma for spurious fault",
+        "merged": [
+            "v7.1.4",
+            "v6.18.39"
+        ]
+    },
+    "commit:f3336b48cf9d3f2d1fc78e3289c0ded2f00876ee": {
+        "subject": "riscv: mm: Define DIRECT_MAP_PHYSMEM_END",
+        "merged": [
+            "v7.1.4",
+            "v6.18.39"
+        ]
+    },
+    "commit:ad8fdebd40fd25e86331886f4fc6951531691319": {
+        "subject": "dt-bindings: phy: spacemit: k3: add USB2 PHY support"
+    },
+    "commit:056ee8b37bc91e3230afa11ec1018fa898b983b8": {
+        "subject": "phy: k1-usb: k3: add USB2 PHY support"
+    },
+    "commit:9637867d78a7bc5e76b17fe6cb0be5e054fce973": {
+        "subject": "drm: verisilicon: add max cursor size to HWDB"
+    },
+    "commit:8c4ae218912554ef427440293cdb97319d17ca5d": {
+        "subject": "drm: verisilicon: add support for cursor planes"
+    },
+    "commit:d9ff07f459552eabd04f8831bcaa76d761dfe264": {
+        "subject": "dt-bindings: PCI: Add UltraRISC DP1000 PCIe controller"
+    },
+    "commit:5fc35740c3b32d2c820c97d041282e7bca4ad0bf": {
+        "subject": "PCI: ultrarisc: Add UltraRISC DP1000 PCIe Root Complex driver"
+    },
+    "commit:6d7f4890bbb6fc8b70f618aa0407043b32bc738a": {
+        "subject": "serial: 8250_dwlib: move DesignWare register definitions to header"
+    },
+    "commit:07bb8459c443b840c55293cee1c726431dd749cf": {
+        "subject": "serial: 8250_dw: build Renesas RZN1 CPR value from DW_UART_CPR_* definitions"
+    },
+    "commit:d22d2e54f660eeb64e06f2cb6db068dac66a5733": {
+        "subject": "dt-bindings: serial: snps-dw-apb-uart: Add UltraRISC DP1000 UART"
+    },
+    "commit:4a9a0b1a82a8b23eb68032dd19b120e82cd67004": {
+        "subject": "serial: 8250_dw: Use a fixed CPR value for UltraRISC DP1000 UART"
+    },
+    "commit:ece83d42785e12ab7690c0c13b416baf46a74063": {
+        "subject": "riscv: dts: spacemit: Enable i2c8 adapter for OrangePi RV2"
+    },
+    "commit:c02c047b925c0ed101ec6834e1c07a53a45f98d4": {
+        "subject": "riscv: dts: spacemit: Define the P1 PMIC regulators for OrangePi RV2"
+    },
+    "commit:e3e433dd9aa04448f8f98d59359cab1340d994a3": {
+        "subject": "riscv: dts: spacemit: Enable USB3.0/PCIe on OrangePi RV2"
+    },
+    "commit:55620b11186c81757b05fb8e2df9ddc7127d6fd2": {
+        "subject": "dt-bindings: dmaengine: Add SpacemiT K3 DMA compatible string"
+    },
+    "commit:f46b47623e70dea8b03794a5420ffba060425e85": {
+        "subject": "dmaengine: mmp_pdma: refactor DRCMR access with helper function"
+    },
+    "commit:6587b8661a0b61c2f4b260bfc9f0e9ef9de0ea2e": {
+        "subject": "dmaengine: mmp_pdma: add SpacemiT K3 support"
+    },
+    "commit:3f47ca8bb3c3f4a71688451a0cb7350d3e1e1059": {
+        "subject": "riscv: dts: spacemit: Add PDMA controller node for K3 SoC"
+    },
+    "commit:c6d51515ee0b79a52b7e532b6b20067fa0cec96f": {
+        "subject": "dt-bindings: PCI: sophgo: Add dma-coherent property for SG2042"
+    },
+    "commit:2647eabde8de748ee2c9a2816615d4af3bd4bf9d": {
+        "subject": "riscv: dts: sophgo: Add dma-coherent to SG2042 PCIe controllers",
+        "merged": [
+            "v7.1.4"
+        ]
+    },
+    "commit:207cbc477406a72952e27ace2eadbae55164f129": {
+        "subject": "riscv: dts: sophgo: sg2044: use hex for CPU unit address"
+    },
+    "commit:a7e658907686528fe06a11828b04a3e42df9ef18": {
+        "subject": "riscv: dts: sophgo: sg2042: use hex for CPU unit address"
+    },
+    "commit:903a9364e40563faf4730dc63ad7446246f494ff": {
+        "subject": "riscv: dts: sophgo: reduce SG2042 MSI count to 16"
+    },
+    "commit:e7abbff5e8b2924a53b583e6d57804c6cad0ab81": {
+        "subject": "dt-bindings: pwm: marvell,pxa-pwm: Add SpacemiT K3 PWM support"
+    },
+    "commit:74bca0f2d37f5fd9a4bd5378d9f9579e72038556": {
+        "subject": "pwm: pxa: Add optional bus clock"
+    },
+    "commit:9fd44698b11dbdf4d29fdef0f0da25f320c13854": {
+        "subject": "riscv: ftrace: select HAVE_BUILDTIME_MCOUNT_SORT"
+    },
+    "commit:24c12ca43b12c104389d9a159207d0b25779d0af": {
+        "subject": "dts: spacemit: set console baud rate on bpif3"
+    },
+    "commit:c5ad6737df88bd3c3e83145edb25737cb19f9a1f": {
+        "subject": "riscv: dts: spacemit: enable USB3 on OrangePi R2S"
+    },
+    "commit:3c350f6284d8ea5e7a9648241b2e9604f2262d42": {
+        "subject": "dts: riscv: spacemit: correct 32k clock frequency"
+    },
+    "commit:6bc6b28c031484092ce1f829f59e4768e12b268e": {
+        "subject": "ASoC: dt-bindings: add SpacemiT K3 SoC compatible"
+    },
+    "commit:1c6ca2ca5c1bdc97912cf3f9b4a1e186919a6a98": {
+        "subject": "ASoC: spacemit: add K3 SoC support with additional clocks"
+    },
+    "commit:94bdfad3a665da68731deb56b0fe80f00a3e6da8": {
+        "subject": "ASoC: soc-dai: add shared BCLK clock for cross-DAI rate constraints"
+    },
+    "commit:2555c62275a10bb7dfb4476ebe73d48df11f3112": {
+        "subject": "ASoC: soc-pcm: add DEFINE_GUARD for snd_soc_card_mutex"
+    },
+    "commit:c8c2ffd722a6e497b9c6bb9961a7afb6ee5e2c28": {
+        "subject": "ASoC: soc-pcm: constrain hw_params when DAIs share the same BCLK"
+    },
+    "commit:f76c8be440e53465a306c95a7d50ca8675252f82": {
+        "subject": "dt-bindings: gpio: dwapb: allow GPIO hogs"
+    },
+    "commit:e2dac7c7a3a8970feeeb758f782ce86b89625ebd": {
+        "subject": "riscv: dts: spacemit: k1-musepi-pro: add PMIC and power infrastructure"
+    },
+    "commit:6bc75cfa56e885c2eab80e215f0a610075505846": {
+        "subject": "riscv: dts: spacemit: k1-musepi-pro: add 24c02 eeprom"
+    },
+    "commit:735b1b205d07bf7bfa55b1f50f5485b9cc42a251": {
+        "subject": "riscv: dts: spacemit: k1-musepi-pro: enable QSPI and add SPI NOR"
+    },
+    "commit:83c658c7a82304a2bc944cdd4a5b4f98d19322f0": {
+        "subject": "riscv: dts: spacemit: k1-musepi-pro: enable USB 3 ports"
+    },
+    "commit:d9ab0a855ba13f1db3ae16539348714c74010a22": {
+        "subject": "riscv: dts: spacemit: k1-musepi-pro: enable PCIe ports"
+    },
+    "commit:f125c6085fd775f09a316f61cc89a0ae86826895": {
+        "subject": "riscv: dts: spacemit: k1-musepi-pro: set default console baud rate"
+    },
+    "commit:844c29197366e25ad361cf725d80acb4f10e3e19": {
+        "subject": "riscv: dts: spacemit: k3: Add pwm support"
+    },
+    "commit:7d0dec57e52c7b5e14ba4ab6f86e9c17b850f1ec": {
+        "subject": "riscv: use sysfs_emit in cpu_show_ghostwrite"
+    },
+    "commit:d8a4cef90b1a4ae9196a5bfba683eb9a0c75acdc": {
+        "subject": "clk: spacemit: k3: Switch to pll2_d6 as parent for PCIe clock"
+    },
+    "commit:2f20c859a82a291483a8b3f01cbfbb1642782a14": {
+        "subject": "clk: spacemit: k3: Fix PCIe clock register offset"
+    },
+    "commit:7a2db70a3196717bfb01415b6dde1f90d4291ab1": {
+        "subject": "dt-bindings: soc: spacemit: k3: Add PCIe DBI clock IDs"
+    },
+    "commit:a37c75d7b5bb7f3344b0e639b313ac5ace6244ff": {
+        "subject": "clk: spacemit: k3: Add PCIe DBI clock"
+    },
+    "commit:f068b204555ad62d6a841a49feb4ea8c4f45b25c": {
+        "subject": "riscv: dts: spacemit: enable eMMC for OrangePi RV2"
+    },
+    "commit:04a8ddc39e5cfebffb06f383350a6ee393ba89a6": {
+        "subject": "dt-bindings: mmc: spacemit,sdhci: add pinctrl support for voltage switching"
+    },
+    "commit:f87b273e4b6dfe57dcd63c24cbe3764d1f6954ae": {
+        "subject": "mmc: sdhci-of-k1: enable essential clock infrastructure for SD operation"
+    },
+    "commit:00a97fc57c09ff1cf71107753d9b5629caeb8c8a": {
+        "subject": "mmc: sdhci-of-k1: add regulator and pinctrl voltage switching support"
+    },
+    "commit:e9cb83c10071808aa7db4582e007a650aa6aa183": {
+        "subject": "mmc: sdhci-of-k1: add comprehensive SDR tuning support"
+    },
+    "commit:2d77e577109967ef65f269c1fc1d6a659d4260fb": {
+        "subject": "riscv: dts: spacemit: k1: add SD card controller and pinctrl support"
+    },
+    "commit:2585c60ce2f977b13f14a67d1e3ed9c73fd7f381": {
+        "subject": "riscv: dts: spacemit: k1-orangepi-rv2: add SD card support with UHS modes"
+    },
+    "commit:c76e2f058cbcab84e4a703f26857a58bdf6a0042": {
+        "subject": "riscv: dts: spacemit: k1-bananapi-f3: add SD card support with UHS modes"
+    },
+    "commit:85e4c5733cd7efa39f10d7200095c016ce4a2815": {
+        "subject": "riscv: dts: spacemit: k1-musepi-pro: add SD card support with UHS modes"
+    },
+    "commit:2f60e351633044dee88b63fb1600e284d2476e9c": {
+        "subject": "riscv: dts: thead: Add TH1520 I2C1 controller"
+    },
+    "commit:a20241c08385c875c4d0deb6c8ffc15f13f5b388": {
+        "subject": "riscv: dts: thead: Enable WiFi on Lichee Pi 4A"
+    },
+    "commit:3a5791956edbfa84d7256224167941931cbc46e7": {
+        "subject": "riscv: dts: thead: Enable wifi on the BeagleV-Ahead"
+    },
+    "commit:3e17a4b443bbaecc723a2d51faeaa1a0097e43e9": {
+        "subject": "riscv: module: Use generic cmp_int() instead of custom cmp_3way()"
+    },
+    "commit:13fe217f64a7ee71aa58d871c6021a721a5a0c6f": {
+        "subject": "riscv: propagate insert_resource result from add_resource"
+    },
+    "commit:e2518e8cb1dde64af2d1bb246639bb7ef7523f7a": {
+        "subject": "riscv: dts: spacemit: enable QSPI for OrangePi RV2"
+    },
+    "commit:3ea695eb111fc5a7ffddd21d5c3fee6d82560413": {
+        "subject": "dts: riscv: spacemit: k3: Fix I/O power settings"
+    },
+    "commit:4f97acb4f744f516bbe976da8282c0fe213216ff": {
+        "subject": "riscv: dts: spacemit: set console baud rate on Milk-V Jupiter"
+    },
+    "commit:9cdeba29d65b10e7bdb1491167141ff2df238ab8": {
+        "subject": "riscv: dts: spacemit: sort aliases on Milk-V Jupiter"
+    },
+    "commit:4bc9f44d581be66718cf7cf6e649fb92b3c2e6c6": {
+        "subject": "riscv: dts: spacemit: enable eMMC on Milk-V Jupiter"
+    },
+    "commit:60b5e027c8c8cab69ad9cc7cab71ee795963e7b1": {
+        "subject": "riscv: dts: spacemit: enable SD card support on Milk-V Jupiter"
+    },
+    "commit:6edd9a0d32e1ef81133b8cb5b3bb3157a44da4d1": {
+        "subject": "riscv: dts: spacemit: fix uboot partition offset on Milk-V Jupiter"
+    },
+    "commit:09c816e5c4d3a8d6d6e4b7537433e5e98505d934": {
+        "subject": "pinctrl: spacemit: fix NULL check in spacemit_pin_set_config"
+    },
+    "commit:bce35135fecc7a73c60aaa9d2ec699ead1e32661": {
+        "subject": "riscv: also select ARCH_KEEP_MEMBLOCK if kexec is selected"
+    },
+    "commit:b67a1ee0db0094c6cc158b087be6c334ad881a41": {
+        "subject": "riscv: kexec_file: Constrain segment placement to direct map"
+    },
+    "commit:793cc54475b49b5b558902b5c13e4bfe66530a50": {
+        "subject": "riscv: dts: spacemit: enable PMIC on OrangePi R2S"
+    },
+    "commit:b4a789799d4c2be03a2c9a4e06f3ea817bb04416": {
+        "subject": "riscv: dts: spacemit: k3: Add Ziccrse extension for X100 cores"
+    },
+    "commit:851334760330dafa68ab8f371e804ea6ad56ff9a": {
+        "subject": "RISC-V: KVM: Enhance the logging check for mmu mapping"
+    },
+    "commit:d1e3a4c3b24d4430d9987a3f349c6c2a959a389a": {
+        "subject": "net: stmmac: dwmac-spacemit: Fix wrong phy interface definition"
+    },
+    "commit:bf5cd5d4ca423d348e01b3bbcdccd0e02b1b408b": {
+        "subject": "net: stmmac: dwmac-spacemit: Fix wrong irq definition"
+    },
+    "commit:a17be027dc5ccd51b99b5bc7b487ba9fbdc554e8": {
+        "subject": "dt-bindings: riscv: spacemit: add deepcomputing,fml13v05"
+    },
+    "commit:448fedd56cdfa68c2e661b16a8dfc8f3c40a1bcf": {
+        "subject": "riscv: dts: spacemit: add DeepComputing FML13V05 board device tree"
+    },
+    "commit:3abf3f5c84fd32a95132a403e0209c8010b227f8": {
+        "subject": "dt-bindings: riscv: spacemit: Add K3 CoM260-IFX board"
+    },
+    "commit:cfe5c91cb73c87f9021e446ec9d323c483851c46": {
+        "subject": "riscv: dts: spacemit: k3: Initial support for CoM260-IFX board"
+    },
+    "commit:84894ceb3c2ef5c5404359efd4edc6c438aa6d0c": {
+        "subject": "riscv: Implement ARCH_HAS_CC_CAN_LINK"
+    },
+    "commit:d3bd58f3060f28ecd30df51925a9b1f62e5e8c9b": {
+        "subject": "riscv: dts: spacemit: k3: Add USB2.0 support"
+    },
+    "commit:d38e710fba1806974051972d69fbbd6c69b55734": {
+        "subject": "i2c: busses: make K1 driver default for SpacemiT platforms"
+    },
+    "commit:c8c5a7835f5c9e34c8a15190519a2cc9ecb9b5b5": {
+        "subject": "riscv: Add build salt to the vDSO"
+    },
+    "commit:bc7b086a45521a986a49045907f017e3e46c763e": {
+        "subject": "riscv: probes: save original sp in rethook trampoline"
+    },
+    "commit:b8f62414fa05144924257db283c5c35f74d21121": {
+        "subject": "ACPI: RIMT: Only defer the IOMMU configuration in init stage"
+    },
+    "commit:75fb1a33f9ac4c9730e61bb19aaaab02023a99b2": {
+        "subject": "phy: move spacemit pcie driver to its subfolder"
+    },
+    "commit:754c6f539effa8ad332e305e34665849638fa40f": {
+        "subject": "scsi: ufs: dt-bindings: amd-versal2: Add UFS Host Controller for AMD Versal Gen 2 SoC"
+    },
+    "commit:00b3e8480be7a49203594bd1fdb4fd46f3b69d59": {
+        "subject": "scsi: firmware: xilinx: Add support for secure read/write ioctl interface"
+    },
+    "commit:0e4d26f79a74bc633846a27a9a20d52217c108dc": {
+        "subject": "scsi: firmware: xilinx: Add APIs for UFS PHY initialization"
+    },
+    "commit:769b8b2ffded4cd880669edd83e2952efeeb27f7": {
+        "subject": "scsi: ufs: amd-versal2: Add UFS support for AMD Versal Gen 2 SoC"
+    },
+    "commit:0444568edbf87c1da76b61c798ce0f1c1e478467": {
+        "subject": "scsi: ufs: amd-versal2: Fix PHY initialization in HCE enable notify"
+    },
+    "commit:0d9a7085ec24983b5b8a4971c0eb6c756c75f1bf": {
+        "subject": "scsi: ufs: core: Convert string descriptor format macros to enum"
+    },
+    "commit:b06b8c421485e0e96d7fd6aa614fb0b6f2778a03": {
+        "subject": "scsi: ufs: core: Add OP-TEE based RPMB driver for UFS devices"
+    },
+    "commit:7162536410768ec6b219524c36d3a871ff97adf8": {
+        "subject": "scsi: ufs: host: mediatek: Correct clock scaling with PM QoS flow"
+    },
+    "commit:55ce691dc75a356e4b7c552505ce0a427c72f3af": {
+        "subject": "scsi: ufs: host: mediatek: Adjust clock scaling for PM flow"
+    },
+    "commit:16b42c4281ae536a6ceda97303d9820ac5741293": {
+        "subject": "scsi: ufs: host: mediatek: Handle clock scaling for high gear in PM flow"
+    },
+    "commit:1fd05367d5b1a5edd3d14c966a5f510e5b8a0c5e": {
+        "subject": "scsi: ufs: host: mediatek: Adjust sync length for FASTAUTO mode"
+    },
+    "commit:9b2b03b36168bcda298546b121d6ecc530d01d25": {
+        "subject": "scsi: ufs: host: mediatek: Remove duplicate function"
+    },
+    "commit:4fb4c835a92b6dfa3a461102ba0943b416ae7e55": {
+        "subject": "scsi: ufs: host: mediatek: Add support for new platform with MMIO_OTSD_CTR"
+    },
+    "commit:9ce37e94c30090d26df26b1bbb2fa9c51ede7651": {
+        "subject": "scsi: ufs: host: mediatek: Support new features for MT6991"
+    },
+    "commit:d3eba21c71708746672587f1de2cc33e6a10d61a": {
+        "subject": "scsi: ufs: core: Introduce a new ufshcd vops negotiate_pwr_mode()"
+    },
+    "commit:c91c83671642d6140b703e999e2aff2d7ad57c74": {
+        "subject": "scsi: ufs: core: Pass force_pmc to ufshcd_config_pwr_mode() as a parameter"
+    },
+    "commit:6669ab18c2238299a685ada1acea1c7d4f1da1d5": {
+        "subject": "scsi: ufs: core: Add UFS_HS_G6 and UFS_HS_GEAR_MAX to enum ufs_hs_gear_tag"
+    },
+    "commit:03e5d38e2f985d8d0b0a60508c0b422f664808e3": {
+        "subject": "scsi: ufs: core: Add support for TX Equalization"
+    },
+    "commit:10c40143f369a601cc54dd39777843e000b730a6": {
+        "subject": "scsi: ufs: core: Add debugfs entries for TX Equalization params"
+    },
+    "commit:dc5dcac5327832bffc1971b1445553823bdebc08": {
+        "subject": "scsi: ufs: core: Add helpers to pause and resume command processing"
+    },
+    "commit:adbabdcf0db0f929e642f95d7528dce0f6bd3a11": {
+        "subject": "scsi: ufs: core: Add support to retrain TX Equalization via debugfs"
+    },
+    "commit:53c94067efa252e20f813c6eb714dc1cddf06aaa": {
+        "subject": "scsi: ufs: ufs-qcom: Fixup PAM-4 TX L0_L1_L2_L3 adaptation pattern length"
+    },
+    "commit:385b95893e799885ec54a4ec2e240b1d814205be": {
+        "subject": "scsi: ufs: ufs-qcom: Implement vops tx_eqtr_notify()"
+    },
+    "commit:26605db7604deb18cf004cf3ad51e72e5d9b7add": {
+        "subject": "scsi: ufs: ufs-qcom: Implement vops get_rx_fom()"
+    },
+    "commit:16cbdc8308776270d76340cd52ac63ac4fbf9968": {
+        "subject": "scsi: ufs: ufs-qcom: Implement vops apply_tx_eqtr_settings()"
+    },
+    "commit:57b7943fd87f086a3497ecbecc502b7418ed4ab8": {
+        "subject": "scsi: ufs: ufs-qcom: Enable TX Equalization"
+    },
+    "commit:81bbcff0c053c4f5c711c31a9b72fc492bd96c3f": {
+        "subject": "riscv: Prevent NULL pointer dereference in machine_kexec_prepare()"
+    },
+    "commit:a3320469e3c8a58c808a090f3e1b5bfccb4c59c6": {
+        "subject": "riscv: add UltraRISC SoC family Kconfig support"
+    },
+    "commit:3fb29495b486b1ec61708248cb388745fc607278": {
+        "subject": "riscv: defconfig: enable ARCH_ULTRARISC"
+    },
+    "commit:a2ac823d8a228e392bc6a79ea63b550ab84a55b2": {
+        "subject": "selftests/rseq: Fix a building error for riscv arch"
+    },
+    "mail:20260421143154.1590156-1-guoren@kernel.org": {
+        "subject": "riscv: errata: Add ERRATA_THEAD_WRITE_ONCE fixup"
+    },
+    "mail:20260331175658.1015829-2-gaohan@iscas.ac.cn": {
+        "subject": "PCI: Add per-device flag to disable native PCIe port services"
+    },
+    "mail:20260331175658.1015829-3-gaohan@iscas.ac.cn": {
+        "subject": "PCI: Add quirk to disable PCIe port services on Sophgo SG2042"
+    },
+    "mail:20250918-xe-pci-rebar-2-v1-1-6c094702a074@intel.com": {
+        "subject": "PCI: Release BAR0 of an integrated bridge to allow GPU BAR resize"
+    },
+    "mail:20240629052247.2653363-2-uwu@icenowy.me": {
+        "subject": "drm/ttm: save the device's DMA coherency status in ttm_device"
+    },
+    "mail:20240629052247.2653363-3-uwu@icenowy.me": {
+        "subject": "drm/ttm: downgrade cached to write_combined when snooping not available"
+    },
+    "mail:20251120131416.26236-8-ziyao@disroot.org": {
+        "subject": "NFU: riscv: dts: thead: Add CPU clock and OPP table for TH1520"
+    },
+    "mail:20251230-gcc-rust-v5-v6-1-2ac86ba728c8@isrc.iscas.ac.cn": {
+        "subject": "rust: export BINDGEN_TARGET from a separate Makefile"
+    },
+    "mail:20251230-gcc-rust-v5-v6-2-2ac86ba728c8@isrc.iscas.ac.cn": {
+        "subject": "rust: generate a fatal error if BINDGEN_TARGET is undefined"
+    },
+    "mail:20251230-gcc-rust-v5-v6-3-2ac86ba728c8@isrc.iscas.ac.cn": {
+        "subject": "rust: add a Kconfig function to test for support of bindgen options"
+    },
+    "mail:20251230-gcc-rust-v5-v6-4-2ac86ba728c8@isrc.iscas.ac.cn": {
+        "subject": "RISC-V: handle extension configs for bindgen, re-enable gcc + rust builds"
+    },
+    "mail:20260108-p1-kconfig-fix-v5-1-6fe19f460269@linux.spacemit.com": {
+        "subject": "regulator: spacemit: MFD_SPACEMIT_P1 as dependencies"
+    },
+    "mail:20260108-p1-kconfig-fix-v5-3-6fe19f460269@linux.spacemit.com": {
+        "subject": "rtc: spacemit: default module when MFD_SPACEMIT_P1 is enabled"
+    },
+    "mail:20260303-k1-ethernet-more-fixes-v1-4-0ab0122fdd14@iscas.ac.cn": {
+        "subject": "net: spacemit: Free rings of memory after unmapping DMA"
+    },
+    "mail:20260626-shadow-deps-v4-1-bba9831f2f1d@mailbox.org": {
+        "subject": "cpufreq: dt-platdev: Add SpacemiT K1 SoC to the allowlist"
+    },
+    "mail:20260626-shadow-deps-v4-2-bba9831f2f1d@mailbox.org": {
+        "subject": "riscv: dts: spacemit: Add cpu scaling for K1 SoC"
+    },
+    "mail:20260317-v7-0-rc1-rv-dis-int-before-restart-v2-1-0ecc85fbb7ff@linux.dev": {
+        "subject": "riscv: disable local interrupts and stop other CPUs before reboot/shutdown"
+    },
+    "mail:20260321-th1520-v1-1-ec877197770d@gmail.com": {
+        "subject": "drm/bridge: th1520-dw-hdmi: Fix error check on dw_hdmi_probe() return value"
+    },
+    "mail:20260321-th1520-v1-2-ec877197770d@gmail.com": {
+        "subject": "drm/bridge: th1520-dw-hdmi: Fix remove() callback"
+    },
+    "mail:20260331-fix-riscv-swiotlb-v1-1-74dd5e6be0f1@linux.dev": {
+        "subject": "riscv: mm: fix SWIOTLB initialization for systems with DRAM above 4GB"
+    },
+    "mail:20260325081700.1502-2-linux.amoon@gmail.com": {
+        "subject": "riscv: dts: spacemit: k1-bananapi-f3: Add vcc5v0_sys regulator for Banana Pi F3"
+    },
+    "mail:20260325081700.1502-3-linux.amoon@gmail.com": {
+        "subject": "riscv: dts: spacemit: k1-bananapi-f3: Update USB regulator on onboard usb and lable"
+    },
+    "mail:20260325081700.1502-4-linux.amoon@gmail.com": {
+        "subject": "riscv: dts: spacemit: k1-bananapi-f3: Correct USB hub power hierarchy"
+    },
+    "mail:20260424-riscv-mm-trust-fdt-mmu-type-v1-1-57f3313275d2@iscas.ac.cn": {
+        "subject": "riscv: mm: Do not probe satp mode limit if known in FDT"
+    },
+    "mail:20260507-i2s-same-blk-v2-3-ede05a22f732@linux.spacemit.com": {
+        "subject": "ASoC: spacemit: declare shared BCLK for cross-DAI rate constraint"
+    },
+    "mail:20260507081710.4090814-2-zhengxingda@iscas.ac.cn": {
+        "subject": "dt-bindings: clock: thead: add TH1520 MISC subsys clock controller"
+    },
+    "mail:20260507081710.4090814-3-zhengxingda@iscas.ac.cn": {
+        "subject": "clk: thead: th1520-ap: add support for MISC subsys clocks"
+    },
+    "mail:20260507081710.4090814-4-zhengxingda@iscas.ac.cn": {
+        "subject": "riscv: dts: thead: add device tree node for MISC clock controller"
+    },
+    "mail:20260507081710.4090814-5-zhengxingda@iscas.ac.cn": {
+        "subject": "dt-bindings: phy: add binding for T-Head TH1520 USB PHY"
+    },
+    "mail:20260507081710.4090814-6-zhengxingda@iscas.ac.cn": {
+        "subject": "phy: add a driver for T-Head TH1520 USB PHY"
+    },
+    "mail:20260507081710.4090814-7-zhengxingda@iscas.ac.cn": {
+        "subject": "riscv: dts: thead: add device nodes for USB"
+    },
+    "mail:20260507081710.4090814-9-zhengxingda@iscas.ac.cn": {
+        "subject": "dt-bindings: usb: vialab,vl817: allow ports property"
+    },
+    "mail:20260507081710.4090814-10-zhengxingda@iscas.ac.cn": {
+        "subject": "riscv: dts: thead: lpi4a: sort nodes"
+    },
+    "mail:20260507081710.4090814-11-zhengxingda@iscas.ac.cn": {
+        "subject": "riscv: dts: thead: Add TH1520 I2C nodes"
+    },
+    "mail:20260507081710.4090814-12-zhengxingda@iscas.ac.cn": {
+        "subject": "riscv: dts: thead: Add Lichee Pi 4A IO expansions"
+    },
+    "mail:20260507081710.4090814-13-zhengxingda@iscas.ac.cn": {
+        "subject": "riscv: dts: thead: enable USB3 ports on Lichee Pi 4A"
+    },
+    "mail:20260508-k1-i2c-ilcr-v7-1-8c2dde5c3ed5@linux.spacemit.com": {
+        "subject": "i2c: spacemit: configure ILCR/IWCR for accurate SCL frequency"
+    },
+    "mail:20260508-k1-i2c-ilcr-v7-2-8c2dde5c3ed5@linux.spacemit.com": {
+        "subject": "i2c: spacemit: drop warning when clock-frequency property is absent"
+    },
+    "mail:20260709040027.958400-2-inochiama@gmail.com": {
+        "subject": "PCI: spacemit-k1: Add device data support"
+    },
+    "mail:20260709040027.958400-3-inochiama@gmail.com": {
+        "subject": "PCI: spacemit-k1: Add multiple PHY handles support"
+    },
+    "mail:20260709040027.958400-4-inochiama@gmail.com": {
+        "subject": "PCI: spacemit-k1: Add device id update helper"
+    },
+    "mail:20260709040027.958400-5-inochiama@gmail.com": {
+        "subject": "dt-bindings: PCI: snps,dw-pcie: Add msi-parent for MSI handle check"
+    },
+    "mail:20260709040027.958400-6-inochiama@gmail.com": {
+        "subject": "dt-bindings: PCI: spacemit: Introduce Spacemit K3 PCIe host controller"
+    },
+    "mail:20260709040027.958400-7-inochiama@gmail.com": {
+        "subject": "PCI: spacemit-k1: Add Spacemit K3 PCIe host controller support"
+    },
+    "mail:20260518-06-clk-reset-usb-fix-v1-1-14fc235e692b@kernel.org": {
+        "subject": "clk: spacemit: k3: fix USB2 bus clock"
+    },
+    "mail:20260518-06-clk-reset-usb-fix-v1-2-14fc235e692b@kernel.org": {
+        "subject": "reset: spacemit: k3: fix USB2 ahb reset",
+        "replacement": "commit:1ca22c6aa006b05143367268066fb74e32cfe66b"
+    },
+    "mail:20260711-k3-pico-itx-qspi-v3-v3-1-d6b37fc86c39@gmail.com": {
+        "subject": "riscv: dts: spacemit: k3: Add QSPI support for Pico-ITX board"
+    },
+    "mail:20260520111150.3300707-1-jberring@redhat.com": {
+        "subject": "riscv: dts: spacemit: set console baud rate on OrangePi RV2"
+    },
+    "mail:20260602100000.2402784-1-amadeus@jmu.edu.cn": {
+        "subject": "riscv: dts: spacemit: enable PCIe on OrangePi R2S"
+    },
+    "mail:20260614122812.2287506-1-a.heider@gmail.com": {
+        "subject": "riscv: dts: spacemit: k1-musepi-pro: add cpu scaling"
+    },
+    "mail:20260610-07-k3-enable-sd-v1-1-196ae29bd091@kernel.org": {
+        "subject": "riscv: dts: spacemit: k3: Enable SD card support"
+    },
+    "mail:20260616-riscv-acpi-table-upgrade-v1-1-45902d2dedf9@iscas.ac.cn": {
+        "subject": "ACPI: tables: Add missing #include <asm/fixmap.h>"
+    },
+    "mail:20260616-riscv-acpi-table-upgrade-v1-2-45902d2dedf9@iscas.ac.cn": {
+        "subject": "riscv: acpi: Enable ARCH_HAS_ACPI_TABLE_UPGRADE"
+    },
+    "mail:20260204155309.763597-2-anup.patel@oss.qualcomm.com": {
+        "subject": "RISC-V: Add common csr_read_num() and csr_write_num() functions"
+    },
+    "mail:20260609192856874Y8AaPpKL5TnmbgiWI8DI3@zte.com.cn": {
+        "subject": "ACPI: RISC-V: Fix false warning in cppc_read_ffh() for same-CPU reads"
+    },
+    "mail:1c378963f27c5960e8a57c50b8b444d30954cb54.1781666867.git.namcao@linutronix.de": {
+        "subject": "riscv: unaligned: stop using kthread for check_vector_unaligned_access()"
+    },
+    "mail:50ca78a649faf53f8941bc94c9cf8268b3644d38.1781666867.git.namcao@linutronix.de": {
+        "subject": "Revert \"riscv: hwprobe: Fix stale vDSO data for late-initialized keys at boot\""
+    },
+    "mail:20260623083551.86021-1-cuiyunhui@bytedance.com": {
+        "subject": "riscv: uaccess: Add a fast path for small aligned copies"
+    },
+    "mail:20260623204431.498700-2-aurelien@aurel32.net": {
+        "subject": "riscv: dts: spacemit: set console baud rate on K3 Pico-ITX board"
+    },
+    "mail:20260623204431.498700-3-aurelien@aurel32.net": {
+        "subject": "riscv: dts: spacemit: enable the i2c2 adapter on K3 Pico-ITX board"
+    },
+    "mail:20260623204431.498700-4-aurelien@aurel32.net": {
+        "subject": "riscv: dts: spacemit: add 24c02 eeprom on K3 Pico-ITX board"
+    },
+    "mail:20260623204431.498700-5-aurelien@aurel32.net": {
+        "subject": "riscv: dts: spacemit: add i2c aliases on K3 Pico-ITX board"
+    },
+    "mail:20260623204431.498700-6-aurelien@aurel32.net": {
+        "subject": "riscv: dts: spacemit: improve RTL8211F PHY configuration on K3 Pico-ITX board"
+    },
+    "mail:20260623204058.498120-1-aurelien@aurel32.net": {
+        "subject": "arch/riscv: vdso: remove CFI landing pad from rt_sigreturn",
+        "replacement": "commit:e4bf6eb4c7b61db1cf24487e14e6ae8755e61e3d"
+    },
+    "mail:20260515-ultrarisc-pinctrl-v1-1-bf559589ea8a@ultrarisc.com": {
+        "subject": "dt-bindings: vendor-prefixes: add Rongda"
+    },
+    "mail:20260515-ultrarisc-pinctrl-v1-2-bf559589ea8a@ultrarisc.com": {
+        "subject": "dt-bindings: riscv: cpus: Add UltraRISC CP100 compatible"
+    },
+    "mail:20260515-ultrarisc-pinctrl-v1-3-bf559589ea8a@ultrarisc.com": {
+        "subject": "dt-bindings: riscv: Add UltraRISC DP1000 bindings"
+    },
+    "mail:20260515-ultrarisc-pinctrl-v1-5-bf559589ea8a@ultrarisc.com": {
+        "subject": "riscv: dts: ultrarisc: Add initial device tree for UltraRISC DP1000"
+    },
+    "mail:20260515-ultrarisc-pinctrl-v1-7-bf559589ea8a@ultrarisc.com": {
+        "subject": "riscv: dts: ultrarisc: add Rongda M0 board device tree"
+    },
+    "mail:20260515-ultrarisc-pinctrl-v1-8-bf559589ea8a@ultrarisc.com": {
+        "subject": "riscv: dts: ultrarisc: add Milk-V Titan board device tree"
+    },
+    "mail:20260624220434.4183732-1-felixonmars@archlinux.org": {
+        "subject": "clocksource/drivers/timer-sun4i: Advertise a real minimum delta"
+    },
+    "mail:20260620-b4-k1-pdma-req-macros-v4-1-3cf77d0bd0d6@gmail.com": {
+        "subject": "riscv: dts: spacemit: Use symbolic PDMA request numbers on K1"
+    },
+    "mail:20260629-riscv-mm-new-valid-map-ordering-v1-1-60d8c10c6292@iscas.ac.cn": {
+        "subject": "riscv: mm: Fix concurrency in mark_new_valid_map()"
+    },
+    "mail:20260630-06-clk-ufs-support-v1-1-cf7521d1d0fe@kernel.org": {
+        "subject": "clk: spacemit: k3: fix parent clock of UFS aclk"
+    },
+    "mail:20260630-06-clk-ufs-support-v1-2-cf7521d1d0fe@kernel.org": {
+        "subject": "dt-bindings: soc: spacemit: k3: Add clock ID for UFS refclk"
+    },
+    "mail:20260630-06-clk-ufs-support-v1-3-cf7521d1d0fe@kernel.org": {
+        "subject": "clk: spacemit: k3: Add UFS refclk clock"
+    },
+    "mail:20260630-riscv-no-stack-when-wrong-scratch-v1-1-0f9b9cb5cf67@iscas.ac.cn": {
+        "subject": "riscv: Avoid stack access when CSR_SCRATCH is incorrect"
+    },
+    "mail:20260630-06-clk-hdma-critial-v1-1-443c0ac88c5f@kernel.org": {
+        "subject": "clk: spacemit: k3: set hdma clock as critical"
+    },
+    "mail:20260630-06-clk-hdma-critial-v1-2-443c0ac88c5f@kernel.org": {
+        "subject": "clk: spacemit: k3: set rcpu clock as critical"
+    },
+    "mail:20260702-08-k3-ufs-support-v1-1-1a64a3ab128f@kernel.org": {
+        "subject": "scsi: ufs: spacemit: dt-bindings: Add UFS controller for K3 SoC"
+    },
+    "mail:20260702-08-k3-ufs-support-v1-2-1a64a3ab128f@kernel.org": {
+        "subject": "scsi: ufs: spacemit: k3: Add UFS Host Controller driver"
+    },
+    "mail:20260702-08-k3-ufs-support-v1-3-1a64a3ab128f@kernel.org": {
+        "subject": "riscv: dts: spacemit: k3: Add UFS support"
+    },
+    "mail:20260703021024.495433-2-inochiama@gmail.com": {
+        "subject": "dt-bindings: phy: Add Spacemit K3 USB3/PCIe comb phy support"
+    },
+    "mail:20260703021024.495433-3-inochiama@gmail.com": {
+        "subject": "phy: spacemit: Add USB3/PCIe comb PHY driver for Spacemit K3"
+    },
+    "mail:20260704122230.75964-1-pengpeng@iscas.ac.cn": {
+        "subject": "gpio: sifive: add missing MODULE_DEVICE_TABLE()"
+    },
+    "mail:20260704122538.92830-1-pengpeng@iscas.ac.cn": {
+        "subject": "PCI: dwc: spacemit: add missing MODULE_DEVICE_TABLE()"
+    },
+    "mail:20260708095046716mVQlEvhyoXko9eueCxict@zte.com.cn": {
+        "subject": "riscv: stacktrace: Fix NULL task pointer in ftrace_graph_ret_addr()"
+    },
+    "mail:20260706123554.455065-1-qirui.001@bytedance.com": {
+        "subject": "riscv: ftrace: only use pre-function NOPs with call ops"
+    },
+    "mail:20260709-riscv-install-vdso-v1-1-0ba4345419ca@linutronix.de": {
+        "subject": "riscv: vdso: Only try to install vDSO when present"
+    },
+    "mail:20260709040415.977784-2-inochiama@gmail.com": {
+        "subject": "riscv: dts: spacemit: k3: add USB controller and USB phy support"
+    },
+    "mail:20260709040415.977784-3-inochiama@gmail.com": {
+        "subject": "riscv: dts: spacemit: k3: Add PCIe device node"
+    },
+    "mail:20260710063314.1030249-1-inochiama@gmail.com": {
+        "subject": "riscv: dts: spacemit: Add enough deassert time for the PHY on PICO ITX"
+    },
+    "mail:20260710063314.1030249-2-inochiama@gmail.com": {
+        "subject": "riscv: dts: spacemit: Add enough deassert time for the PHY on com260 board"
+    },
+    "mail:20260712045233.800748-1-inochiama@gmail.com": {
+        "subject": "Failed to reinit phy of spacemit-dwmac when reset-gpio is present"
+    },
+    "mail:20260713-mark-after-vmemmap-populate-v6-1-b945ceba29d4@iscas.ac.cn": {
+        "subject": "riscv: mm: Make mark_new_valid_map() stuff depend on 64BIT && MMU",
+        "replacement": "commit:b6ea9680f8c101967caf9981c2980b80b818ccbf"
+    },
+    "mail:20260713-mark-after-vmemmap-populate-v6-2-b945ceba29d4@iscas.ac.cn": {
+        "subject": "mm/sparse-vmemmap: flush_cache_vmap() after hotplugging vmemmap",
+        "replacement": "commit:4edd70ee6a7d0408a4e3ac921185779e7605f29c"
+    },
+    "mail:20260714185648.1082483-1-ezulian@redhat.com": {
+        "subject": "riscv: mm: Move dma_contiguous_reserve() after NUMA initialization"
+    },
+    "mail:20260717-k3-clk-fix-i2s-v1-1-e95001a692ee@linux.spacemit.com": {
+        "subject": "dt-bindings: soc: spacemit: k3: add i2s_sysclk, i2s_bclk_factor and i2s1_sysclk_src IDs"
+    },
+    "mail:20260717-k3-clk-fix-i2s-v1-2-e95001a692ee@linux.spacemit.com": {
+        "subject": "clk: spacemit: k3: fix i2s clock topology"
+    },
+    "mail:20260717-k3-clk-fix-i2s-v1-3-e95001a692ee@linux.spacemit.com": {
+        "subject": "clk: spacemit: k3: fix missing /2 factor in i2s sysclk dividers"
+    },
+    "mail:20260716213314.3027969-2-aurelien@aurel32.net": {
+        "subject": "riscv: defconfig: enable RFKILL and RFKILL_GPIO"
+    },
+    "mail:20260716213314.3027969-3-aurelien@aurel32.net": {
+        "subject": "riscv: dts: spacemit: k3: add rfkill node for Bluetooth on Pico-ITX board"
+    },
+    "mail:20260716213314.3027969-4-aurelien@aurel32.net": {
+        "subject": "riscv: dts: spacemit: k3: add USB3 B and C controllers for Pico-ITX board"
+    },
+    "mail:20260716213314.3027969-5-aurelien@aurel32.net": {
+        "subject": "riscv: dts: spacemit: k3: add rfkill node for WLAN on Pico-ITX board"
+    },
+    "mail:20260716-numa_kconfig-v1-1-b0cd6d29accb@ultrarisc.com": {
+        "subject": "riscv: require vmemmap for NUMA balancing"
+    },
+    "mail:20260716053319.2178937-1-namcao@linutronix.de": {
+        "subject": "riscv: time: Add missing __iomem in get_cycles() and get_cycles_hi()"
+    },
+    "mail:20260716-rtw89-spacemit-k3-v2-1-392b577ebf75@oss.tenstorrent.com": {
+        "subject": "PCI: Move Spacemit vendor and device IDs to linux/pci_ids.h"
+    },
+    "mail:20260716-rtw89-spacemit-k3-v2-2-392b577ebf75@oss.tenstorrent.com": {
+        "subject": "wifi: rtw89: pci: enable 36-bit DMA on spacemit K3"
+    },
+    "mail:20260717-riscv-no-zacas-zabha-in-march-v1-1-82b5b0799fb6@iscas.ac.cn": {
+        "subject": "riscv: cmpxchg: Use .option arch for Zacas and Zabha"
+    },
+    "commit:1ca22c6aa006b05143367268066fb74e32cfe66b": {
+        "subject": "reset: spacemit: k3: fix USB2 ahb reset"
+    },
+    "commit:f196a86687974cfcc1e8cade99ffca4605141860": {
+        "subject": "iommu/riscv: Advertise Svpbmt support to generic page table"
+    },
+    "commit:499578e22ae0cc33d05803f22e5c71ffb7077b2f": {
+        "subject": "riscv: vdso: Always declare vdso_start symbols"
+    },
+    "commit:4fd6505f189d447abbed1f1f6fe6b82649f27a46": {
+        "subject": "riscv: alternative: Use IS_ENABLED() over ifdeffery for apply_vdso_alternatives()"
+    },
+    "commit:6386161abb02880ace2cc965e73f7857b351706c": {
+        "subject": "riscv: alternative: Pass vDSO start as parameter to apply_vdso_alternatives()"
+    },
+    "commit:d3e0634787a234b40a740b9c398fd320a68db81c": {
+        "subject": "riscv: alternative: Also patch the CFI vDSO"
+    },
+    "mail:20251221-07-k1-sdhci-reset-v1-1-6780af7fa6e7@gentoo.org": {
+        "subject": "dt-bindings: mmc: spacemit,sdhci: add reset support"
+    },
+    "mail:20260512074142.16356-3-fangyu.yu@linux.alibaba.com": {
+        "subject": "iommupt: Encode IOMMU_MMIO/IOMMU_CACHE via RISC-V Svpbmt bits"
+    },
+    "mail:20260609130021.99899-2-cuiyunhui@bytedance.com": {
+        "subject": "dt-bindings: riscv: clarify Svadu boot-time behavior"
+    },
+    "mail:20260609130021.99899-3-cuiyunhui@bytedance.com": {
+        "subject": "riscv: track effective hardware PTE A/D updating"
+    },
+    "mail:20260609130021.99899-4-cuiyunhui@bytedance.com": {
+        "subject": "riscv: preserve A/D and soft-dirty state across PTE updates"
+    },
+    "mail:20260630-riscv-vdso32-alternative-v1-1-a32fd89b7b1c@linutronix.de": {
+        "subject": "riscv: vdso: Add symbols for the alternative section boundaries"
+    },
+    "mail:20260630-riscv-vdso32-alternative-v1-2-a32fd89b7b1c@linutronix.de": {
+        "subject": "riscv: alternative: Use the statically extracted vDSO section offsets"
+    },
+    "mail:20260630-riscv-vdso32-alternative-v1-3-a32fd89b7b1c@linutronix.de": {
+        "subject": "riscv: alternative: Also patch the compat vDSO"
+    },
+    "mail:20260701-riscv-vdso-lto-v1-1-89db0cd82077@linutronix.de": {
+        "subject": "riscv: vdso: Do not use LTO for the vDSO",
+        "replacement": "commit:ad6dcfa023762e37962f77ee48e752b7570e9440"
+    },
+    "mail:20260701-riscv-vdso-lto-v1-2-89db0cd82077@linutronix.de": {
+        "subject": "riscv: vdso: Simplify cflags remove logic"
+    },
+    "commit:ad6dcfa023762e37962f77ee48e752b7570e9440": {
+        "subject": "riscv: vdso: Do not use LTO for the vDSO"
+    },
+    "commit:b6ea9680f8c101967caf9981c2980b80b818ccbf": {
+        "subject": "riscv: mm: Make mark_new_valid_map() stuff depend on 64BIT && MMU"
+    },
+    "commit:4edd70ee6a7d0408a4e3ac921185779e7605f29c": {
+        "subject": "mm/sparse-vmemmap: flush_cache_vmap() after hotplugging vmemmap"
+    },
+    "commit:e4bf6eb4c7b61db1cf24487e14e6ae8755e61e3d": {
+        "subject": "arch/riscv: vdso: remove CFI landing pad from rt_sigreturn"
+    }
+}
