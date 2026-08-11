@@ -1,0 +1,131 @@
+# Patchoulene (`patl`)
+
+The openRuyi Linux kernel patch database tool.
+
+## Stability
+
+For now, there is no stability guarantee for Patchoulene whatsoever.
+This tool is only intended to be compatible with the `patches.json` file in this repository at the same commit as the tool.
+Format migration can and will happen without notice.
+
+## Setup
+
+Example setup: In your Linux Git worktree containing the `.git` directory:
+
+```console
+$ echo /patches.json >> .git/info/exclude
+$ echo /patl >> .git/info/exclude
+$ ln -s .../path/to/patchoulene/patl .
+$ ln -s .../path/to/patches.json .
+```
+
+To run Patchoulene:
+
+```console
+$ ./patl ...
+```
+
+## Usage
+
+### Database management
+
+Patchoulene always reads from:
+
+- `patches.json.new`, if it exists, and
+- `patches.json`, otherwise.
+
+Patchoulene always writes the new database to `patches.json.new`.
+
+To update the database:
+
+```console
+$ diff patches.json patches.json.new    # Review
+$ cp patches.json.new patches.json
+$ rm patches.json.new    # (Optional)
+```
+
+### `check`
+
+```console
+$ ./patl check <rev>
+```
+
+Check patches in `rev` for potential problems. Use `HEAD` as `rev` to check the current checked out HEAD.
+
+Currently, these problems are diagnosed:
+
+- Message has no identifier
+
+  This commit message has no identifier, and thus is not trackable by Patchoulene.
+
+- Message line '...' confuses git am
+
+  The message contains content that would confuse `git mailsplit` or `git mailinfo`, which means that a patch generated from `git format-patch` on this commit would not be correctly handled by `git am`.
+
+### `walk`
+
+```console
+$ ./patl walk <rev>
+```
+
+Record patches in `rev`. Write newly found patches to database.
+
+In addition, if patches are found that are potentially replacements for previously known patches, a prompt appears to confirm this:
+
+```
+Is new patch commit:4edd70ee6a7d0408a4e3ac921185779e7605f29c
+  "mm/sparse-vmemmap: flush_cache_vmap() after hotplugging vmemmap"
+... the replacement of patch mail:20260713-mark-after-vmemmap-populate-v6-2-b945ceba29d4@iscas.ac.cn?
+  (Identifier matches)
+  "mm/sparse-vmemmap: flush_cache_vmap() after hotplugging vmemmap" (identical subject)
+[Y/n]?
+```
+
+If you say Y, the old patch is regarded as being replaced by the new patch. If you say N, it will be ignored.
+
+It is safe to run `./patl walk <rev>` for the same `rev` multiple times.
+
+### `record`
+
+```console
+$ ./patl record <upstream-tag-1> <upstream-tag-2>
+```
+
+Record patches that are included between `upstream-tag-1` and `upstream-tag-2`.
+
+Commit in `<upstream-tag-1>...<upstream-tag-2>` are inspected for potential matches in the database.
+If any commit hash matches are found, they're added to the database and recorded as being merged in `upstream-tag-2`.
+If less precise matches are found, they're prompted for, similar to patch replacements.
+
+`upstream-tag-1` and `upstream-tag-2` should be adjacent, so that the patch information will be precise.
+It is safe to run `./patl record <upstream-tag-1> <upstream-tag-2>` for the same tags multiple times.
+
+### `diff`
+
+```console
+$ ./patl diff <rev1> <rev2>
+```
+
+Compare patches between `rev1` and `rev2`, using information in the database.
+
+## Patch series and identifiers
+
+(TODO)
+
+## Database format
+
+The database is, for now, a JSON file following the schema in `patches.schema.json`.
+It is intended for both automatic and manual modification.
+The format is somewhat version control friendly, but it is not ideal.
+Tools intending to modify the `patches.json` automatically *should* preserve the existing key ordering.
+
+## Known issues and future work
+
+- Error handling is unfriendly
+- More patch matching heuristics are needed
+- JSON is annoying
+
+## Naming
+
+Patchoulene is found in the extract of the Patchouli plant.
+The name "patchouli" was already taken so a different name was used.

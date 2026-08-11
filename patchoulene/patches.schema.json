@@ -1,0 +1,48 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://github.com/openRuyi-Project/kernel-team-tools/raw/master/patchoulene/patches.schema.json",
+    "title": "openRuyi kernel patch database",
+    "type": "object",
+    "additionalProperties": false,
+    "patternProperties": {
+        "^[a-z]+:[a-zA-Z0-9@._-]+$": {
+            "description": "Patch information",
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "subject": {
+                    "description": "The subject line of the patch, with some prefixes removed",
+                    "type": "string"
+                },
+                "replacement": {
+                    "oneOf": [
+                        {
+                            "description": "Patch is superseded by a single other patch",
+                            "$ref": "#/$defs/patch_id"
+                        },
+                        {
+                            "description": "Patch is superseded by a set of other patches",
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/$defs/patch_id"
+                            }
+                        }
+                    ]
+                },
+                "merged": {
+                    "description": "Patch is merged as part of these mainline or stable tags",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    },
+    "$defs": {
+        "patch_id": {
+            "type": "string",
+            "pattern": "^[a-z]+:[a-zA-Z0-9@._-]+$"
+        }
+    }
+}
