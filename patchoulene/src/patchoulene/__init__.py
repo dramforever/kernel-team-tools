@@ -97,7 +97,8 @@ def write_patch_db(db):
 
 def prompt_yn():
     while True:
-        yn = input("[Y/n]? ").strip().lower()
+        print("[Y/n]? ", end="", file=sys.stderr)
+        yn = input().strip().lower()
         if yn in ("y", ""):
             print("       (Yes)", file=sys.stderr)
             return True
