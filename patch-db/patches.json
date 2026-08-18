@@ -1852,13 +1852,15 @@
     "commit:9cd74f935306cd857f46686975c43383e1d95f94": {
         "subject": "drm/imagination: Count paired job fence as dependency in prepare_job()",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.6"
         ]
     },
     "commit:4baf9e70cb756d78dd56419f8baee2978a72d0c3": {
         "subject": "drm/imagination: Fit paired fragment job in the correct CCCB",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.6"
         ]
     },
     "commit:18998b3cb7595850b8b2da55adb3fdc7aef8bc22": {
@@ -2097,13 +2099,15 @@
     "commit:207cbc477406a72952e27ace2eadbae55164f129": {
         "subject": "riscv: dts: sophgo: sg2044: use hex for CPU unit address",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:a7e658907686528fe06a11828b04a3e42df9ef18": {
         "subject": "riscv: dts: sophgo: sg2042: use hex for CPU unit address",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:903a9364e40563faf4730dc63ad7446246f494ff": {
@@ -2133,7 +2137,8 @@
     "commit:24c12ca43b12c104389d9a159207d0b25779d0af": {
         "subject": "dts: spacemit: set console baud rate on bpif3",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:c5ad6737df88bd3c3e83145edb25737cb19f9a1f": {
@@ -2145,7 +2150,8 @@
     "commit:3c350f6284d8ea5e7a9648241b2e9604f2262d42": {
         "subject": "dts: riscv: spacemit: correct 32k clock frequency",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:6bc6b28c031484092ce1f829f59e4768e12b268e": {
@@ -2235,13 +2241,15 @@
     "commit:d8a4cef90b1a4ae9196a5bfba683eb9a0c75acdc": {
         "subject": "clk: spacemit: k3: Switch to pll2_d6 as parent for PCIe clock",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:2f20c859a82a291483a8b3f01cbfbb1642782a14": {
         "subject": "clk: spacemit: k3: Fix PCIe clock register offset",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:7a2db70a3196717bfb01415b6dde1f90d4291ab1": {
@@ -2349,13 +2357,15 @@
     "commit:3ea695eb111fc5a7ffddd21d5c3fee6d82560413": {
         "subject": "dts: riscv: spacemit: k3: Fix I/O power settings",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:4f97acb4f744f516bbe976da8282c0fe213216ff": {
         "subject": "riscv: dts: spacemit: set console baud rate on Milk-V Jupiter",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:9cdeba29d65b10e7bdb1491167141ff2df238ab8": {
@@ -2379,13 +2389,15 @@
     "commit:6edd9a0d32e1ef81133b8cb5b3bb3157a44da4d1": {
         "subject": "riscv: dts: spacemit: fix uboot partition offset on Milk-V Jupiter",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:09c816e5c4d3a8d6d6e4b7537433e5e98505d934": {
         "subject": "pinctrl: spacemit: fix NULL check in spacemit_pin_set_config",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:bce35135fecc7a73c60aaa9d2ec699ead1e32661": {
@@ -2421,13 +2433,15 @@
     "commit:d1e3a4c3b24d4430d9987a3f349c6c2a959a389a": {
         "subject": "net: stmmac: dwmac-spacemit: Fix wrong phy interface definition",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:bf5cd5d4ca423d348e01b3bbcdccd0e02b1b408b": {
         "subject": "net: stmmac: dwmac-spacemit: Fix wrong irq definition",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:a17be027dc5ccd51b99b5bc7b487ba9fbdc554e8": {
@@ -2481,13 +2495,15 @@
     "commit:bc7b086a45521a986a49045907f017e3e46c763e": {
         "subject": "riscv: probes: save original sp in rethook trampoline",
         "merged": [
-            "v7.2-rc2"
+            "v7.2-rc2",
+            "v7.1.5"
         ]
     },
     "commit:b8f62414fa05144924257db283c5c35f74d21121": {
         "subject": "ACPI: RIMT: Only defer the IOMMU configuration in init stage",
         "merged": [
-            "v7.2-rc2"
+            "v7.2-rc2",
+            "v7.1.5"
         ]
     },
     "commit:75fb1a33f9ac4c9730e61bb19aaaab02023a99b2": {
@@ -2655,7 +2671,8 @@
     "commit:81bbcff0c053c4f5c711c31a9b72fc492bd96c3f": {
         "subject": "riscv: Prevent NULL pointer dereference in machine_kexec_prepare()",
         "merged": [
-            "v7.2-rc3"
+            "v7.2-rc3",
+            "v7.1.5"
         ]
     },
     "commit:a3320469e3c8a58c808a090f3e1b5bfccb4c59c6": {
@@ -2673,7 +2690,8 @@
     "commit:a2ac823d8a228e392bc6a79ea63b550ab84a55b2": {
         "subject": "selftests/rseq: Fix a building error for riscv arch",
         "merged": [
-            "v7.2-rc3"
+            "v7.2-rc3",
+            "v7.1.5"
         ]
     },
     "mail:20260421143154.1590156-1-guoren@kernel.org": {
@@ -2814,7 +2832,8 @@
         "subject": "PCI: spacemit-k1: Add Spacemit K3 PCIe host controller support"
     },
     "mail:20260518-06-clk-reset-usb-fix-v1-1-14fc235e692b@kernel.org": {
-        "subject": "clk: spacemit: k3: fix USB2 bus clock"
+        "subject": "clk: spacemit: k3: fix USB2 bus clock",
+        "replacement": "commit:51ed53630915c9cc290036fe4f430849e23bbf8e"
     },
     "mail:20260518-06-clk-reset-usb-fix-v1-2-14fc235e692b@kernel.org": {
         "subject": "reset: spacemit: k3: fix USB2 ahb reset",
@@ -2916,7 +2935,8 @@
         "subject": "riscv: Avoid stack access when CSR_SCRATCH is incorrect"
     },
     "mail:20260630-06-clk-hdma-critial-v1-1-443c0ac88c5f@kernel.org": {
-        "subject": "clk: spacemit: k3: set hdma clock as critical"
+        "subject": "clk: spacemit: k3: set hdma clock as critical",
+        "replacement": "commit:eb525edd48907795c0d4e498ff57ad168070b289"
     },
     "mail:20260630-06-clk-hdma-critial-v1-2-443c0ac88c5f@kernel.org": {
         "subject": "clk: spacemit: k3: set rcpu clock as critical"
@@ -3027,7 +3047,8 @@
     "commit:1ca22c6aa006b05143367268066fb74e32cfe66b": {
         "subject": "reset: spacemit: k3: fix USB2 ahb reset",
         "merged": [
-            "v7.2-rc4"
+            "v7.2-rc4",
+            "v7.1.6"
         ]
     },
     "commit:f196a86687974cfcc1e8cade99ffca4605141860": {
@@ -3039,25 +3060,29 @@
     "commit:499578e22ae0cc33d05803f22e5c71ffb7077b2f": {
         "subject": "riscv: vdso: Always declare vdso_start symbols",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:4fd6505f189d447abbed1f1f6fe6b82649f27a46": {
         "subject": "riscv: alternative: Use IS_ENABLED() over ifdeffery for apply_vdso_alternatives()",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:6386161abb02880ace2cc965e73f7857b351706c": {
         "subject": "riscv: alternative: Pass vDSO start as parameter to apply_vdso_alternatives()",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "commit:d3e0634787a234b40a740b9c398fd320a68db81c": {
         "subject": "riscv: alternative: Also patch the CFI vDSO",
         "merged": [
-            "v7.2-rc1"
+            "v7.2-rc1",
+            "v7.1.5"
         ]
     },
     "mail:20251221-07-k1-sdhci-reset-v1-1-6780af7fa6e7@gentoo.org": {
@@ -3065,7 +3090,8 @@
         "replacement": "mail:20251223-07-k1-sdhci-reset-v2-1-5b8248cfc522@gentoo.org"
     },
     "mail:20260512074142.16356-3-fangyu.yu@linux.alibaba.com": {
-        "subject": "iommupt: Encode IOMMU_MMIO/IOMMU_CACHE via RISC-V Svpbmt bits"
+        "subject": "iommupt: Encode IOMMU_MMIO/IOMMU_CACHE via RISC-V Svpbmt bits",
+        "replacement": "commit:6c21eb174c6c7aebdecaf5c39e3100e6beb35faa"
     },
     "mail:20260609130021.99899-2-cuiyunhui@bytedance.com": {
         "subject": "dt-bindings: riscv: clarify Svadu boot-time behavior",
@@ -3098,7 +3124,8 @@
     "commit:ad6dcfa023762e37962f77ee48e752b7570e9440": {
         "subject": "riscv: vdso: Do not use LTO for the vDSO",
         "merged": [
-            "v7.2-rc4"
+            "v7.2-rc4",
+            "v7.1.5"
         ]
     },
     "commit:b6ea9680f8c101967caf9981c2980b80b818ccbf": {
@@ -3116,7 +3143,8 @@
     "commit:e4bf6eb4c7b61db1cf24487e14e6ae8755e61e3d": {
         "subject": "arch/riscv: vdso: remove CFI landing pad from rt_sigreturn",
         "merged": [
-            "v7.2-rc4"
+            "v7.2-rc4",
+            "v7.1.5"
         ]
     },
     "commit:779e0eb18c774b81a462a6ee89cfbc9eb2d3cee5": {
@@ -3128,14 +3156,16 @@
     "commit:c052927905710de1ab7364bf1925efbd12517ea3": {
         "subject": "riscv: vdso: Only try to install vDSO when present",
         "merged": [
-            "v7.2-rc6"
+            "v7.2-rc6",
+            "v7.1.8"
         ]
     },
     "mail:20260330-v7-0-rc1-rv-dis-int-before-restart-v3-1-5a0577fcd136@linux.spacemit.com": {
         "subject": "riscv: disable local interrupts and stop other CPUs before reboot/shutdown"
     },
     "mail:20260727-fix-riscv-swiotlb-v3-1-59479b23736c@linux.dev": {
-        "subject": "riscv: mm: fix SWIOTLB initialization for systems with DRAM above 4GB"
+        "subject": "riscv: mm: fix SWIOTLB initialization for systems with DRAM above 4GB",
+        "replacement": "commit:cfca5a48b03fbd33c8cb84cb73ee2e34467f3a33"
     },
     "mail:20260502051906.8160-2-linux.amoon@gmail.com": {
         "subject": "riscv: dts: spacemit: k1-bananapi-f3: Add vcc5v0_sys regulator for Banana Pi F3"
@@ -3177,7 +3207,8 @@
         "subject": "riscv: dts: spacemit: k3: add rfkill node for WLAN"
     },
     "mail:20251223-07-k1-sdhci-reset-v2-1-5b8248cfc522@gentoo.org": {
-        "subject": "dt-bindings: mmc: spacemit,sdhci: add reset support"
+        "subject": "dt-bindings: mmc: spacemit,sdhci: add reset support",
+        "replacement": "commit:4231325cfb87f712fcbe1fcbeea4186d18c78513"
     },
     "mail:20260618064406.14508-2-cuiyunhui@bytedance.com": {
         "subject": "dt-bindings: riscv: describe Svadu as disabled at boot"
@@ -3187,5 +3218,29 @@
     },
     "mail:20260618064406.14508-4-cuiyunhui@bytedance.com": {
         "subject": "riscv: preserve A/D and soft-dirty state across PTE updates"
+    },
+    "commit:51ed53630915c9cc290036fe4f430849e23bbf8e": {
+        "subject": "clk: spacemit: k3: fix USB2 bus clock",
+        "merged": [
+            "v7.2"
+        ]
+    },
+    "commit:eb525edd48907795c0d4e498ff57ad168070b289": {
+        "subject": "clk: spacemit: k3: set hdma clock as critical",
+        "merged": [
+            "v7.2"
+        ]
+    },
+    "commit:cfca5a48b03fbd33c8cb84cb73ee2e34467f3a33": {
+        "subject": "riscv: mm: fix SWIOTLB initialization for systems with DRAM above 4GB",
+        "merged": [
+            "v7.2-rc6"
+        ]
+    },
+    "commit:6c21eb174c6c7aebdecaf5c39e3100e6beb35faa": {
+        "subject": "iommupt: Encode IOMMU_MMIO/IOMMU_CACHE via RISC-V Svpbmt bits",
+        "merged": [
+            "v7.2-rc1"
+        ]
     }
 }
