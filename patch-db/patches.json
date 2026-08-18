@@ -2784,10 +2784,12 @@
         "subject": "riscv: dts: thead: add device tree node for MISC clock controller"
     },
     "mail:20260507081710.4090814-5-zhengxingda@iscas.ac.cn": {
-        "subject": "dt-bindings: phy: add binding for T-Head TH1520 USB PHY"
+        "subject": "dt-bindings: phy: add binding for T-Head TH1520 USB PHY",
+        "replacement": "mail:20260723084316.3573714-2-zhengxingda@iscas.ac.cn"
     },
     "mail:20260507081710.4090814-6-zhengxingda@iscas.ac.cn": {
-        "subject": "phy: add a driver for T-Head TH1520 USB PHY"
+        "subject": "phy: add a driver for T-Head TH1520 USB PHY",
+        "replacement": "mail:20260723084316.3573714-3-zhengxingda@iscas.ac.cn"
     },
     "mail:20260507081710.4090814-7-zhengxingda@iscas.ac.cn": {
         "subject": "riscv: dts: thead: add device nodes for USB"
@@ -2796,10 +2798,12 @@
         "subject": "dt-bindings: usb: vialab,vl817: allow ports property"
     },
     "mail:20260507081710.4090814-10-zhengxingda@iscas.ac.cn": {
-        "subject": "riscv: dts: thead: lpi4a: sort nodes"
+        "subject": "riscv: dts: thead: lpi4a: sort nodes",
+        "replacement": "mail:20260714074515.1959352-4-zhengxingda@iscas.ac.cn"
     },
     "mail:20260507081710.4090814-11-zhengxingda@iscas.ac.cn": {
-        "subject": "riscv: dts: thead: Add TH1520 I2C nodes"
+        "subject": "riscv: dts: thead: Add TH1520 I2C nodes",
+        "replacement": "mail:20260714074515.1959352-3-zhengxingda@iscas.ac.cn"
     },
     "mail:20260507081710.4090814-12-zhengxingda@iscas.ac.cn": {
         "subject": "riscv: dts: thead: Add Lichee Pi 4A IO expansions"
@@ -2990,7 +2994,11 @@
         "subject": "riscv: dts: spacemit: Add enough deassert time for the PHY on com260 board"
     },
     "mail:20260712045233.800748-1-inochiama@gmail.com": {
-        "subject": "Failed to reinit phy of spacemit-dwmac when reset-gpio is present"
+        "subject": "Failed to reinit phy of spacemit-dwmac when reset-gpio is present",
+        "replacement": [
+            "mail:20260725233351.55004-2-inochiama@gmail.com",
+            "mail:20260725233351.55004-3-inochiama@gmail.com"
+        ]
     },
     "mail:20260713-mark-after-vmemmap-populate-v6-1-b945ceba29d4@iscas.ac.cn": {
         "subject": "riscv: mm: Make mark_new_valid_map() stuff depend on 64BIT && MMU",
@@ -3242,5 +3250,272 @@
         "merged": [
             "v7.2-rc1"
         ]
+    },
+    "commit:d3c87e71539cb183ea6173a99dc0e6f84fa0bc4f": {
+        "subject": "spi: spacemit: prepare both DMA descriptors before submitting"
+    },
+    "commit:6455c6c11827d3cd1b5f796047b562e51e4818e5": {
+        "subject": "riscv: Clean up & optimize unaligned scalar access probe"
+    },
+    "commit:67bdd7b01387d1620247e0c02b3396b7ff516f19": {
+        "subject": "riscv: Split out measure_cycles() for reuse"
+    },
+    "commit:c03ad15f7cf60999681a3e5784404a73a93e6506": {
+        "subject": "riscv: Reuse measure_cycles() in check_vector_unaligned_access()"
+    },
+    "commit:4e062ef174929e2891ab5015d53fd5fdeaebd478": {
+        "subject": "riscv: Split out compare_unaligned_access()"
+    },
+    "commit:74aefe1387bdf015c0814cc1617aa94318db5710": {
+        "subject": "riscv: Reuse compare_unaligned_access() in check_vector_unaligned_access()"
+    },
+    "commit:d585018a9258efed01514bae369ab3d4f21e7b1a": {
+        "subject": "riscv: misaligned: Fix fast_unaligned_access_speed_key init"
+    },
+    "commit:f034c16a4663eaf3198dc18b201ba50533fb5b81": {
+        "subject": "ASoC: spacemit: add failure check for spacemit_i2s_init_dai()"
+    },
+    "commit:e32c402533cc68abe20fcf3246b9ff53e1f96021": {
+        "subject": "ASoC: spacemit: fix incorrect error check for sspa clock"
+    },
+    "commit:3a59c3b772e5dc0cedecce8e7fbf7c2d6245b643": {
+        "subject": "ACPI: PCI: Clear _DEP dependencies after PCI root bridge attach"
+    },
+    "commit:eae3903e33797a28d0d37e693d4314d58338918e": {
+        "subject": "drm: verisilicon: call atomic helper's plane state check even if no CRTC"
+    },
+    "commit:2c23455d5aaa10eff69aa75200d5177e84640189": {
+        "subject": "drm: verisilicon: make vs_format conversion function return int"
+    },
+    "commit:1a2e37548077640262489c4e96dc8df877452e20": {
+        "subject": "drm: verisilicon: subclass drm_plane_state"
+    },
+    "commit:c0d650bd0e67048dba04cdc21e8d77aef1ff0d5f": {
+        "subject": "drm: verisilicon: fill plane's vs_format in atomic_check"
+    },
+    "commit:5d588c684833e678a0008eb69c33190f01a65f4b": {
+        "subject": "riscv: lib: Fix ZBB strnlen reading past count boundary"
+    },
+    "mail:20260723084316.3573714-2-zhengxingda@iscas.ac.cn": {
+        "subject": "dt-bindings: phy: add binding for T-Head TH1520 USB PHY"
+    },
+    "mail:20260723084316.3573714-3-zhengxingda@iscas.ac.cn": {
+        "subject": "phy: add a driver for T-Head TH1520 USB PHY"
+    },
+    "mail:20260714074515.1959352-2-zhengxingda@iscas.ac.cn": {
+        "subject": "riscv: dts: thead: th1520: remove pclk for I2C1"
+    },
+    "mail:20260714074515.1959352-3-zhengxingda@iscas.ac.cn": {
+        "subject": "riscv: dts: thead: Add TH1520 I2C nodes"
+    },
+    "mail:20260714074515.1959352-4-zhengxingda@iscas.ac.cn": {
+        "subject": "riscv: dts: thead: lpi4a: sort nodes"
+    },
+    "mail:20260714074515.1959352-5-zhengxingda@iscas.ac.cn": {
+        "subject": "riscv: dts: thead: Add IO labels for the IO expansion on I2C1"
+    },
+    "mail:20260714074515.1959352-6-zhengxingda@iscas.ac.cn": {
+        "subject": "riscv: dts: thead: Add remaining Lichee Pi 4A IO expansions"
+    },
+    "mail:20260722064037.1111467-3-gao.rui@zte.com.cn": {
+        "subject": "kunit: string: add strnlen SIZE_MAX test coverage"
+    },
+    "mail:20260803-riscv-acpi-lpi-timer-v3-1-520fa13732f5@linux.spacemit.com": {
+        "subject": "riscv: acpi: Handle LPI architectural context loss flags"
+    },
+    "mail:20260730131931.2066821-1-namcao@linutronix.de": {
+        "subject": "riscv: unaligned: Fix check_vector_unaligned_access() stub name"
+    },
+    "mail:20260729-spacemit-pinconf-validation-fixes-v1-1-edeaff398fb3@linux.spacemit.com": {
+        "subject": "pinctrl: spacemit: validate pins in pinconf callbacks"
+    },
+    "mail:20260724135803.81223-1-kr494167@gmail.com": {
+        "subject": "rtc: spacemit: handle regmap_test_bits() error return"
+    },
+    "mail:20260725233351.55004-2-inochiama@gmail.com": {
+        "subject": "riscv: dts: spacemit: Fix phy id check for the phy on pico-itx board"
+    },
+    "mail:20260725233351.55004-3-inochiama@gmail.com": {
+        "subject": "riscv: dts: spacemit: Fix phy id check for the phy on com260 board"
+    },
+    "mail:20260729012418.154652-1-inochiama@gmail.com": {
+        "subject": "riscv: dts: spacemit: Make dtschema recognize the etherent PHY correctly on K3 pico-itx board"
+    },
+    "mail:20260729012418.154652-2-inochiama@gmail.com": {
+        "subject": "riscv: dts: spacemit: Make dtschema recognize the etherent PHY correctly on K3 com260 board"
+    },
+    "mail:20260729160749.1621415-2-aurelien@aurel32.net": {
+        "subject": "riscv: dts: spacemit: Add cpu scaling for Milk-V Jupiter"
+    },
+    "mail:20260804133236.205668-3-a.heider@gmail.com": {
+        "subject": "riscv: dts: spacemit: orangepi-rv2: Add cpu scaling for K1 SoC"
+    },
+    "mail:20260804133236.205668-4-a.heider@gmail.com": {
+        "subject": "riscv: dts: spacemit: orangepi-r2s: Add cpu scaling for K1 SoC"
+    },
+    "mail:20260804134018.85497-1-yang.yicong@picoheart.com": {
+        "subject": "RISC-V: KVM: Fix the conversion between vsip and hvip"
+    },
+    "mail:20260721-kx-i2s-dts-v1-1-d22cb6cfaab5@linux.spacemit.com": {
+        "subject": "ASoC: spacemit: rename clock inputs to match binding"
+    },
+    "mail:20260721-kx-i2s-dts-v1-2-d22cb6cfaab5@linux.spacemit.com": {
+        "subject": "dt-bindings: sound: spacemit,k1-i2s: allow 6 clocks for K3 i2s1"
+    },
+    "mail:20260721-kx-i2s-dts-v1-3-d22cb6cfaab5@linux.spacemit.com": {
+        "subject": "riscv: dts: spacemit: k3: add i2s0-i2s5 nodes"
+    },
+    "mail:20260806072256.1813-2-douyufan@picoheart.com": {
+        "subject": "riscv: kexec_file: constrain extra segments to the Sv39 direct map"
+    },
+    "mail:20260806072256.1813-3-douyufan@picoheart.com": {
+        "subject": "riscv: kexec_file: size the ELF placement search by the load extent"
+    },
+    "mail:20260806072256.1813-4-douyufan@picoheart.com": {
+        "subject": "riscv: kexec: reserve the PMD-aligned kernel image range"
+    },
+    "mail:20260809-k3-display-v2-1-327d7910bf71@gmail.com": {
+        "subject": "dt-bindings: display: spacemit: add K3 Saturn DPU controller"
+    },
+    "mail:20260809-k3-display-v2-2-327d7910bf71@gmail.com": {
+        "subject": "dt-bindings: phy: add SpacemiT K3 Innosilicon DP PHY"
+    },
+    "mail:20260809-k3-display-v2-3-327d7910bf71@gmail.com": {
+        "subject": "dt-bindings: display: spacemit: add K3 Innosilicon DP/eDP controller"
+    },
+    "mail:20260809-k3-display-v2-4-327d7910bf71@gmail.com": {
+        "subject": "dt-bindings: soc: spacemit: allow eDP/DP PHY PLL pixel clocks on K3 APMU"
+    },
+    "mail:20260809-k3-display-v2-5-327d7910bf71@gmail.com": {
+        "subject": "phy: spacemit: add Innosilicon DP TX PHY driver"
+    },
+    "mail:20260809-k3-display-v2-6-327d7910bf71@gmail.com": {
+        "subject": "clk: spacemit: k3: parent eDP/DP pixel clock to the PHY PLL"
+    },
+    "mail:20260809-k3-display-v2-7-327d7910bf71@gmail.com": {
+        "subject": "drm/spacemit: add Saturn DPU register model"
+    },
+    "mail:20260809-k3-display-v2-8-327d7910bf71@gmail.com": {
+        "subject": "drm/spacemit: add Saturn DPU core types, cmdlist and display MMU"
+    },
+    "mail:20260809-k3-display-v2-9-327d7910bf71@gmail.com": {
+        "subject": "drm/spacemit: add Saturn DPU hardware backend"
+    },
+    "mail:20260809-k3-display-v2-10-327d7910bf71@gmail.com": {
+        "subject": "drm/spacemit: add Saturn DPU KMS pipeline"
+    },
+    "mail:20260809-k3-display-v2-11-327d7910bf71@gmail.com": {
+        "subject": "drm/spacemit: add Saturn DPU DRM device driver"
+    },
+    "mail:20260809-k3-display-v2-12-327d7910bf71@gmail.com": {
+        "subject": "drm/spacemit: add Innosilicon DP/eDP controller bridge driver"
+    },
+    "mail:20260809-k3-display-v2-14-327d7910bf71@gmail.com": {
+        "subject": "riscv: dts: spacemit: k3: add display nodes"
+    },
+    "mail:20260809-k3-display-v2-15-327d7910bf71@gmail.com": {
+        "subject": "riscv: dts: spacemit: k3-pico-itx: enable the DisplayPort output"
+    },
+    "mail:20260809-k3-display-v2-16-327d7910bf71@gmail.com": {
+        "subject": "riscv: dts: spacemit: k3-com260-ifx: enable the DisplayPort output"
+    },
+    "mail:20260809-k3-display-v2-17-327d7910bf71@gmail.com": {
+        "subject": "riscv: defconfig: spacemit: k3: enable display driver"
+    },
+    "mail:20260810-k3-pll5-pll8-1800mhz-v2-1-aabff510a797@linux.spacemit.com": {
+        "subject": "clk: spacemit: k3: add 1.8 GHz PLL5 and PLL8 rates"
+    },
+    "mail:20260812062250.181-1-shaoqing.qin@redrisc.com": {
+        "subject": "riscv: mm: mark KASAN vmalloc shadow mappings as valid"
+    },
+    "mail:20260812-b4-spacemit-k1-usb2-v1-1-f28cf29e522b@linux.spacemit.com": {
+        "subject": "dt-bindings: usb: ci-hdrc-usb2: add spacemit,k1-usb2 compatible"
+    },
+    "mail:20260812-b4-spacemit-k1-usb2-v1-2-f28cf29e522b@linux.spacemit.com": {
+        "subject": "usb: chipidea: usb2: add optional reset support"
+    },
+    "mail:20260812-b4-spacemit-k1-usb2-v1-3-f28cf29e522b@linux.spacemit.com": {
+        "subject": "usb: chipidea: usb2: add SpacemiT K1 support"
+    },
+    "mail:20260812-b4-spacemit-k1-usb2-v1-4-f28cf29e522b@linux.spacemit.com": {
+        "subject": "riscv: dts: spacemit: add USB2.0 controller nodes for K1"
+    },
+    "mail:20260812-b4-spacemit-k1-usb2-v1-5-f28cf29e522b@linux.spacemit.com": {
+        "subject": "riscv: dts: spacemit: enable USB2.0 controllers on BananaPi F3"
+    },
+    "mail:20260812-b4-spacemit-k1-usb2-v1-6-f28cf29e522b@linux.spacemit.com": {
+        "subject": "riscv: defconfig: enable ChipIdea USB controller support"
+    },
+    "mail:20260807114654.1373305-1-wenst@chromium.org": {
+        "subject": "drm/verisilicon: Switch to drm_fb_dma_get_addr() for framebuffer addresses"
+    },
+    "mail:20260812154829.671777-1-zhengxingda@iscas.ac.cn": {
+        "subject": "drm: verisilicon: fix cursor offset field update"
+    },
+    "commit:e71e00127110dedc6a9e746178282b4dac97ed96": {
+        "subject": "iommupt: Add the RISC-V page table format"
+    },
+    "commit:e93e4a6363b8f812cb89f2b2d97cbaf017a3d7f8": {
+        "subject": "iommu/riscv: Disable SADE"
+    },
+    "commit:e5ef32191a87da48a0f6cab2ca5f7d8b4a0fa054": {
+        "subject": "iommu/riscv: Use the generic iommu page table"
+    },
+    "commit:69541898b71a8cb8a06706c67a2f756623598aa0": {
+        "subject": "iommu/riscv: Enable SVNAPOT support for contiguous ptes"
+    },
+    "commit:7cd0c655f02f08a5de851059ac8360e5d10fae62": {
+        "subject": "iommu/riscv: Allow RISC_VIOMMU to COMPILE_TEST"
+    },
+    "commit:23dee18f6503d67b195f1513e404c78653ed0d40": {
+        "subject": "drm/amd/display: Add min clock init for DML21 mode programming"
+    },
+    "commit:3539437f354bd24c98928a80d4db3a23fa2a7b19": {
+        "subject": "drm/amd/display: Move FPU Guards From DML To DC - Part 1"
+    },
+    "commit:4bb2f0721ed8a2a70f864b9358bd6cd4d92199b3": {
+        "subject": "drm/amd/display: Move FPU Guards From DML To DC - Part 2"
+    },
+    "commit:32c1c35b6d8bd8b7ea9ab3d1454b56b605f17dd1": {
+        "subject": "drm/amd/display: Move FPU Guards From DML To DC - Part 3"
+    },
+    "commit:57ce498faa1e4d358bf44b5df575874c22922786": {
+        "subject": "drm/amd/display: Fix dc_is_fp_enabled name mismatch"
+    },
+    "commit:07598c76964a2c73702fa652bcd07ec21088c5ef": {
+        "subject": "drm/amd/display: Fix fpu guard warning"
+    },
+    "commit:8bf0cb97edb697dba2515e6452c17c5245111448": {
+        "subject": "drm/amd/display: Move dml2_destroy to non-FPU compilation unit"
+    },
+    "commit:9ee25d0a70ff4494b4e1d266b962d0a574ef318a": {
+        "subject": "riscv: mm: Extract helper mark_new_valid_map()"
+    },
+    "commit:8d6c8c40e733b3fcaf92fed0a078bba2f6941a3b": {
+        "subject": "riscv: kfence: Call mark_new_valid_map() for kfence_unprotect()"
+    },
+    "commit:a0188cc133696627857d16054e43f9ebc7efc821": {
+        "subject": "riscv: mm: Fix out-of-bounds page-table walk during memory hot-remove"
+    },
+    "commit:cdac670237258c8ca063aa8a16998f680d81b80d": {
+        "subject": "i2c: spacemit: request IRQ after controller initialization"
+    },
+    "commit:f51fed61eea0daba2f95f1a6074085e4cd513c7b": {
+        "subject": "riscv: drop __init from vec_check_unaligned_access_speed_all_cpus"
+    },
+    "commit:5caae1deee89a6582c761d5dcd4b924b744426cc": {
+        "subject": "riscv: hwprobe: Avoid uninitialized read in hwprobe_get_cpus()"
+    },
+    "commit:3a2694bf6ac8e47b3814293e80343f58fc72937f": {
+        "subject": "riscv: Gate FUNCTION_ALIGNMENT_4B on DYNAMIC_FTRACE"
+    },
+    "commit:1fc50f1ecde39feb4fccdaf4bc71aa6c0eb25c49": {
+        "subject": "usb: xhci-pci: Limit VIA VL805 DMA addressing to 36 bits"
+    },
+    "commit:d024a0a7879e6f37c0152aacf6d8e37b214a1738": {
+        "subject": "RISC-V: KVM: Serialize virtual interrupt pending state updates"
+    },
+    "commit:994dad686e755477e2b2700cca4e6e1a90a58bdc": {
+        "subject": "riscv: hwprobe: Register unaligned probes before usermode"
     }
 }
