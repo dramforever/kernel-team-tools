@@ -2725,7 +2725,8 @@
         "subject": "riscv: dts: spacemit: Add cpu scaling for K1 SoC"
     },
     "mail:20260317-v7-0-rc1-rv-dis-int-before-restart-v2-1-0ecc85fbb7ff@linux.dev": {
-        "subject": "riscv: disable local interrupts and stop other CPUs before reboot/shutdown"
+        "subject": "riscv: disable local interrupts and stop other CPUs before reboot/shutdown",
+        "replacement": "mail:20260330-v7-0-rc1-rv-dis-int-before-restart-v3-1-5a0577fcd136@linux.spacemit.com"
     },
     "mail:20260321-th1520-v1-1-ec877197770d@gmail.com": {
         "subject": "drm/bridge: th1520-dw-hdmi: Fix error check on dw_hdmi_probe() return value"
@@ -2734,16 +2735,20 @@
         "subject": "drm/bridge: th1520-dw-hdmi: Fix remove() callback"
     },
     "mail:20260331-fix-riscv-swiotlb-v1-1-74dd5e6be0f1@linux.dev": {
-        "subject": "riscv: mm: fix SWIOTLB initialization for systems with DRAM above 4GB"
+        "subject": "riscv: mm: fix SWIOTLB initialization for systems with DRAM above 4GB",
+        "replacement": "mail:20260727-fix-riscv-swiotlb-v3-1-59479b23736c@linux.dev"
     },
     "mail:20260325081700.1502-2-linux.amoon@gmail.com": {
-        "subject": "riscv: dts: spacemit: k1-bananapi-f3: Add vcc5v0_sys regulator for Banana Pi F3"
+        "subject": "riscv: dts: spacemit: k1-bananapi-f3: Add vcc5v0_sys regulator for Banana Pi F3",
+        "replacement": "mail:20260502051906.8160-2-linux.amoon@gmail.com"
     },
     "mail:20260325081700.1502-3-linux.amoon@gmail.com": {
-        "subject": "riscv: dts: spacemit: k1-bananapi-f3: Update USB regulator on onboard usb and lable"
+        "subject": "riscv: dts: spacemit: k1-bananapi-f3: Update USB regulator on onboard usb and lable",
+        "replacement": "mail:20260502051906.8160-3-linux.amoon@gmail.com"
     },
     "mail:20260325081700.1502-4-linux.amoon@gmail.com": {
-        "subject": "riscv: dts: spacemit: k1-bananapi-f3: Correct USB hub power hierarchy"
+        "subject": "riscv: dts: spacemit: k1-bananapi-f3: Correct USB hub power hierarchy",
+        "replacement": "mail:20260502051906.8160-4-linux.amoon@gmail.com"
     },
     "mail:20260424-riscv-mm-trust-fdt-mmu-type-v1-1-57f3313275d2@iscas.ac.cn": {
         "subject": "riscv: mm: Do not probe satp mode limit if known in FDT"
@@ -2837,7 +2842,8 @@
         "subject": "riscv: acpi: Enable ARCH_HAS_ACPI_TABLE_UPGRADE"
     },
     "mail:20260204155309.763597-2-anup.patel@oss.qualcomm.com": {
-        "subject": "RISC-V: Add common csr_read_num() and csr_write_num() functions"
+        "subject": "RISC-V: Add common csr_read_num() and csr_write_num() functions",
+        "replacement": "mail:20260727083901.1951188-2-anup.patel@oss.qualcomm.com"
     },
     "mail:20260609192856874Y8AaPpKL5TnmbgiWI8DI3@zte.com.cn": {
         "subject": "ACPI: RISC-V: Fix false warning in cppc_read_ffh() for same-CPU reads"
@@ -2916,13 +2922,16 @@
         "subject": "clk: spacemit: k3: set rcpu clock as critical"
     },
     "mail:20260702-08-k3-ufs-support-v1-1-1a64a3ab128f@kernel.org": {
-        "subject": "scsi: ufs: spacemit: dt-bindings: Add UFS controller for K3 SoC"
+        "subject": "scsi: ufs: spacemit: dt-bindings: Add UFS controller for K3 SoC",
+        "replacement": "mail:20260806-08-k3-ufs-support-v3-1-037fb322acdb@kernel.org"
     },
     "mail:20260702-08-k3-ufs-support-v1-2-1a64a3ab128f@kernel.org": {
-        "subject": "scsi: ufs: spacemit: k3: Add UFS Host Controller driver"
+        "subject": "scsi: ufs: spacemit: k3: Add UFS Host Controller driver",
+        "replacement": "mail:20260806-08-k3-ufs-support-v3-2-037fb322acdb@kernel.org"
     },
     "mail:20260702-08-k3-ufs-support-v1-3-1a64a3ab128f@kernel.org": {
-        "subject": "riscv: dts: spacemit: k3: Add UFS support"
+        "subject": "riscv: dts: spacemit: k3: Add UFS support",
+        "replacement": "mail:20260806-08-k3-ufs-support-v3-3-037fb322acdb@kernel.org"
     },
     "mail:20260703021024.495433-2-inochiama@gmail.com": {
         "subject": "dt-bindings: phy: Add Spacemit K3 USB3/PCIe comb phy support"
@@ -2947,10 +2956,12 @@
         "replacement": "commit:c052927905710de1ab7364bf1925efbd12517ea3"
     },
     "mail:20260709040415.977784-2-inochiama@gmail.com": {
-        "subject": "riscv: dts: spacemit: k3: add USB controller and USB phy support"
+        "subject": "riscv: dts: spacemit: k3: add USB controller and USB phy support",
+        "replacement": "mail:20260727094726.890179-2-inochiama@gmail.com"
     },
     "mail:20260709040415.977784-3-inochiama@gmail.com": {
-        "subject": "riscv: dts: spacemit: k3: Add PCIe device node"
+        "subject": "riscv: dts: spacemit: k3: Add PCIe device node",
+        "replacement": "mail:20260727094726.890179-3-inochiama@gmail.com"
     },
     "mail:20260710063314.1030249-1-inochiama@gmail.com": {
         "subject": "riscv: dts: spacemit: Add enough deassert time for the PHY on PICO ITX"
@@ -2982,16 +2993,20 @@
         "subject": "clk: spacemit: k3: fix missing /2 factor in i2s sysclk dividers"
     },
     "mail:20260716213314.3027969-2-aurelien@aurel32.net": {
-        "subject": "riscv: defconfig: enable RFKILL and RFKILL_GPIO"
+        "subject": "riscv: defconfig: enable RFKILL and RFKILL_GPIO",
+        "replacement": "mail:20260729172450.1660418-2-aurelien@aurel32.net"
     },
     "mail:20260716213314.3027969-3-aurelien@aurel32.net": {
-        "subject": "riscv: dts: spacemit: k3: add rfkill node for Bluetooth on Pico-ITX board"
+        "subject": "riscv: dts: spacemit: k3: add rfkill node for Bluetooth on Pico-ITX board",
+        "replacement": "mail:20260729172450.1660418-3-aurelien@aurel32.net"
     },
     "mail:20260716213314.3027969-4-aurelien@aurel32.net": {
-        "subject": "riscv: dts: spacemit: k3: add USB3 B and C controllers for Pico-ITX board"
+        "subject": "riscv: dts: spacemit: k3: add USB3 B and C controllers for Pico-ITX board",
+        "replacement": "mail:20260729172450.1660418-4-aurelien@aurel32.net"
     },
     "mail:20260716213314.3027969-5-aurelien@aurel32.net": {
-        "subject": "riscv: dts: spacemit: k3: add rfkill node for WLAN on Pico-ITX board"
+        "subject": "riscv: dts: spacemit: k3: add rfkill node for WLAN on Pico-ITX board",
+        "replacement": "mail:20260729172450.1660418-5-aurelien@aurel32.net"
     },
     "mail:20260716-numa_kconfig-v1-1-b0cd6d29accb@ultrarisc.com": {
         "subject": "riscv: require vmemmap for NUMA balancing"
@@ -3046,19 +3061,23 @@
         ]
     },
     "mail:20251221-07-k1-sdhci-reset-v1-1-6780af7fa6e7@gentoo.org": {
-        "subject": "dt-bindings: mmc: spacemit,sdhci: add reset support"
+        "subject": "dt-bindings: mmc: spacemit,sdhci: add reset support",
+        "replacement": "mail:20251223-07-k1-sdhci-reset-v2-1-5b8248cfc522@gentoo.org"
     },
     "mail:20260512074142.16356-3-fangyu.yu@linux.alibaba.com": {
         "subject": "iommupt: Encode IOMMU_MMIO/IOMMU_CACHE via RISC-V Svpbmt bits"
     },
     "mail:20260609130021.99899-2-cuiyunhui@bytedance.com": {
-        "subject": "dt-bindings: riscv: clarify Svadu boot-time behavior"
+        "subject": "dt-bindings: riscv: clarify Svadu boot-time behavior",
+        "replacement": "mail:20260618064406.14508-2-cuiyunhui@bytedance.com"
     },
     "mail:20260609130021.99899-3-cuiyunhui@bytedance.com": {
-        "subject": "riscv: track effective hardware PTE A/D updating"
+        "subject": "riscv: track effective hardware PTE A/D updating",
+        "replacement": "mail:20260618064406.14508-3-cuiyunhui@bytedance.com"
     },
     "mail:20260609130021.99899-4-cuiyunhui@bytedance.com": {
-        "subject": "riscv: preserve A/D and soft-dirty state across PTE updates"
+        "subject": "riscv: preserve A/D and soft-dirty state across PTE updates",
+        "replacement": "mail:20260618064406.14508-4-cuiyunhui@bytedance.com"
     },
     "mail:20260630-riscv-vdso32-alternative-v1-1-a32fd89b7b1c@linutronix.de": {
         "subject": "riscv: vdso: Add symbols for the alternative section boundaries"
@@ -3111,5 +3130,62 @@
         "merged": [
             "v7.2-rc6"
         ]
+    },
+    "mail:20260330-v7-0-rc1-rv-dis-int-before-restart-v3-1-5a0577fcd136@linux.spacemit.com": {
+        "subject": "riscv: disable local interrupts and stop other CPUs before reboot/shutdown"
+    },
+    "mail:20260727-fix-riscv-swiotlb-v3-1-59479b23736c@linux.dev": {
+        "subject": "riscv: mm: fix SWIOTLB initialization for systems with DRAM above 4GB"
+    },
+    "mail:20260502051906.8160-2-linux.amoon@gmail.com": {
+        "subject": "riscv: dts: spacemit: k1-bananapi-f3: Add vcc5v0_sys regulator for Banana Pi F3"
+    },
+    "mail:20260502051906.8160-3-linux.amoon@gmail.com": {
+        "subject": "riscv: dts: spacemit: k1-bananapi-f3: Update USB regulator on onboard usb and label"
+    },
+    "mail:20260502051906.8160-4-linux.amoon@gmail.com": {
+        "subject": "riscv: dts: spacemit: k1-bananapi-f3: Correct USB hub power hierarchy"
+    },
+    "mail:20260727083901.1951188-2-anup.patel@oss.qualcomm.com": {
+        "subject": "RISC-V: Add common csr_read_num() and csr_write_num() functions"
+    },
+    "mail:20260806-08-k3-ufs-support-v3-1-037fb322acdb@kernel.org": {
+        "subject": "scsi: ufs: spacemit: dt-bindings: Add UFS controller for K3 SoC"
+    },
+    "mail:20260806-08-k3-ufs-support-v3-2-037fb322acdb@kernel.org": {
+        "subject": "scsi: ufs: spacemit: k3: Add UFS Host Controller driver"
+    },
+    "mail:20260806-08-k3-ufs-support-v3-3-037fb322acdb@kernel.org": {
+        "subject": "riscv: dts: spacemit: k3: Add UFS support"
+    },
+    "mail:20260727094726.890179-2-inochiama@gmail.com": {
+        "subject": "riscv: dts: spacemit: k3: add USB controller and USB phy support"
+    },
+    "mail:20260727094726.890179-3-inochiama@gmail.com": {
+        "subject": "riscv: dts: spacemit: k3: Add PCIe device node"
+    },
+    "mail:20260729172450.1660418-2-aurelien@aurel32.net": {
+        "subject": "riscv: defconfig: enable RFKILL and RFKILL_GPIO"
+    },
+    "mail:20260729172450.1660418-3-aurelien@aurel32.net": {
+        "subject": "riscv: dts: spacemit: k3: add rfkill node for Bluetooth on Pico-ITX board"
+    },
+    "mail:20260729172450.1660418-4-aurelien@aurel32.net": {
+        "subject": "riscv: dts: spacemit: k3: add USB3 B and C controllers for Pico-ITX board"
+    },
+    "mail:20260729172450.1660418-5-aurelien@aurel32.net": {
+        "subject": "riscv: dts: spacemit: k3: add rfkill node for WLAN"
+    },
+    "mail:20251223-07-k1-sdhci-reset-v2-1-5b8248cfc522@gentoo.org": {
+        "subject": "dt-bindings: mmc: spacemit,sdhci: add reset support"
+    },
+    "mail:20260618064406.14508-2-cuiyunhui@bytedance.com": {
+        "subject": "dt-bindings: riscv: describe Svadu as disabled at boot"
+    },
+    "mail:20260618064406.14508-3-cuiyunhui@bytedance.com": {
+        "subject": "riscv: track effective hardware PTE A/D updating"
+    },
+    "mail:20260618064406.14508-4-cuiyunhui@bytedance.com": {
+        "subject": "riscv: preserve A/D and soft-dirty state across PTE updates"
     }
 }
