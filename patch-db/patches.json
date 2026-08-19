@@ -3489,7 +3489,8 @@
         "subject": "riscv: defconfig: enable ChipIdea USB controller support"
     },
     "mail:20260807114654.1373305-1-wenst@chromium.org": {
-        "subject": "drm/verisilicon: Switch to drm_fb_dma_get_addr() for framebuffer addresses"
+        "subject": "drm/verisilicon: Switch to drm_fb_dma_get_addr() for framebuffer addresses",
+        "replacement": "mail:20260813065127.341349-1-wenst@chromium.org"
     },
     "mail:20260812154829.671777-1-zhengxingda@iscas.ac.cn": {
         "subject": "drm: verisilicon: fix cursor offset field update"
@@ -3606,5 +3607,8 @@
         "merged": [
             "v7.2"
         ]
+    },
+    "mail:20260813065127.341349-1-wenst@chromium.org": {
+        "subject": "drm/verisilicon: Switch to drm_fb_dma_get_addr() for framebuffer addresses"
     }
 }
