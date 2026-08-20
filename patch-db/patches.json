@@ -2822,7 +2822,8 @@
         "replacement": "mail:20260714074515.1959352-3-zhengxingda@iscas.ac.cn"
     },
     "mail:20260507081710.4090814-12-zhengxingda@iscas.ac.cn": {
-        "subject": "riscv: dts: thead: Add Lichee Pi 4A IO expansions"
+        "subject": "riscv: dts: thead: Add Lichee Pi 4A IO expansions",
+        "replacement": "mail:20260714074515.1959352-6-zhengxingda@iscas.ac.cn"
     },
     "mail:20260507081710.4090814-13-zhengxingda@iscas.ac.cn": {
         "subject": "riscv: dts: thead: enable USB3 ports on Lichee Pi 4A"
