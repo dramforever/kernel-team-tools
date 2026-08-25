@@ -3248,13 +3248,15 @@
     "commit:51ed53630915c9cc290036fe4f430849e23bbf8e": {
         "subject": "clk: spacemit: k3: fix USB2 bus clock",
         "merged": [
-            "v7.2"
+            "v7.2",
+            "v7.1.10"
         ]
     },
     "commit:eb525edd48907795c0d4e498ff57ad168070b289": {
         "subject": "clk: spacemit: k3: set hdma clock as critical",
         "merged": [
-            "v7.2"
+            "v7.2",
+            "v7.1.10"
         ]
     },
     "commit:cfca5a48b03fbd33c8cb84cb73ee2e34467f3a33": {
@@ -3336,7 +3338,8 @@
     "commit:5d588c684833e678a0008eb69c33190f01a65f4b": {
         "subject": "riscv: lib: Fix ZBB strnlen reading past count boundary",
         "merged": [
-            "v7.2"
+            "v7.2",
+            "v7.1.10"
         ]
     },
     "mail:20260723084316.3573714-2-zhengxingda@iscas.ac.cn": {
@@ -3606,7 +3609,8 @@
     "commit:994dad686e755477e2b2700cca4e6e1a90a58bdc": {
         "subject": "riscv: hwprobe: Register unaligned probes before usermode",
         "merged": [
-            "v7.2"
+            "v7.2",
+            "v7.1.10"
         ]
     },
     "mail:20260813065127.341349-1-wenst@chromium.org": {
