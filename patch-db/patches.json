@@ -3456,8 +3456,7 @@
         "replacement": "commit:ec926b3bcb49000bafb402a6864d19ae40a3d288"
     },
     "mail:20260721-kx-i2s-dts-v1-3-d22cb6cfaab5@linux.spacemit.com": {
-        "subject": "riscv: dts: spacemit: k3: add i2s0-i2s5 nodes",
-        "replacement": "commit:cd01c677869affe1b01403ca2fad8fc0fe85e8bd"
+        "subject": "riscv: dts: spacemit: k3: add i2s0-i2s5 nodes"
     },
     "mail:20260806072256.1813-2-douyufan@picoheart.com": {
         "subject": "riscv: kexec_file: constrain extra segments to the Sv39 direct map"
@@ -3758,7 +3757,8 @@
         "subject": "ASoC: dt-bindings: sound: spacemit,k1-i2s: allow 6 clocks for K3 i2s1"
     },
     "commit:cd01c677869affe1b01403ca2fad8fc0fe85e8bd": {
-        "subject": "riscv: dts: spacemit: k3: add i2s0-i2s5 nodes"
+        "subject": "riscv: dts: spacemit: k3: add i2s0-i2s5 nodes",
+        "replacement": "mail:20260721-kx-i2s-dts-v1-3-d22cb6cfaab5@linux.spacemit.com"
     },
     "commit:6d6536c880febe2340d8d388f42660eccff5aa81": {
         "subject": "riscv: dts: spacemit: Fix phy id check for the phy on pico-itx board"
@@ -3794,7 +3794,8 @@
         "subject": "riscv: dts: spacemit: Add cpu scaling for Milk-V Jupiter"
     },
     "commit:1f5d8228ca2c06ee1baa81b40cdba824ed768d95": {
-        "subject": "Revert \"riscv: dts: spacemit: k3: add i2s0-i2s5 nodes\""
+        "subject": "Revert \"riscv: dts: spacemit: k3: add i2s0-i2s5 nodes\"",
+        "replacement": "mail:20260721-kx-i2s-dts-v1-3-d22cb6cfaab5@linux.spacemit.com"
     },
     "commit:8fe6fa0f223f44b8b869319d1b9c383749aa147b": {
         "subject": "gpio: sifive: add missing MODULE_DEVICE_TABLE()"
