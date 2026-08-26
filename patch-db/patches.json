@@ -3312,19 +3312,34 @@
         ]
     },
     "commit:6455c6c11827d3cd1b5f796047b562e51e4818e5": {
-        "subject": "riscv: Clean up & optimize unaligned scalar access probe"
+        "subject": "riscv: Clean up & optimize unaligned scalar access probe",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:67bdd7b01387d1620247e0c02b3396b7ff516f19": {
-        "subject": "riscv: Split out measure_cycles() for reuse"
+        "subject": "riscv: Split out measure_cycles() for reuse",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:c03ad15f7cf60999681a3e5784404a73a93e6506": {
-        "subject": "riscv: Reuse measure_cycles() in check_vector_unaligned_access()"
+        "subject": "riscv: Reuse measure_cycles() in check_vector_unaligned_access()",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:4e062ef174929e2891ab5015d53fd5fdeaebd478": {
-        "subject": "riscv: Split out compare_unaligned_access()"
+        "subject": "riscv: Split out compare_unaligned_access()",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:74aefe1387bdf015c0814cc1617aa94318db5710": {
-        "subject": "riscv: Reuse compare_unaligned_access() in check_vector_unaligned_access()"
+        "subject": "riscv: Reuse compare_unaligned_access() in check_vector_unaligned_access()",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:d585018a9258efed01514bae369ab3d4f21e7b1a": {
         "subject": "riscv: misaligned: Fix fast_unaligned_access_speed_key init",
@@ -3333,10 +3348,16 @@
         ]
     },
     "commit:f034c16a4663eaf3198dc18b201ba50533fb5b81": {
-        "subject": "ASoC: spacemit: add failure check for spacemit_i2s_init_dai()"
+        "subject": "ASoC: spacemit: add failure check for spacemit_i2s_init_dai()",
+        "merged": [
+            "v6.19-rc1"
+        ]
     },
     "commit:e32c402533cc68abe20fcf3246b9ff53e1f96021": {
-        "subject": "ASoC: spacemit: fix incorrect error check for sspa clock"
+        "subject": "ASoC: spacemit: fix incorrect error check for sspa clock",
+        "merged": [
+            "v6.19-rc1"
+        ]
     },
     "commit:3a59c3b772e5dc0cedecce8e7fbf7c2d6245b643": {
         "subject": "ACPI: PCI: Clear _DEP dependencies after PCI root bridge attach",
@@ -3547,40 +3568,76 @@
         "subject": "drm: verisilicon: fix cursor offset field update"
     },
     "commit:e71e00127110dedc6a9e746178282b4dac97ed96": {
-        "subject": "iommupt: Add the RISC-V page table format"
+        "subject": "iommupt: Add the RISC-V page table format",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:e93e4a6363b8f812cb89f2b2d97cbaf017a3d7f8": {
-        "subject": "iommu/riscv: Disable SADE"
+        "subject": "iommu/riscv: Disable SADE",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:e5ef32191a87da48a0f6cab2ca5f7d8b4a0fa054": {
-        "subject": "iommu/riscv: Use the generic iommu page table"
+        "subject": "iommu/riscv: Use the generic iommu page table",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:69541898b71a8cb8a06706c67a2f756623598aa0": {
-        "subject": "iommu/riscv: Enable SVNAPOT support for contiguous ptes"
+        "subject": "iommu/riscv: Enable SVNAPOT support for contiguous ptes",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:7cd0c655f02f08a5de851059ac8360e5d10fae62": {
-        "subject": "iommu/riscv: Allow RISC_VIOMMU to COMPILE_TEST"
+        "subject": "iommu/riscv: Allow RISC_VIOMMU to COMPILE_TEST",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:23dee18f6503d67b195f1513e404c78653ed0d40": {
-        "subject": "drm/amd/display: Add min clock init for DML21 mode programming"
+        "subject": "drm/amd/display: Add min clock init for DML21 mode programming",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:3539437f354bd24c98928a80d4db3a23fa2a7b19": {
-        "subject": "drm/amd/display: Move FPU Guards From DML To DC - Part 1"
+        "subject": "drm/amd/display: Move FPU Guards From DML To DC - Part 1",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:4bb2f0721ed8a2a70f864b9358bd6cd4d92199b3": {
-        "subject": "drm/amd/display: Move FPU Guards From DML To DC - Part 2"
+        "subject": "drm/amd/display: Move FPU Guards From DML To DC - Part 2",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:32c1c35b6d8bd8b7ea9ab3d1454b56b605f17dd1": {
-        "subject": "drm/amd/display: Move FPU Guards From DML To DC - Part 3"
+        "subject": "drm/amd/display: Move FPU Guards From DML To DC - Part 3",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:57ce498faa1e4d358bf44b5df575874c22922786": {
-        "subject": "drm/amd/display: Fix dc_is_fp_enabled name mismatch"
+        "subject": "drm/amd/display: Fix dc_is_fp_enabled name mismatch",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:07598c76964a2c73702fa652bcd07ec21088c5ef": {
-        "subject": "drm/amd/display: Fix fpu guard warning"
+        "subject": "drm/amd/display: Fix fpu guard warning",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:8bf0cb97edb697dba2515e6452c17c5245111448": {
-        "subject": "drm/amd/display: Move dml2_destroy to non-FPU compilation unit"
+        "subject": "drm/amd/display: Move dml2_destroy to non-FPU compilation unit",
+        "merged": [
+            "v7.1-rc1"
+        ]
     },
     "commit:9ee25d0a70ff4494b4e1d266b962d0a574ef318a": {
         "subject": "riscv: mm: Extract helper mark_new_valid_map()",
@@ -3801,7 +3858,10 @@
         "subject": "gpio: sifive: add missing MODULE_DEVICE_TABLE()"
     },
     "commit:6389eaf11d6cd3a66d10d0a5ea9cd91f242ccba2": {
-        "subject": "spi: dt-bindings: spacemit: add K3 SPI compatible"
+        "subject": "spi: dt-bindings: spacemit: add K3 SPI compatible",
+        "merged": [
+            "v7.2-rc5"
+        ]
     },
     "commit:cf65b4d765b5f09db46baaa2dadf10fd53708a64": {
         "subject": "perf/dwc_pcie: Add support for Picoheart vendor devices"
@@ -3810,13 +3870,22 @@
         "subject": "perf/dwc_pcie: Support narrowed time-based counter for long time monitoring"
     },
     "commit:c9651fbc6051d305765f9c7528b90ad6c88ba4f4": {
-        "subject": "riscv: Add ISA extension parsing for Zalasr"
+        "subject": "riscv: Add ISA extension parsing for Zalasr",
+        "merged": [
+            "v6.19-rc1"
+        ]
     },
     "commit:4640be2588713766b3141998d2e396121b337e41": {
-        "subject": "dt-bindings: riscv: Add Zalasr ISA extension description"
+        "subject": "dt-bindings: riscv: Add Zalasr ISA extension description",
+        "merged": [
+            "v6.19-rc1"
+        ]
     },
     "commit:f4922b69165735e81752ee47d174f873e989a449": {
-        "subject": "riscv: hwprobe: Export Zalasr extension"
+        "subject": "riscv: hwprobe: Export Zalasr extension",
+        "merged": [
+            "v6.19-rc1"
+        ]
     },
     "mail:20260819161821053fNUWuvdGIo4HUBmxlcNfG@zte.com.cn": {
         "subject": "riscv: lib: Fix address overflow due to large count values in strnlen ZBB path"
@@ -3882,7 +3951,10 @@
         "subject": "riscv: Mark default_power_off() as __noreturn"
     },
     "commit:e861aaea2f478d23e9ee05edd4fd403f40ac75fa": {
-        "subject": "iommupt: Fixup build warning by using BIT_ULL() for RISCVPT_NC/IO"
+        "subject": "iommupt: Fixup build warning by using BIT_ULL() for RISCVPT_NC/IO",
+        "merged": [
+            "v7.2-rc1"
+        ]
     },
     "mail:20260819162115.2252812-2-aurelien@aurel32.net": {
         "subject": "riscv: dts: spacemit: k3: move USB3 phy to board level"
@@ -3909,28 +3981,52 @@
         "subject": "riscv: alternative: Also patch the compat vDSO"
     },
     "commit:74c9d82c7e3fe9e5845103fe83d711d89b169ab1": {
-        "subject": "iommu: Split the kdoc comment for struct iommu_iotlb_gather"
+        "subject": "iommu: Split the kdoc comment for struct iommu_iotlb_gather",
+        "merged": [
+            "v7.2-rc1"
+        ]
     },
     "commit:f0e4b7f5f87578cdd2d0f1e866183adc10d33b85": {
-        "subject": "iommupt: Add struct iommupt_pending_gather"
+        "subject": "iommupt: Add struct iommupt_pending_gather",
+        "merged": [
+            "v7.2-rc1"
+        ]
     },
     "commit:89792629d4b260104555f9719ac84c1afc9a2012": {
-        "subject": "iommupt: Add PT_FEAT_DETAILED_GATHER"
+        "subject": "iommupt: Add PT_FEAT_DETAILED_GATHER",
+        "merged": [
+            "v7.2-rc1"
+        ]
     },
     "commit:db1aad42ca8b37437846078dfc405abda7868261": {
-        "subject": "iommu/riscv: Enable PT_FEAT_DETAILED_GATHER and pass gather to iotlb_inval"
+        "subject": "iommu/riscv: Enable PT_FEAT_DETAILED_GATHER and pass gather to iotlb_inval",
+        "merged": [
+            "v7.2-rc1"
+        ]
     },
     "commit:bb62adcf451336301f75763d3a4851febf1dd9ba": {
-        "subject": "iommu/riscv: Compute best stride for single invalidation"
+        "subject": "iommu/riscv: Compute best stride for single invalidation",
+        "merged": [
+            "v7.2-rc1"
+        ]
     },
     "commit:e4084c6bbb42b0ef2dbfceca70513cc1f49aff61": {
-        "subject": "iommu/riscv: Add RISCV_IOMMU_CAPABILITIES_NL"
+        "subject": "iommu/riscv: Add RISCV_IOMMU_CAPABILITIES_NL",
+        "merged": [
+            "v7.2-rc1"
+        ]
     },
     "commit:835d06ee7ef0c2fc2adcf5bae5355c8bad900c21": {
-        "subject": "iommu/riscv: Include the dword number in RISCV_IOMMU_CMD macros"
+        "subject": "iommu/riscv: Include the dword number in RISCV_IOMMU_CMD macros",
+        "merged": [
+            "v7.2-rc1"
+        ]
     },
     "commit:082ad5ed078516972571060b54643a0777486071": {
-        "subject": "iommu/riscv: Add NAPOT range invalidation support"
+        "subject": "iommu/riscv: Add NAPOT range invalidation support",
+        "merged": [
+            "v7.2-rc1"
+        ]
     },
     "mail:20260818092444.42755-1-andrew.jones@oss.qualcomm.com": {
         "subject": "iommu/generic_pt: Fix the RISC-V supported feature mask"
